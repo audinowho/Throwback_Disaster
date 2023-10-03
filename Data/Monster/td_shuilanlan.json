@@ -1,0 +1,395 @@
+﻿{
+"Version": "0.7.22.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Shuilanlan",
+"LocalTexts": {
+"zh-hans": "水蓝蓝"
+}
+},
+"Released": false,
+"Comment": "",
+"Title": {
+"DefaultText": "",
+"LocalTexts": {}
+},
+"IndexNum": 1021,
+"EXPTable": "medium_slow",
+"SkillGroup1": "amorphous",
+"SkillGroup2": "fairy",
+"JoinRate": 45,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 6,
+"GenderlessWeight": 1,
+"MaleWeight": 3,
+"FemaleWeight": 27,
+"BaseHP": 43,
+"BaseAtk": 50,
+"BaseDef": 64,
+"BaseMAtk": 48,
+"BaseMDef": 65,
+"BaseSpeed": 44,
+"ExpYield": 63,
+"Height": 0.6,
+"Weight": 5.0,
+"Personalities": [
+0,
+1,
+2,
+3,
+8,
+9,
+10,
+11,
+13,
+15,
+16,
+24,
+30,
+31,
+36
+],
+"TeachSkills": [
+{
+"Skill": "surf"
+},
+{
+"Skill": "ice_beam"
+},
+{
+"Skill": "blizzard"
+},
+{
+"Skill": "strength"
+},
+{
+"Skill": "dig"
+},
+{
+"Skill": "toxic"
+},
+{
+"Skill": "double_team"
+},
+{
+"Skill": "waterfall"
+},
+{
+"Skill": "rest"
+},
+{
+"Skill": "protect"
+},
+{
+"Skill": "attract"
+},
+{
+"Skill": "return"
+},
+{
+"Skill": "frustration"
+},
+{
+"Skill": "iron_tail"
+},
+{
+"Skill": "hidden_power"
+},
+{
+"Skill": "rain_dance"
+},
+{
+"Skill": "rock_smash"
+},
+{
+"Skill": "hail"
+},
+{
+"Skill": "facade"
+},
+{
+"Skill": "focus_punch"
+},
+{
+"Skill": "brick_break"
+},
+{
+"Skill": "secret_power"
+},
+{
+"Skill": "dive"
+},
+{
+"Skill": "water_pulse"
+},
+{
+"Skill": "substitute"
+},
+{
+"Skill": "endure"
+},
+{
+"Skill": "swagger"
+},
+{
+"Skill": "sleep_talk"
+},
+{
+"Skill": "rock_tomb"
+},
+{
+"Skill": "gyro_ball"
+},
+{
+"Skill": "brine"
+},
+{
+"Skill": "natural_gift"
+},
+{
+"Skill": "fling"
+},
+{
+"Skill": "captivate"
+},
+{
+"Skill": "whirlpool"
+},
+{
+"Skill": "round"
+},
+{
+"Skill": "scald"
+},
+{
+"Skill": "confide"
+},
+{
+"Skill": "power_up_punch"
+}
+],
+"SharedSkills": [
+{
+"Skill": "mist"
+},
+{
+"Skill": "haze"
+},
+{
+"Skill": "flail"
+},
+{
+"Skill": "foresight"
+},
+{
+"Skill": "mirror_coat"
+},
+{
+"Skill": "yawn"
+},
+{
+"Skill": "refresh"
+},
+{
+"Skill": "mud_sport"
+},
+{
+"Skill": "fake_out"
+},
+{
+"Skill": "muddy_water"
+},
+{
+"Skill": "aqua_ring"
+},
+{
+"Skill": "aqua_jet"
+},
+{
+"Skill": "water_spout"
+},
+{
+"Skill": "brine"
+},
+{
+"Skill": "aura_sphere"
+},
+{
+"Skill": "dragon_pulse"
+}
+],
+"SecretSkills": [
+{
+"Skill": "mega_punch"
+},
+{
+"Skill": "ice_punch"
+},
+{
+"Skill": "mega_kick"
+},
+{
+"Skill": "body_slam"
+},
+{
+"Skill": "double_edge"
+},
+{
+"Skill": "counter"
+},
+{
+"Skill": "seismic_toss"
+},
+{
+"Skill": "mimic"
+},
+{
+"Skill": "defense_curl"
+},
+{
+"Skill": "substitute"
+},
+{
+"Skill": "snore"
+},
+{
+"Skill": "mud_slap"
+},
+{
+"Skill": "icy_wind"
+},
+{
+"Skill": "endure"
+},
+{
+"Skill": "rollout"
+},
+{
+"Skill": "swagger"
+},
+{
+"Skill": "sleep_talk"
+},
+{
+"Skill": "dynamic_punch"
+},
+{
+"Skill": "dive"
+},
+{
+"Skill": "iron_defense"
+},
+{
+"Skill": "aqua_tail"
+},
+{
+"Skill": "zen_headbutt"
+},
+{
+"Skill": "headbutt"
+},
+{
+"Skill": "water_pledge"
+},
+{
+"Skill": "iron_tail"
+},
+{
+"Skill": "focus_punch"
+},
+{
+"Skill": "water_pulse"
+},
+{
+"Skill": "dragon_pulse"
+}
+],
+"FormName": {
+"DefaultText": "Shuilanlan",
+"LocalTexts": {
+"zh-hans": "水蓝蓝"
+}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "water",
+"Element2": "none",
+"Intrinsic1": "levitate",
+"Intrinsic2": "water_veil",
+"Intrinsic3": "water_absorb",
+"LevelSkills": [
+{
+"Level": 1,
+"Skill": "tackle"
+},
+{
+"Level": 1,
+"Skill": "supersonic"
+},
+{
+"Level": 4,
+"Skill": "tail_whip"
+},
+{
+"Level": 7,
+"Skill": "withdraw"
+},
+{
+"Level": 9,
+"Skill": "bubble"
+},
+{
+"Level": 11,
+"Skill": "water_gun"
+},
+{
+"Level": 14,
+"Skill": "powder_snow"
+},
+{
+"Level": 17,
+"Skill": "bite"
+},
+{
+"Level": 21,
+"Skill": "refresh"
+},
+{
+"Level": 24,
+"Skill": "protect"
+},
+{
+"Level": 27,
+"Skill": "water_pulse"
+},
+{
+"Level": 31,
+"Skill": "iron_defense"
+},
+{
+"Level": 34,
+"Skill": "flash_cannon"
+},
+{
+"Level": 37,
+"Skill": "hydro_pump"
+},
+{
+"Level": 42,
+"Skill": "skull_bash"
+},
+{
+"Level": 45,
+"Skill": "td_persist_flow"
+}
+]
+}
+]
+}
+}

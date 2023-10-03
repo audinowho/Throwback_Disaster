@@ -1,0 +1,125 @@
+﻿{
+"Version": "0.7.17.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Oh-Chan",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"Title": {
+"DefaultText": "",
+"LocalTexts": {}
+},
+"IndexNum": 1013,
+"EXPTable": "medium_slow",
+"SkillGroup1": "undiscovered",
+"SkillGroup2": "undiscovered",
+"JoinRate": 0,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 8,
+"GenderlessWeight": 0,
+"MaleWeight": 0,
+"FemaleWeight": 10,
+"BaseHP": 70,
+"BaseAtk": 60,
+"BaseDef": 50,
+"BaseMAtk": 100,
+"BaseMDef": 75,
+"BaseSpeed": 65,
+"ExpYield": 149,
+"Height": 0.5,
+"Weight": 5.8,
+"Personalities": [
+0
+],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Oh-Chan",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "ice",
+"Element2": "none",
+"Intrinsic1": "thick_fat",
+"Intrinsic2": "none",
+"Intrinsic3": "none",
+"LevelSkills": [
+{
+"Level": 1,
+"Skill": "frost_breath"
+},
+{
+"Level": 1,
+"Skill": "hail"
+},
+{
+"Level": 1,
+"Skill": "baby_doll_eyes"
+},
+{
+"Level": 1,
+"Skill": "aromatic_mist"
+},
+{
+"Level": 5,
+"Skill": "pay_day"
+},
+{
+"Level": 9,
+"Skill": "mist_ball"
+},
+{
+"Level": 12,
+"Skill": "sacred_fire"
+},
+{
+"Level": 15,
+"Skill": "kinesis"
+},
+{
+"Level": 18,
+"Skill": "aeroblast"
+},
+{
+"Level": 22,
+"Skill": "wake_up_slap"
+},
+{
+"Level": 26,
+"Skill": "smelling_salts"
+},
+{
+"Level": 31,
+"Skill": "teeter_dance"
+},
+{
+"Level": 36,
+"Skill": "icicle_spear"
+},
+{
+"Level": 39,
+"Skill": "crush_grip"
+},
+{
+"Level": 44,
+"Skill": "volt_tackle"
+},
+{
+"Level": 48,
+"Skill": "secret_sword"
+}
+]
+}
+]
+}
+}

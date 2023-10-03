@@ -1,0 +1,745 @@
+﻿{
+"Version": "0.7.18.2",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Pow-Pow",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"Title": {
+"DefaultText": "Bunny Ears Creature",
+"LocalTexts": {}
+},
+"IndexNum": 1010,
+"EXPTable": "fast",
+"SkillGroup1": "field",
+"SkillGroup2": "undiscovered",
+"JoinRate": 80,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": true,
+"Generation": 1,
+"GenderlessWeight": 2,
+"MaleWeight": 2,
+"FemaleWeight": 6,
+"BaseHP": 45,
+"BaseAtk": 40,
+"BaseDef": 40,
+"BaseMAtk": 25,
+"BaseMDef": 30,
+"BaseSpeed": 35,
+"ExpYield": 60,
+"Height": 0.3,
+"Weight": 4.0,
+"Personalities": [
+0,
+2,
+3,
+7,
+8,
+9,
+10,
+11,
+12,
+14,
+16,
+24,
+30,
+31,
+36
+],
+"TeachSkills": [
+{
+"Skill": "cut"
+},
+{
+"Skill": "ice_beam"
+},
+{
+"Skill": "solar_beam"
+},
+{
+"Skill": "thunderbolt"
+},
+{
+"Skill": "thunder_wave"
+},
+{
+"Skill": "dig"
+},
+{
+"Skill": "toxic"
+},
+{
+"Skill": "double_team"
+},
+{
+"Skill": "rest"
+},
+{
+"Skill": "substitute"
+},
+{
+"Skill": "protect"
+},
+{
+"Skill": "endure"
+},
+{
+"Skill": "swagger"
+},
+{
+"Skill": "attract"
+},
+{
+"Skill": "sleep_talk"
+},
+{
+"Skill": "return"
+},
+{
+"Skill": "frustration"
+},
+{
+"Skill": "iron_tail"
+},
+{
+"Skill": "hidden_power"
+},
+{
+"Skill": "rain_dance"
+},
+{
+"Skill": "sunny_day"
+},
+{
+"Skill": "shadow_ball"
+},
+{
+"Skill": "rock_smash"
+},
+{
+"Skill": "facade"
+},
+{
+"Skill": "focus_punch"
+},
+{
+"Skill": "secret_power"
+},
+{
+"Skill": "shock_wave"
+},
+{
+"Skill": "water_pulse"
+},
+{
+"Skill": "natural_gift"
+},
+{
+"Skill": "fling"
+},
+{
+"Skill": "drain_punch"
+},
+{
+"Skill": "captivate"
+},
+{
+"Skill": "grass_knot"
+},
+{
+"Skill": "charge_beam"
+},
+{
+"Skill": "round"
+},
+{
+"Skill": "retaliate"
+},
+{
+"Skill": "work_up"
+},
+{
+"Skill": "confide"
+},
+{
+"Skill": "power_up_punch"
+}
+],
+"SharedSkills": [
+{
+"Skill": "fire_punch"
+},
+{
+"Skill": "ice_punch"
+},
+{
+"Skill": "thunder_punch"
+},
+{
+"Skill": "low_kick"
+},
+{
+"Skill": "sweet_kiss"
+},
+{
+"Skill": "attract"
+},
+{
+"Skill": "encore"
+},
+{
+"Skill": "fake_out"
+},
+{
+"Skill": "fake_tears"
+},
+{
+"Skill": "sky_uppercut"
+},
+{
+"Skill": "switcheroo"
+},
+{
+"Skill": "double_hit"
+},
+{
+"Skill": "flail"
+},
+{
+"Skill": "focus_punch"
+},
+{
+"Skill": "copycat"
+},
+{
+"Skill": "circle_throw"
+},
+{
+"Skill": "teeter_dance"
+},
+{
+"Skill": "mud_sport"
+},
+{
+"Skill": "cosmic_power"
+}
+],
+"SecretSkills": [
+{
+"Skill": "swift"
+},
+{
+"Skill": "snore"
+},
+{
+"Skill": "mud_slap"
+},
+{
+"Skill": "uproar"
+},
+{
+"Skill": "helping_hand"
+},
+{
+"Skill": "endeavor"
+},
+{
+"Skill": "bounce"
+},
+{
+"Skill": "last_resort"
+},
+{
+"Skill": "headbutt"
+},
+{
+"Skill": "low_kick"
+},
+{
+"Skill": "heal_bell"
+},
+{
+"Skill": "magic_coat"
+},
+{
+"Skill": "fire_punch"
+},
+{
+"Skill": "ice_punch"
+},
+{
+"Skill": "thunder_punch"
+},
+{
+"Skill": "sleep_talk"
+},
+{
+"Skill": "iron_tail"
+},
+{
+"Skill": "hyper_voice"
+},
+{
+"Skill": "covet"
+},
+{
+"Skill": "drain_punch"
+},
+{
+"Skill": "after_you"
+},
+{
+"Skill": "focus_punch"
+},
+{
+"Skill": "shock_wave"
+},
+{
+"Skill": "water_pulse"
+}
+],
+"FormName": {
+"DefaultText": "Pow-Pow",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "fairy",
+"Element2": "none",
+"Intrinsic1": "klutz",
+"Intrinsic2": "unaware",
+"Intrinsic3": "limber",
+"LevelSkills": [
+{
+"Level": 1,
+"Skill": "defense_curl"
+},
+{
+"Level": 1,
+"Skill": "splash"
+},
+{
+"Level": 1,
+"Skill": "pound"
+},
+{
+"Level": 1,
+"Skill": "foresight"
+},
+{
+"Level": 6,
+"Skill": "endure"
+},
+{
+"Level": 10,
+"Skill": "baby_doll_eyes"
+},
+{
+"Level": 13,
+"Skill": "frustration"
+},
+{
+"Level": 16,
+"Skill": "quick_attack"
+},
+{
+"Level": 23,
+"Skill": "jump_kick"
+},
+{
+"Level": 26,
+"Skill": "baton_pass"
+},
+{
+"Level": 33,
+"Skill": "agility"
+},
+{
+"Level": 36,
+"Skill": "dizzy_punch"
+},
+{
+"Level": 43,
+"Skill": "after_you"
+},
+{
+"Level": 46,
+"Skill": "charm"
+},
+{
+"Level": 50,
+"Skill": "entrainment"
+},
+{
+"Level": 56,
+"Skill": "bounce"
+},
+{
+"Level": 63,
+"Skill": "healing_wish"
+}
+]
+},
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": true,
+"Generation": 1,
+"GenderlessWeight": 0,
+"MaleWeight": 0,
+"FemaleWeight": 10,
+"BaseHP": 60,
+"BaseAtk": 50,
+"BaseDef": 50,
+"BaseMAtk": 35,
+"BaseMDef": 40,
+"BaseSpeed": 50,
+"ExpYield": 80,
+"Height": 0.3,
+"Weight": 4.0,
+"Personalities": [
+50
+],
+"TeachSkills": [
+{
+"Skill": "cut"
+},
+{
+"Skill": "ice_beam"
+},
+{
+"Skill": "solar_beam"
+},
+{
+"Skill": "thunderbolt"
+},
+{
+"Skill": "thunder_wave"
+},
+{
+"Skill": "dig"
+},
+{
+"Skill": "toxic"
+},
+{
+"Skill": "double_team"
+},
+{
+"Skill": "rest"
+},
+{
+"Skill": "substitute"
+},
+{
+"Skill": "protect"
+},
+{
+"Skill": "endure"
+},
+{
+"Skill": "swagger"
+},
+{
+"Skill": "attract"
+},
+{
+"Skill": "sleep_talk"
+},
+{
+"Skill": "return"
+},
+{
+"Skill": "frustration"
+},
+{
+"Skill": "iron_tail"
+},
+{
+"Skill": "hidden_power"
+},
+{
+"Skill": "rain_dance"
+},
+{
+"Skill": "sunny_day"
+},
+{
+"Skill": "shadow_ball"
+},
+{
+"Skill": "rock_smash"
+},
+{
+"Skill": "facade"
+},
+{
+"Skill": "focus_punch"
+},
+{
+"Skill": "secret_power"
+},
+{
+"Skill": "shock_wave"
+},
+{
+"Skill": "water_pulse"
+},
+{
+"Skill": "natural_gift"
+},
+{
+"Skill": "fling"
+},
+{
+"Skill": "drain_punch"
+},
+{
+"Skill": "captivate"
+},
+{
+"Skill": "grass_knot"
+},
+{
+"Skill": "charge_beam"
+},
+{
+"Skill": "round"
+},
+{
+"Skill": "retaliate"
+},
+{
+"Skill": "work_up"
+},
+{
+"Skill": "confide"
+},
+{
+"Skill": "power_up_punch"
+}
+],
+"SharedSkills": [
+{
+"Skill": "fire_punch"
+},
+{
+"Skill": "ice_punch"
+},
+{
+"Skill": "thunder_punch"
+},
+{
+"Skill": "low_kick"
+},
+{
+"Skill": "sweet_kiss"
+},
+{
+"Skill": "attract"
+},
+{
+"Skill": "encore"
+},
+{
+"Skill": "fake_out"
+},
+{
+"Skill": "fake_tears"
+},
+{
+"Skill": "sky_uppercut"
+},
+{
+"Skill": "switcheroo"
+},
+{
+"Skill": "double_hit"
+},
+{
+"Skill": "flail"
+},
+{
+"Skill": "focus_punch"
+},
+{
+"Skill": "copycat"
+},
+{
+"Skill": "circle_throw"
+},
+{
+"Skill": "teeter_dance"
+},
+{
+"Skill": "mud_sport"
+},
+{
+"Skill": "cosmic_power"
+}
+],
+"SecretSkills": [
+{
+"Skill": "swift"
+},
+{
+"Skill": "snore"
+},
+{
+"Skill": "mud_slap"
+},
+{
+"Skill": "uproar"
+},
+{
+"Skill": "helping_hand"
+},
+{
+"Skill": "endeavor"
+},
+{
+"Skill": "bounce"
+},
+{
+"Skill": "last_resort"
+},
+{
+"Skill": "headbutt"
+},
+{
+"Skill": "low_kick"
+},
+{
+"Skill": "heal_bell"
+},
+{
+"Skill": "magic_coat"
+},
+{
+"Skill": "fire_punch"
+},
+{
+"Skill": "ice_punch"
+},
+{
+"Skill": "thunder_punch"
+},
+{
+"Skill": "sleep_talk"
+},
+{
+"Skill": "iron_tail"
+},
+{
+"Skill": "hyper_voice"
+},
+{
+"Skill": "covet"
+},
+{
+"Skill": "drain_punch"
+},
+{
+"Skill": "after_you"
+},
+{
+"Skill": "focus_punch"
+},
+{
+"Skill": "shock_wave"
+},
+{
+"Skill": "water_pulse"
+}
+],
+"FormName": {
+"DefaultText": "Powwene",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "fairy",
+"Element2": "none",
+"Intrinsic1": "klutz",
+"Intrinsic2": "unaware",
+"Intrinsic3": "limber",
+"LevelSkills": [
+{
+"Level": 1,
+"Skill": "defense_curl"
+},
+{
+"Level": 1,
+"Skill": "splash"
+},
+{
+"Level": 1,
+"Skill": "pound"
+},
+{
+"Level": 1,
+"Skill": "foresight"
+},
+{
+"Level": 6,
+"Skill": "endure"
+},
+{
+"Level": 10,
+"Skill": "baby_doll_eyes"
+},
+{
+"Level": 13,
+"Skill": "frustration"
+},
+{
+"Level": 16,
+"Skill": "quick_attack"
+},
+{
+"Level": 23,
+"Skill": "jump_kick"
+},
+{
+"Level": 26,
+"Skill": "baton_pass"
+},
+{
+"Level": 33,
+"Skill": "agility"
+},
+{
+"Level": 36,
+"Skill": "dizzy_punch"
+},
+{
+"Level": 43,
+"Skill": "after_you"
+},
+{
+"Level": 46,
+"Skill": "charm"
+},
+{
+"Level": 50,
+"Skill": "entrainment"
+},
+{
+"Level": 56,
+"Skill": "bounce"
+},
+{
+"Level": 63,
+"Skill": "healing_wish"
+}
+]
+}
+]
+}
+}

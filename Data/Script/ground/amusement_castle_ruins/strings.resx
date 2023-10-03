@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Bellossom_0" xml:space="preserve">
+    <value>Man, You might be shocked by our kind's secret but...</value>
+  </data>
+  <data name="Bellossom_1" xml:space="preserve">
+    <value>We, ACTUALLY, do not have legs!</value>
+  </data>
+  <data name="Answer_1" xml:space="preserve">
+    <value>WHAT!?</value>
+  </data>
+  <data name="Answer_2" xml:space="preserve">
+    <value>I see...</value>
+  </data>
+  <data name="Answer_3" xml:space="preserve">
+    <value>That's... unsettling...</value>
+  </data>
+  <data name="Bellossom_2" xml:space="preserve">
+    <value>That's right. The leaves under our beany body are substitutes for legs.</value>
+  </data>
+  <data name="Bellossom_3" xml:space="preserve">
+    <value>Don't just worry, We'll be fine! We dance without legs, No problem!</value>
+  </data>
+  <data name="Wigglytuff_0" xml:space="preserve">
+    <value>What a mess... The castle is dead now...!</value>
+  </data>
+  <data name="Wigglytuff_1" xml:space="preserve">
+    <value>Hm? Destroyed? I apologize for not wording correctly.</value>
+  </data>
+  <data name="Kecleon_0" xml:space="preserve">
+    <value>Well, That settles things up!</value>
+  </data>
+  <data name="Gapori_0" xml:space="preserve">
+    <value>Hey, You guys saved me too! I'll give you that.</value>
+  </data>
+  <data name="Kecleon_1" xml:space="preserve">
+    <value>I'm sorry that I have failed to beat those guys correctly.</value>
+  </data>
+  <data name="Gapori_1" xml:space="preserve">
+    <value>It's fine! At least you tried your best.</value>
+  </data>
+  <data name="Misdreavus_0" xml:space="preserve">
+    <value>Huff... Huff!</value>
+  </data>
+  <data name="Kecleon_2" xml:space="preserve">
+    <value>You guys' here too?</value>
+  </data>
+  <data name="Misdreavus_1" xml:space="preserve">
+    <value>Did you really forgot about us!?</value>
+  </data>
+  <data name="Kecleon_3" xml:space="preserve">
+    <value>Oh! I'm so sorry! I didn't check the other cells!</value>
+  </data>
+  <data name="Zigzagoon_0" xml:space="preserve">
+    <value>Anyways, Where's the Slowking?</value>
+  </data>
+  <data name="Gapori_2" xml:space="preserve">
+    <value>I lament to let you know folks yet I saw Nidoqueen butchered Slowking and took its crown before that.</value>
+  </data>
+  <data name="Gapori_3" xml:space="preserve">
+    <value>She dumped its body into the wall out of nowhere, adding insult to injury! I call that "noclipping."</value>
+  </data>
+  <data name="Zigzagoon_1" xml:space="preserve">
+    <value>Damn it! We're too late!</value>
+  </data>
+  <data name="Misdreavus_2" xml:space="preserve">
+    <value>We'll be on time for next quest, Let's go, Zig!</value>
+  </data>
+  <data name="Kecleon_4" xml:space="preserve">
+    <value>Oh! I found this in the castle and forgot to give it to you. I guess it wasn't needed because Slowking died.</value>
+  </data>
+  <data name="Kecleon_5" xml:space="preserve">
+    <value>Anyways, I'm off now! I got a shop to run somewhere!</value>
+  </data>
+  <data name="Gapori_4" xml:space="preserve">
+    <value>Haaaa...</value>
+  </data>
+  <data name="Gapori_5" xml:space="preserve">
+    <value>*cough* W-Wait up...!</value>
+  </data>
+  <data name="Gapori_6" xml:space="preserve">
+    <value>Actually, I think I'll be going with you.</value>
+  </data>
+  <data name="Gapori_7" xml:space="preserve">
+    <value>I can't go on the quest alone, I had been defeated alone a lot on my way out.</value>
+  </data>
+  <data name="Gapori_8" xml:space="preserve">
+    <value>*cough*...! Give me something to recover.</value>
+  </data>
+  <data name="Message_0" xml:space="preserve">
+    <value>{0} handed over an Oran Berry to Gapori and ate it.</value>
+  </data>
+  <data name="Gapori_9" xml:space="preserve">
+    <value>Thanks, I'm feeling better now!</value>
+  </data>
+  <data name="Gapori_10" xml:space="preserve">
+    <value>While I am finding my way out, I should help you out as well!</value>
+  </data>
+  <data name="Gapori_11" xml:space="preserve">
+    <value>I'll guide you to your end since we both know about "Throwback Disaster" incident.</value>
+  </data>
+  <data name="Gapori_12" xml:space="preserve">
+    <value>My moves can help you on your way through the difficult dungeons.</value>
+  </data>
+  <data name="Gapori_13" xml:space="preserve">
+    <value>So when you have troubled getting there, Assign me in your team! So, What're you waiting for?</value>
+  </data>
+  <data name="Gapori_14" xml:space="preserve">
+    <value>Let's try!</value>
+  </data>
+  <data name="Mantine_0" xml:space="preserve">
+    <value>Remind me that I'd unpleasantly prefer play Puzznic than invest energy contending with my significant other.</value>
+  </data>
+  <data name="Scyther_0" xml:space="preserve">
+    <value>WHEN WILL YOU LEARN!? THAT YOUR ACTION HAS CONSEQUENCES!!</value>
+  </data>
+  <data name="Gapori_15" xml:space="preserve">
+    <value>Oh? Turnips? For Me?</value>
+  </data>
+  <data name="Gapori_16" xml:space="preserve">
+    <value>*munch munch*</value>
+  </data>
+  <data name="Gapori_17" xml:space="preserve">
+    <value>Thank you very much for the food! It was really appreciated!</value>
+  </data>
+  <data name="Wigglytuff_2" xml:space="preserve">
+    <value>That Hatenna is such a really cool gal, I like her!</value>
+  </data>
+  <data name="Cim_0" xml:space="preserve">
+    <value>The castle, once a magnificent structure, is now in disrepair, with crumbling walls and collapsed towers.</value>
+  </data>
+  <data name="Cim_1" xml:space="preserve">
+    <value>Despite its disrepair, its history and tales of valor continue to captivate visitors.</value>
+  </data>
+  <data name="Cim_2" xml:space="preserve">
+    <value>With skilled craftsmen and attention to detail, the restoration process can restore the castle to its former splendor.</value>
+  </data>
+  <data name="Cim_3" xml:space="preserve">
+    <value>You may call me Cim!</value>
+  </data>
+  <data name="Cim_4" xml:space="preserve">
+    <value>I have honed my skills in both carpentry and engineering, allowing me to seamlessly blend the two disciplines.</value>
+  </data>
+  <data name="Gapori_18" xml:space="preserve">
+    <value>Enough of that, {0} asked whether you could also repair the bridge.</value>
+  </data>
+  <data name="Cim_5" xml:space="preserve">
+    <value>I'd want to, but I'm afraid I'm already committed to restoring the entire castle into a new level.</value>
+  </data>
+  <data name="Gapori_19" xml:space="preserve">
+    <value>Well, That's a shame. Who's gonna fix the bridge?</value>
+  </data>
+  <data name="Cim_6" xml:space="preserve">
+    <value>I heard several of my friends volunteered to help repair the bridge, but they're nowhere to be seen...</value>
+  </data>
+  <data name="Cim_7" xml:space="preserve">
+    <value>Just give it some time, and I'll have the castle fixed on my own in no time!</value>
+  </data>
+</root>

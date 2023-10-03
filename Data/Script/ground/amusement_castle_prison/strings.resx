@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Gapori_0" xml:space="preserve">
+    <value>Oh darn it! Not another prison cell...!</value>
+  </data>
+  <data name="Gapori_1" xml:space="preserve">
+    <value>You guys are apprehended. What just happened?</value>
+  </data>
+  <data name="Answer_0_A" xml:space="preserve">
+    <value>They think we're the threat...</value>
+  </data>
+  <data name="Answer_0_B" xml:space="preserve">
+    <value>I don't know exactly!</value>
+  </data>
+  <data name="Gapori_2_A" xml:space="preserve">
+    <value>Wow.. To think that monarch is a manchild. It could get any worse.</value>
+  </data>
+  <data name="Gapori_2_B" xml:space="preserve">
+    <value>Me neither!</value>
+  </data>
+  <data name="Gapori_3" xml:space="preserve">
+    <value>What? You want to ask about how I entered that cell.</value>
+  </data>
+  <data name="Gapori_4" xml:space="preserve">
+    <value>First of all, I was just sneaking in to gain an advantage over the monarch.</value>
+  </data>
+  <data name="Gapori_5" xml:space="preserve">
+    <value>However, the guards cleverly noticed where I was hiding, and guess what? It's chasing time.</value>
+  </data>
+  <data name="Gapori_6" xml:space="preserve">
+    <value>I tried to fight back using Swift but no can do, They were able to withstand my attacks.</value>
+  </data>
+  <data name="Gapori_7" xml:space="preserve">
+    <value>It is where I am kept in the basement locked up...</value>
+  </data>
+  <data name="Gapori_8" xml:space="preserve">
+    <value>The name's Gapori. and you are...</value>
+  </data>
+  <data name="Answer_1_A" xml:space="preserve">
+    <value>The Adventurers</value>
+  </data>
+  <data name="Answer_1_B" xml:space="preserve">
+    <value>Just some folks passing through</value>
+  </data>
+  <data name="Gapori_9_A" xml:space="preserve">
+    <value>As I anticipated. Let me share a story about what I know:</value>
+  </data>
+  <data name="Gapori_9_B" xml:space="preserve">
+    <value>Huh? But you do more like adventurers to me? Doesn't matter...</value>
+  </data>
+  <data name="Gapori_10" xml:space="preserve">
+    <value>According to legend, the incident was called a "Throwback Disaster."</value>
+  </data>
+  <data name="Gapori_11" xml:space="preserve">
+    <value>According to the book that they provided, some contents from traditional gaming and the era before modernity have entered the world. I was one of them. If you're asking me when exactly this took place? maybe the machine that brought us here. Like characters, monsters, elements, and, I repeat, contents-</value>
+  </data>
+  <data name="Answer_2_A" xml:space="preserve">
+    <value>Even Audios, like Musics as well?</value>
+  </data>
+  <data name="Answer_2_B" xml:space="preserve">
+    <value>Interesting!</value>
+  </data>
+  <data name="Gapori_12_A" xml:space="preserve">
+    <value>Pfft! You're insane!</value>
+  </data>
+  <data name="Gapori_12_B" xml:space="preserve">
+    <value>I'm not done talking yet!</value>
+  </data>
+  <data name="Gapori_13" xml:space="preserve">
+    <value>What's that? You've encountered a baby Vulpix at the end of the Crystal Cave?</value>
+  </data>
+  <data name="Gapori_14" xml:space="preserve">
+    <value>LOL! What were you thinking while you were hallucinating?</value>
+  </data>
+  <data name="Gapori_15" xml:space="preserve">
+    <value>In any case, I had a strategy for when I got back into the game where I belongs. For the time being, we'll get out of here, so don't worry.</value>
+  </data>
+  <data name="Gapori_16" xml:space="preserve">
+    <value>W..What the!? How did...</value>
+  </data>
+  <data name="Kecleon_0" xml:space="preserve">
+    <value>Don't be surprised.</value>
+  </data>
+  <data name="Gapori_17" xml:space="preserve">
+    <value>Who are you? Show yourself!</value>
+  </data>
+  <data name="Kecleon_1" xml:space="preserve">
+    <value>Come on, Time's wasting. You don't want to be stuck in the pathetic place.</value>
+  </data>
+  <data name="Gapori_18" xml:space="preserve">
+    <value>But there's some enemies in front of them.</value>
+  </data>
+  <data name="Kecleon_2" xml:space="preserve">
+    <value>Oh! Well... uhh... We...</value>
+  </data>
+  <data name="Kecleon_2-1" xml:space="preserve">
+    <value>Fight them!</value>
+  </data>
+  <data name="Gapori_19" xml:space="preserve">
+    <value>Fight?</value>
+  </data>
+  <data name="Kecleon_3" xml:space="preserve">
+    <value>Yeah, Fight!</value>
+  </data>
+  <data name="Gapori_20" xml:space="preserve">
+    <value>I don't know... Based on what I can do, I tried once. only to lose out to them.</value>
+  </data>
+  <data name="Kecleon_4" xml:space="preserve">
+    <value>Amateur...! I'll show you how's done.</value>
+  </data>
+  <data name="Kecleon_5" xml:space="preserve">
+    <value>What? You can fight them back too? Well, Let's see what you got against them. On three.</value>
+  </data>
+  <data name="Gapori_21" xml:space="preserve">
+    <value>W-wait! It's not even three yet!! Wait for me!!</value>
+  </data>
+  <data name="Noctowl_0" xml:space="preserve">
+    <value>Oh, Good Morning, {0}!</value>
+  </data>
+  <data name="Noctowl_1" xml:space="preserve">
+    <value>I'd just prepared a dungeon for you just so you can recruit Psychic and Ground-type to do against Nidoqueen Royales.</value>
+  </data>
+  <data name="Noctowl_2" xml:space="preserve">
+    <value>I wish you the best of luck on your journey there!</value>
+  </data>
+  <data name="Message_0" xml:space="preserve">
+    <value>Ouch! You were harmed!</value>
+  </data>
+  <data name="Message_1" xml:space="preserve">
+    <value>Thankfully for plot reasons, You were recuperated from being oblivious, Now get out there and Battle!</value>
+  </data>
+  <data name="Message_2" xml:space="preserve">
+    <value>Ready to take on Nidoqueen Royales?</value>
+  </data>
+  <data name="Vulpix_0" xml:space="preserve">
+    <value>Dammit... How did we got into this...?</value>
+  </data>
+  <data name="Shop_Bag_Empty" xml:space="preserve">
+    <value>What a bummer, You have nothing to sell.</value>
+  </data>
+  <data name="Shop_Bag_Full" xml:space="preserve">
+    <value>Before you make a purchase, please clear some space, okay?</value>
+  </data>
+  <data name="Shop_Buy" xml:space="preserve">
+    <value>Hold on, Let me see what I got...! (You can use {0} to choose multiple items.)</value>
+  </data>
+  <data name="Shop_Buy_Complete" xml:space="preserve">
+    <value>I am grateful for your business!</value>
+  </data>
+  <data name="Shop_Buy_Empty" xml:space="preserve">
+    <value>Tomorrow, we'll replenish! Sorry!</value>
+  </data>
+  <data name="Shop_Buy_Multi" xml:space="preserve">
+    <value>Altogether, that comes to {0}. Is that OK?</value>
+  </data>
+  <data name="Shop_Buy_No_Money" xml:space="preserve">
+    <value>Come on, you can't fool me without my money.</value>
+  </data>
+  <data name="Shop_Buy_One" xml:space="preserve">
+    <value>That {1}? That will be {0}.</value>
+  </data>
+  <data name="Shop_Goodbye" xml:space="preserve">
+    <value>See you next time!</value>
+  </data>
+  <data name="Shop_Intro" xml:space="preserve">
+    <value>So, do you have any connection to my company?</value>
+  </data>
+  <data name="Shop_Intro_Return" xml:space="preserve">
+    <value>May I help you with anything else?</value>
+  </data>
+  <data name="Shop_Option_Buy" xml:space="preserve">
+    <value>Buy</value>
+  </data>
+  <data name="Shop_Option_Sell" xml:space="preserve">
+    <value>Sell</value>
+  </data>
+  <data name="Shop_Sell" xml:space="preserve">
+    <value>Oh... Uhh... What do you got? (You can use {0} to choose multiple items.)</value>
+  </data>
+  <data name="Shop_Sell_Complete" xml:space="preserve">
+    <value>Thanks!</value>
+  </data>
+  <data name="Shop_Sell_Multi" xml:space="preserve">
+    <value>I can pay {0} for everything, yes?</value>
+  </data>
+  <data name="Shop_Sell_One" xml:space="preserve">
+    <value>I can pay {0} for that {1}, yes?</value>
+  </data>
+</root>

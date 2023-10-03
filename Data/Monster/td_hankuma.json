@@ -1,0 +1,218 @@
+﻿{
+"Version": "0.7.16.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Hankuma",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"Title": {
+"DefaultText": "Hammer Kid",
+"LocalTexts": {}
+},
+"IndexNum": 1024,
+"EXPTable": "erratic",
+"SkillGroup1": "amorphous",
+"SkillGroup2": "amorphous",
+"JoinRate": 74,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 4,
+"GenderlessWeight": 2,
+"MaleWeight": 6,
+"FemaleWeight": 6,
+"BaseHP": 40,
+"BaseAtk": 45,
+"BaseDef": 44,
+"BaseMAtk": 35,
+"BaseMDef": 51,
+"BaseSpeed": 47,
+"ExpYield": 76,
+"Height": 0.0,
+"Weight": 0.0,
+"Personalities": [
+31
+],
+"TeachSkills": [
+{
+"Skill": "swords_dance"
+},
+{
+"Skill": "thunder_wave"
+},
+{
+"Skill": "light_screen"
+},
+{
+"Skill": "reflect"
+},
+{
+"Skill": "metronome"
+},
+{
+"Skill": "rest"
+},
+{
+"Skill": "rock_slide"
+},
+{
+"Skill": "substitute"
+},
+{
+"Skill": "thief"
+},
+{
+"Skill": "protect"
+},
+{
+"Skill": "endure"
+},
+{
+"Skill": "sleep_talk"
+},
+{
+"Skill": "encore"
+},
+{
+"Skill": "metal_claw"
+},
+{
+"Skill": "facade"
+},
+{
+"Skill": "helping_hand"
+},
+{
+"Skill": "brick_break"
+},
+{
+"Skill": "skill_swap"
+},
+{
+"Skill": "fake_tears"
+},
+{
+"Skill": "rock_tomb"
+},
+{
+"Skill": "fling"
+},
+{
+"Skill": "flash_cannon"
+},
+{
+"Skill": "stone_edge"
+},
+{
+"Skill": "stealth_rock"
+},
+{
+"Skill": "heavy_slam"
+},
+{
+"Skill": "foul_play"
+},
+{
+"Skill": "bulldoze"
+},
+{
+"Skill": "draining_kiss"
+},
+{
+"Skill": "play_rough"
+},
+{
+"Skill": "steel_beam"
+},
+{
+"Skill": "pounce"
+}
+],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Hankuma",
+"LocalTexts": {}
+},
+"Temporary": false,
+"Element1": "normal",
+"Element2": "none",
+"Intrinsic1": "mold_breaker",
+"Intrinsic2": "none",
+"Intrinsic3": "own_tempo",
+"LevelSkills": [
+{
+"Level": 1,
+"Skill": "astonish"
+},
+{
+"Level": 1,
+"Skill": "tackle"
+},
+{
+"Level": 5,
+"Skill": "baby_doll_eyes"
+},
+{
+"Level": 8,
+"Skill": "comet_punch"
+},
+{
+"Level": 11,
+"Skill": "play_nice"
+},
+{
+"Level": 14,
+"Skill": "rock_smash"
+},
+{
+"Level": 17,
+"Skill": "dizzy_punch"
+},
+{
+"Level": 21,
+"Skill": "rapid_spin"
+},
+{
+"Level": 24,
+"Skill": "brutal_swing"
+},
+{
+"Level": 27,
+"Skill": "slam"
+},
+{
+"Level": 31,
+"Skill": "body_slam"
+},
+{
+"Level": 35,
+"Skill": "play_rough"
+},
+{
+"Level": 39,
+"Skill": "fake_out"
+},
+{
+"Level": 43,
+"Skill": "flatter"
+},
+{
+"Level": 47,
+"Skill": "skitter_smack"
+},
+{
+"Level": 52,
+"Skill": "knock_off"
+}
+]
+}
+]
+}
+}

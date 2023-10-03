@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Gapori_0" xml:space="preserve">
+    <value>So, why are you going out there by yourself? You could get killed!</value>
+  </data>
+  <data name="Igglybuff_0" xml:space="preserve">
+    <value>Well you see, I've been training since I was born.</value>
+  </data>
+  <data name="Igglybuff_1" xml:space="preserve">
+    <value>My guardians has encouraged me to train in a fortified location.</value>
+  </data>
+  <data name="Igglybuff_2" xml:space="preserve">
+    <value>That's why I selected this location!</value>
+  </data>
+  <data name="Igglybuff_3" xml:space="preserve">
+    <value>Even though I would like to train alone, I appreciate you for being in my side.</value>
+  </data>
+  <data name="Igglybuff_4" xml:space="preserve">
+    <value>Here's something in exchange. I can't wait to brag to my friends!</value>
+  </data>
+  <data name="Gapori_1" xml:space="preserve">
+    <value>Thank you kindly! I'm delighted to be at your disposal.</value>
+  </data>
+  <data name="Lydia_0" xml:space="preserve">
+    <value>Now, Just a minute! Did I miss anything?</value>
+  </data>
+  <data name="Gapori_2" xml:space="preserve">
+    <value>Oh, What brings you here?</value>
+  </data>
+  <data name="Lydia_1" xml:space="preserve">
+    <value>I was informed there is a summon that depicts Titan, but it appears that I arrived too late!</value>
+  </data>
+  <data name="Igglybuff_5" xml:space="preserve">
+    <value>Whoa, How the heck did I not know about this?</value>
+  </data>
+  <data name="Gapori_3" xml:space="preserve">
+    <value>What does it look like?</value>
+  </data>
+  <data name="Lydia_2" xml:space="preserve">
+    <value>It looks just like a Golem! It's difficult to identify which one that actually represents Titan because they all look the same.</value>
+  </data>
+  <data name="Igglybuff_6" xml:space="preserve">
+    <value>Well, What do you know? Another mission for me! Would you like to tag along, little ghost?</value>
+  </data>
+  <data name="Lydia_3" xml:space="preserve">
+    <value>Call me [color=#00FFFF]Lydia[color], the Summoner of Mizzle!</value>
+  </data>
+  <data name="Igglybuff_7" xml:space="preserve">
+    <value>Let's go find out where it is! Adventurers, the rest of you continue your own mission!</value>
+  </data>
+  <data name="Gapori_4" xml:space="preserve">
+    <value>Well, If you say so.</value>
+  </data>
+</root>

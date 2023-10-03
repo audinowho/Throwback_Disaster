@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<StartChars>
+  <StartChar>
+    <Species>mareep</Species>
+    <Form>0</Form>
+    <Skin>normal</Skin>
+    <Gender>Unknown</Gender>
+    <Name/>
+  </StartChar>
+  <StartChar>
+    <Species>rockruff</Species>
+    <Form>0</Form>
+    <Skin>normal</Skin>
+    <Gender>Unknown</Gender>
+    <Name/>
+  </StartChar>
+  <StartChar>
+    <Species>hoppip</Species>
+    <Form>0</Form>
+    <Skin>normal</Skin>
+    <Gender>Unknown</Gender>
+    <Name/>
+  </StartChar>
+  <StartChar>
+    <Species>swinub</Species>
+    <Form>0</Form>
+    <Skin>normal</Skin>
+    <Gender>Unknown</Gender>
+    <Name/>
+  </StartChar>
+  <StartChar>
+    <Species>zorua</Species>
+    <Form>0</Form>
+    <Skin>normal</Skin>
+    <Gender>Unknown</Gender>
+    <Name/>
+  </StartChar>
+  <StartChar>
+    <Species>magby</Species>
+    <Form>0</Form>
+    <Skin>normal</Skin>
+    <Gender>Unknown</Gender>
+    <Name/>
+  </StartChar>
+  <StartChar>
+    <Species>buizel</Species>
+    <Form>0</Form>
+    <Skin>normal</Skin>
+    <Gender>Unknown</Gender>
+    <Name/>
+  </StartChar>
+  <StartChar>
+    <Species>oddish</Species>
+    <Form>0</Form>
+    <Skin>normal</Skin>
+    <Gender>Unknown</Gender>
+    <Name/>
+  </StartChar>
+  <StartChar>
+    <Species>buneary</Species>
+    <Form>0</Form>
+    <Skin>normal</Skin>
+    <Gender>Unknown</Gender>
+    <Name/>
+  </StartChar>
+  <StartChar>
+    <Species>bounsweet</Species>
+    <Form>0</Form>
+    <Skin>normal</Skin>
+    <Gender>Unknown</Gender>
+    <Name/>
+  </StartChar>
+  <StartChar>
+    <Species>fidough</Species>
+    <Form>0</Form>
+    <Skin>normal</Skin>
+    <Gender>Unknown</Gender>
+    <Name/>
+  </StartChar>
+  <StartChar>
+    <Species>pawmi</Species>
+    <Form>0</Form>
+    <Skin>normal</Skin>
+    <Gender>Unknown</Gender>
+    <Name/>
+  </StartChar>
+  <StartChar>
+    <Species>tinkatink</Species>
+    <Form>0</Form>
+    <Skin>normal</Skin>
+    <Gender>Unknown</Gender>
+    <Name/>
+  </StartChar>
+</StartChars>
+<StartTeams>
+  <StartTeam>Throwback Fixers</StartTeam>
+</StartTeams>
+<StartLevel>1</StartLevel>
+<MaxLevel>100</MaxLevel>
+<StartPersonality>5</StartPersonality>
+<DefaultZone>debug_zone</DefaultZone>
+<DefaultRank>none</DefaultRank>
+<DefaultSkin>normal</DefaultSkin>
+<DefaultAI>stick_together</DefaultAI>
+<DefaultTile>none</DefaultTile>
+<DefaultElement>none</DefaultElement>
+<DefaultMapStatus>clear</DefaultMapStatus>
+<DefaultIntrinsic>none</DefaultIntrinsic>
+<DefaultSkill>attack</DefaultSkill>
+<DefaultMonster>missingno</DefaultMonster>
+<StartMap>
+  <Zone>nad_crystal_cave</Zone>
+  <Segment>-1</Segment>
+  <ID>2</ID>
+  <Entry>0</Entry>
+</StartMap>
+<GenFloor>floor</GenFloor>
+<GenWall>wall</GenWall>
+<GenUnbreakable>unbreakable</GenUnbreakable>
+</root>

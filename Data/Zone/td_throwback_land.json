@@ -1,0 +1,218 @@
+﻿{
+"Version": "0.7.22.0",
+"Object": {
+"$type": "RogueEssence.Data.ZoneData, RogueEssence",
+"Name": {
+"DefaultText": "",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"NoEXP": false,
+"ExpPercent": 80,
+"Level": -1,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"BagSize": -1,
+"Persistent": false,
+"Rescues": 0,
+"Rogue": 0,
+"Segments": [
+{
+"$type": "RogueEssence.LevelGen.LayeredSegment, RogueEssence",
+"Floors": [
+{
+"$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
+"GenSteps": [
+{
+"Key": {
+"str": [
+-1
+]
+},
+"Value": {
+"$type": "RogueEssence.LevelGen.MappedRoomStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueEssence",
+"MapID": "amusement_park_powpow"
+}
+}
+],
+"Comment": ""
+}
+],
+"ZoneSteps": [
+{
+"$type": "PMDC.LevelGen.FloorNameDropZoneStep, PMDC",
+"DropPriority": {
+"str": [
+-15
+]
+},
+"Name": {
+"DefaultText": "VS. Pow-Pow",
+"LocalTexts": {}
+},
+"Priority": {
+"str": [
+-6
+]
+}
+}
+],
+"IsRelevant": false,
+"Comment": ""
+},
+{
+"$type": "RogueEssence.LevelGen.LayeredSegment, RogueEssence",
+"Floors": [
+{
+"$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
+"GenSteps": [
+{
+"Key": {
+"str": [
+-1
+]
+},
+"Value": {
+"$type": "RogueEssence.LevelGen.MappedRoomStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueEssence",
+"MapID": "amusement_castle_nidoqueen"
+}
+}
+],
+"Comment": ""
+}
+],
+"ZoneSteps": [
+{
+"$type": "PMDC.LevelGen.FloorNameDropZoneStep, PMDC",
+"DropPriority": {
+"str": [
+-15
+]
+},
+"Name": {
+"DefaultText": "VS. Nidoqueen",
+"LocalTexts": {}
+},
+"Priority": {
+"str": [
+-6
+]
+}
+}
+],
+"IsRelevant": false,
+"Comment": ""
+},
+{
+"$type": "RogueEssence.LevelGen.LayeredSegment, RogueEssence",
+"Floors": [
+{
+"$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
+"GenSteps": [
+{
+"Key": {
+"str": [
+-1
+]
+},
+"Value": {
+"$type": "RogueEssence.LevelGen.MappedRoomStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueEssence",
+"MapID": "overworld_vstinkaton"
+}
+}
+],
+"Comment": ""
+}
+],
+"ZoneSteps": [
+{
+"$type": "PMDC.LevelGen.FloorNameDropZoneStep, PMDC",
+"DropPriority": {
+"str": [
+-15
+]
+},
+"Name": {
+"DefaultText": "VS. Tinkaton",
+"LocalTexts": {}
+},
+"Priority": {
+"str": [
+-6
+]
+}
+}
+],
+"IsRelevant": false,
+"Comment": ""
+},
+{
+"$type": "RogueEssence.LevelGen.LayeredSegment, RogueEssence",
+"Floors": [
+{
+"$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
+"GenSteps": [
+{
+"Key": {
+"str": [
+-1
+]
+},
+"Value": {
+"$type": "RogueEssence.LevelGen.MappedRoomStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueEssence",
+"MapID": "davigny_dangerzone"
+}
+}
+],
+"Comment": ""
+}
+],
+"ZoneSteps": [
+{
+"$type": "PMDC.LevelGen.FloorNameDropZoneStep, PMDC",
+"DropPriority": {
+"str": [
+-15
+]
+},
+"Name": {
+"DefaultText": "VS. D'avigny Locals",
+"LocalTexts": {}
+},
+"Priority": {
+"str": [
+-6
+]
+}
+}
+],
+"IsRelevant": false,
+"Comment": ""
+}
+],
+"GroundMaps": [
+"amusement_park",
+"amusement_castle",
+"overworld",
+"monster_museum",
+"playerkingdom",
+"mysidia_pub",
+"davigny",
+"davigny_oceanroom",
+"stage_theater_backstage",
+"lot_emolga",
+"amusement_castle_prison",
+"amusement_castle_ruins",
+"hauntedzone_entrance",
+"continue",
+"driftchill",
+"morpond_cursed",
+"mpc_enslaved"
+]
+}
+}

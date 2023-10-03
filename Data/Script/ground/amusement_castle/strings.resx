@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Pichu_0" xml:space="preserve">
+    <value>Hey! I was thinking that Drifloon is friendly enough to take me to somewhere entertaining!</value>
+  </data>
+  <data name="Drifloon_0" xml:space="preserve">
+    <value>Fwooo!</value>
+  </data>
+  <data name="Slowking_0" xml:space="preserve">
+    <value>Good luck on your journey!</value>
+  </data>
+  <data name="SlowpokeL_0" xml:space="preserve">
+    <value>The beach settlement is at east of the castle, and I heard the monkey fella has a map that has where the dungeon is.</value>
+  </data>
+  <data name="SlowpokeR_0" xml:space="preserve">
+    <value>Hey, Fetch me some snacks, will ya? We're excessively lethargic to help you...</value>
+  </data>
+  <data name="Espurr_0" xml:space="preserve">
+    <value>Oh there you are, I was so worried about you.</value>
+  </data>
+  <data name="Vitaro_0" xml:space="preserve">
+    <value>Go inside the castle to speak with the king because the king wants you there.</value>
+  </data>
+  <data name="Minccino_0" xml:space="preserve">
+    <value>We'll miss you, friend, I think you'll be traveling a lot after chatting.</value>
+  </data>
+  <data name="Minccino_1" xml:space="preserve">
+    <value>We'll be heading back to our home to rest.</value>
+  </data>
+  <data name="Vitaro_1" xml:space="preserve">
+    <value>Okey Dokey! I'll be waiting outside here.</value>
+  </data>
+  <data name="Vitaro_2" xml:space="preserve">
+    <value>Let's talk to the king! It's be easy!</value>
+  </data>
+  <data name="Slowking_1" xml:space="preserve">
+    <value>Ah, Just as I though. What I chose you has come.</value>
+  </data>
+  <data name="Slowking_2" xml:space="preserve">
+    <value>Before I begin to explain what transpired, may I ask as to the name of your team?</value>
+  </data>
+  <data name="Slowking_3" xml:space="preserve">
+    <value>So... your team name is [color=#FFA5FF]{0}[color], right?</value>
+  </data>
+  <data name="Slowking_4" xml:space="preserve">
+    <value>Listen now to my words, It is written in the Book of our god:</value>
+  </data>
+  <data name="Slowking_5" xml:space="preserve">
+    <value>Natzu fought powerful forces ages ago, and then the new, cruel god rebelled against authority.</value>
+  </data>
+  <data name="Slowking_6" xml:space="preserve">
+    <value>The darkness has concealed numerous locations, making it appear as though they do not exist, giving Natzu no chance..</value>
+  </data>
+  <data name="Slowking_7" xml:space="preserve">
+    <value>Now [color=#FFA5FF]{0}[color] and Vitaro...</value>
+  </data>
+  <data name="Slowking_8" xml:space="preserve">
+    <value>We need your assistance to recover, undo what they did, and bring peace to our world.</value>
+  </data>
+  <data name="Slowking_9" xml:space="preserve">
+    <value>May the light shine upon you, little soldiers.</value>
+  </data>
+  <data name="Vitaro_3" xml:space="preserve">
+    <value>Come on, Let's split up and find the source of what causes them! See ya!</value>
+  </data>
+  <data name="Message_0" xml:space="preserve">
+    <value>Let's not go in there, It's too dark and frightening...</value>
+  </data>
+  <data name="Pichu_1" xml:space="preserve">
+    <value>YYYAAAAHHHHHHH!!!!</value>
+  </data>
+  <data name="Message_1" xml:space="preserve">
+    <value>It looks like Pichu is being taken by the Drifloon.</value>
+  </data>
+  <data name="Powwene_0" xml:space="preserve">
+    <value>I'm sorry! When I heard the scream, I thought, Oh my god, I should have arrived earlier!</value>
+  </data>
+  <data name="Powwene_1" xml:space="preserve">
+    <value>It appears as though they were heading west...! This amusing little park must have been altered by them.</value>
+  </data>
+  <data name="Powwene_2" xml:space="preserve">
+    <value>Come on! I'll go with you! I can't let this get away.</value>
+  </data>
+  <data name="Misdreavus_0" xml:space="preserve">
+    <value>You oblierated these guys!</value>
+  </data>
+  <data name="Nidoqueen_0" xml:space="preserve">
+    <value>What? I'm just doing my own business.</value>
+  </data>
+  <data name="Nidoqueen_1" xml:space="preserve">
+    <value>And you, the one in between them, are you attempting to regain the crown of Slowking?</value>
+  </data>
+  <data name="Nidoqueen_2" xml:space="preserve">
+    <value>Guards! Take them down there!</value>
+  </data>
+  <data name="Nidoran_0" xml:space="preserve">
+    <value>Sir! Yes Sir!</value>
+  </data>
+  <data name="Zigzagoon_0" xml:space="preserve">
+    <value>Hey!</value>
+  </data>
+  <data name="Nidoqueen_3" xml:space="preserve">
+    <value>You again!?</value>
+  </data>
+  <data name="Kecleon_0" xml:space="preserve">
+    <value>You owe the Slowking some money for stealing the property!</value>
+  </data>
+  <data name="Gapori_0" xml:space="preserve">
+    <value>This time I got some backup, Give it up!</value>
+  </data>
+  <data name="Nidoqueen_4" xml:space="preserve">
+    <value>That's cute!</value>
+  </data>
+  <data name="Nidoqueen_5" xml:space="preserve">
+    <value>Now that your rescuers have been defeated, it's your turn! I, Marin, will perish you all!</value>
+  </data>
+</root>

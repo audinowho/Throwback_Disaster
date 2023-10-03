@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="String_0" xml:space="preserve">
+    <value>An evil creature attacks you!</value>
+  </data>
+  <data name="Mikon_000" xml:space="preserve">
+    <value>H..hey, you. over there.</value>
+  </data>
+  <data name="Mikon_001" xml:space="preserve">
+    <value>You must be a new adventurer, right?</value>
+  </data>
+  <data name="Mikon_002_A" xml:space="preserve">
+    <value>I'm glad to hear. Listen up.</value>
+  </data>
+  <data name="Mikon_002_B_1" xml:space="preserve">
+    <value>I'm not Vulp- .........</value>
+  </data>
+  <data name="Mikon_002_B_2" xml:space="preserve">
+    <value>..... Maybe I'm the pre-evolution of it....</value>
+  </data>
+  <data name="Mikon_002_B_3" xml:space="preserve">
+    <value>Anyways, hear my words...</value>
+  </data>
+  <data name="Mikon_003" xml:space="preserve">
+    <value>The world is in danger of being consumed by darkness.</value>
+  </data>
+  <data name="Mikon_004" xml:space="preserve">
+    <value>At the point when light is lost, the correspondence will be no more.</value>
+  </data>
+  <data name="Mikon_005" xml:space="preserve">
+    <value>Various mons are suspected in belong to the darkness.</value>
+  </data>
+  <data name="Mikon_006" xml:space="preserve">
+    <value>Bring wild mons and some apricorns to earn your friendship with company. You are your only hope.</value>
+  </data>
+  <data name="Mikon_007" xml:space="preserve">
+    <value>Here, Allow me in bestowing my gifts to you.</value>
+  </data>
+  <data name="String_1" xml:space="preserve">
+    <value>The light surrounds you.</value>
+  </data>
+  <data name="Mikon_008" xml:space="preserve">
+    <value>By stepping on that magical tile behind me, you can go outside. New adventurer, your quest has begun.</value>
+  </data>
+  <data name="Mikon_009" xml:space="preserve">
+    <value>Now go, the world depends on your bravery and courage.</value>
+  </data>
+  <data name="Mikon_010" xml:space="preserve">
+    <value>Once you meet the requirements, I look forward to personally congratulating you.</value>
+  </data>
+  <data name="String_3" xml:space="preserve">
+    <value>It vanished, Time to continue on. Your forward anticipates your next experience.</value>
+  </data>
+  <data name="Answer_A" xml:space="preserve">
+    <value>That's right.</value>
+  </data>
+  <data name="Answer_B" xml:space="preserve">
+    <value>Are you a... Vulpix?</value>
+  </data>
+  <data name="String_4" xml:space="preserve">
+    <value>It's dangerous to go back down there.</value>
+  </data>
+</root>

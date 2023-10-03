@@ -1,0 +1,36 @@
+<Header>
+  <Name>Throwback Disaster</Name>
+  <Author>nadiya8040</Author>
+  <Description>A throwback quest filled with nostalgic baits!</Description>
+  <Namespace>nadiyas_dungeon_collection</Namespace>
+  <UUID>58FBB8E3-F8AF-4BCA-A680-C60DE05894A9</UUID>
+  <Version>0.0.10.0</Version>
+  <ModType>Quest</ModType>
+  <Relationships>
+    <RelatedMod>
+      <UUID>4D7F17A7-0864-4F1B-AD4A-F8D2BE6DDD97</UUID>
+      <Namespace>starter_mod</Namespace>
+      <Relationship>Incompatible</Relationship>
+    </RelatedMod>
+    <RelatedMod>
+      <UUID>F6BDDA12-6EC8-4FF5-98B9-7120AF4055C2</UUID>
+      <Namespace>more_items</Namespace>
+      <Relationship>Incompatible</Relationship>
+    </RelatedMod>
+    <RelatedMod>
+      <UUID>CACC4993-96C5-49E0-885D-C86DC77AA1F3</UUID>
+      <Namespace>unique_gummis</Namespace>
+      <Relationship>Incompatible</Relationship>
+    </RelatedMod>
+    <RelatedMod>
+      <UUID>CAE98609-7A96-4CFC-B5AB-0E1D41F6A1FF</UUID>
+      <Namespace>recruit_list</Namespace>
+      <Relationship>Incompatible</Relationship>
+    </RelatedMod>
+    <RelatedMod>
+      <UUID>B8112E1B-EC5F-495C-BADD-165CC07C9E75</UUID>
+      <Namespace>music_notice</Namespace>
+      <Relationship>Incompatible</Relationship>
+    </RelatedMod>
+  </Relationships>
+</Header>

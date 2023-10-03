@@ -1,0 +1,76 @@
+﻿{
+"Version": "0.7.12.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Mamel",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"Title": {
+"DefaultText": "Mamel Creature",
+"LocalTexts": {}
+},
+"IndexNum": 1011,
+"EXPTable": "fast",
+"SkillGroup1": "amorphous",
+"SkillGroup2": "amorphous",
+"JoinRate": 64,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": true,
+"Generation": 1,
+"GenderlessWeight": 6,
+"MaleWeight": 2,
+"FemaleWeight": 2,
+"BaseHP": 40,
+"BaseAtk": 30,
+"BaseDef": 30,
+"BaseMAtk": 30,
+"BaseMDef": 30,
+"BaseSpeed": 30,
+"ExpYield": 45,
+"Height": 0.2,
+"Weight": 2.4,
+"Personalities": [
+0,
+1,
+2,
+8,
+9,
+11,
+13,
+24,
+31
+],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Mamel",
+"LocalTexts": {}
+},
+"Temporary": false,
+"Element1": "normal",
+"Element2": "none",
+"Intrinsic1": "stench",
+"Intrinsic2": "none",
+"Intrinsic3": "sturdy",
+"LevelSkills": [
+{
+"Level": 1,
+"Skill": "tackle"
+},
+{
+"Level": 1,
+"Skill": "pound"
+}
+]
+}
+]
+}
+}

@@ -1,0 +1,44 @@
+﻿{
+"Version": "0.7.22.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"td_comet": {
+"Name": {
+"DefaultText": "Comet",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"td_firebrow": {
+"Name": {
+"DefaultText": "Fire Brow",
+"LocalTexts": {
+"zh-hans": "火烧眉毛"
+}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"td_persist_flow": {
+"Name": {
+"DefaultText": "Persist Flow",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": -3
+},
+"td_pyroblast": {
+"Name": {
+"DefaultText": "Pyroblast",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+}
+}
+}

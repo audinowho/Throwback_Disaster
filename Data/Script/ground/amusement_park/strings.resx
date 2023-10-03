@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Vitaro_0" xml:space="preserve">
+    <value>Ola... Wakey Wakey!</value>
+  </data>
+  <data name="Vitaro_1" xml:space="preserve">
+    <value>Wake up, sleepyboy!</value>
+  </data>
+  <data name="Vitaro_2" xml:space="preserve">
+    <value>Thank goodness, You're awake!</value>
+  </data>
+  <data name="Answer_A_1" xml:space="preserve">
+    <value>W...What happened?</value>
+  </data>
+  <data name="Answer_B_1" xml:space="preserve">
+    <value>Is that a Shiny Victini!?</value>
+  </data>
+  <data name="Vitaro_2_1" xml:space="preserve">
+    <value>Whoa, Whoa, Whoa! Let's not jump to the conclusion....!</value>
+  </data>
+  <data name="Vitaro_3" xml:space="preserve">
+    <value>I found you awake here. Could you please explain?</value>
+  </data>
+  <data name="Answer_A_2" xml:space="preserve">
+    <value>You see... A tiny Vulpix...?</value>
+  </data>
+  <data name="Answer_B_2" xml:space="preserve">
+    <value>I was in a cave.</value>
+  </data>
+  <data name="Vitaro_4_1" xml:space="preserve">
+    <value>A tiny... Vulpix?</value>
+  </data>
+  <data name="Vitaro_4_2" xml:space="preserve">
+    <value>Sincerely, I've never encountered a Vulpix that small...</value>
+  </data>
+  <data name="Vitaro_4_3" xml:space="preserve">
+    <value>It sounds interesting, so I just hope you're being honest.</value>
+  </data>
+  <data name="Vitaro_5_1" xml:space="preserve">
+    <value>Oh! Was the waterfall the source of the cave you fell into?</value>
+  </data>
+  <data name="Vitaro_5_2" xml:space="preserve">
+    <value>Sheesh, I hope you're alright.</value>
+  </data>
+  <data name="Vitaro_6" xml:space="preserve">
+    <value>Anyways, Your mates are awaiting for you over there. Follow me!</value>
+  </data>
+  <data name="Vitaro_7" xml:space="preserve">
+    <value>I'll be awaiting your visit. Hee hee.</value>
+  </data>
+  <data name="Hattrem_0" xml:space="preserve">
+    <value>There was a transportation ride service beside me called "Corviknight Transport"</value>
+  </data>
+  <data name="Hattrem_1" xml:space="preserve">
+    <value>and just when I turned around after taking five minutes signing the survey...</value>
+  </data>
+  <data name="Hattrem_2" xml:space="preserve">
+    <value>The ride and all of the Corviknights here were suddenly just... GONE!</value>
+  </data>
+  <data name="Hattrem_3" xml:space="preserve">
+    <value>I saw some pink freak carrying some steels. How did that happen so quickly?</value>
+  </data>
+  <data name="Torchic_0" xml:space="preserve">
+    <value>You see? There are numerous enjoyable minigames available. Why don't we investigate which one is superior?</value>
+  </data>
+  <data name="Beldum_0" xml:space="preserve">
+    <value>Where did you come from?</value>
+  </data>
+  <data name="Slakoth_0" xml:space="preserve">
+    <value>This park is the best... for the sleeping... spot.</value>
+  </data>
+  <data name="Teddiursa_0" xml:space="preserve">
+    <value>I know, what about the Sokoban Festival? This could be used for our strength training.</value>
+  </data>
+  <data name="Girafarig_0" xml:space="preserve">
+    <value>Why wouldn't you say Hi to my tail?</value>
+  </data>
+  <data name="Flaaffy_0" xml:space="preserve">
+    <value>Yeah, Flaf was running a puzzle booth at one moment until some mysterious child...</value>
+  </data>
+  <data name="Flaaffy_1" xml:space="preserve">
+    <value>Astonishingly destroyed the doors that were supposed to be open after solving the puzzles in a matter of seconds!</value>
+  </data>
+  <data name="Flaaffy_2" xml:space="preserve">
+    <value>What on earth is wrong with that child? Prizes for solving puzzles were supposed to be given out by Flaf.</value>
+  </data>
+  <data name="Grumpig_0" xml:space="preserve">
+    <value>Kids these days... huh?</value>
+  </data>
+  <data name="Spoink_L_0" xml:space="preserve">
+    <value>It's my coin, I found it first!</value>
+  </data>
+  <data name="Spoink_R_0" xml:space="preserve">
+    <value>You can't have my coin! I found it first!</value>
+  </data>
+  <data name="Aron_0" xml:space="preserve">
+    <value>There's a lot to explore!</value>
+  </data>
+  <data name="Abigail_0" xml:space="preserve">
+    <value>aaaaaaAAAAAAAAAAAAA!!!!</value>
+  </data>
+  <data name="Abigail_1" xml:space="preserve">
+    <value>Owww!! That hurts!!</value>
+  </data>
+  <data name="Abigail_2" xml:space="preserve">
+    <value>What the!? What is this place!?</value>
+  </data>
+  <data name="Missy_0" xml:space="preserve">
+    <value>Abigail! What have I said about cheating in YORG.io 3? What have you gotten us into?</value>
+  </data>
+  <data name="Abigail_3" xml:space="preserve">
+    <value>I don't have a choice! This game's low rating and difficulty level are not my responsibility!</value>
+  </data>
+  <data name="Missy_1" xml:space="preserve">
+    <value>Shut up..! We're turned into Pokemon!</value>
+  </data>
+  <data name="Gapori_11" xml:space="preserve">
+    <value>Ow, What's going on!? What's your name?</value>
+  </data>
+  <data name="Abigail_4" xml:space="preserve">
+    <value>Oh! The name's Abigail. and that my partn-..</value>
+  </data>
+  <data name="Abigail_5" xml:space="preserve">
+    <value>wait, Did I say... Partner? Shouldn't I say..</value>
+  </data>
+  <data name="Gapori_12" xml:space="preserve">
+    <value>Something's screwing up your memories again?</value>
+  </data>
+  <data name="Abigail_6" xml:space="preserve">
+    <value>Whatever.. Her name's.... What was her name again?</value>
+  </data>
+  <data name="Missy_2" xml:space="preserve">
+    <value>No! Abigail! How could you forget my name!? I'm.... uhh...</value>
+  </data>
+  <data name="Missy_3" xml:space="preserve">
+    <value>My goodness! I also forgot my name!!</value>
+  </data>
+  <data name="Gapori_3" xml:space="preserve">
+    <value>You two.... *sigh*... Let's call her Missy for now...!</value>
+  </data>
+  <data name="Missy_4" xml:space="preserve">
+    <value>So, we'll go throughout the world to discover a new planet. Abigail, hurry up.</value>
+  </data>
+  <data name="Message_0" xml:space="preserve">
+    <value>What in the world are those? Are those Pokemon at all?</value>
+  </data>
+  <data name="Message_1" xml:space="preserve">
+    <value>Regardless, fight them off! They may be hostile or something like that.</value>
+  </data>
+  <data name="Powwene_0" xml:space="preserve">
+    <value>Stop!!</value>
+  </data>
+  <data name="Powwene_1" xml:space="preserve">
+    <value>A-are you alright!?</value>
+  </data>
+  <data name="Answer_A_3" xml:space="preserve">
+    <value>You are not hostile, are you?</value>
+  </data>
+  <data name="Answer_B_3" xml:space="preserve">
+    <value>Don't hurt me!</value>
+  </data>
+  <data name="Powwene_2" xml:space="preserve">
+    <value>C-calm down, I'm not here to hurt you!</value>
+  </data>
+  <data name="Powwene_3" xml:space="preserve">
+    <value>Powwene is the name, so you must be the adventurers, right?</value>
+  </data>
+  <data name="Powwene_4" xml:space="preserve">
+    <value>Well, I'm not exactly sure what happened...</value>
+  </data>
+  <data name="Powwene_5" xml:space="preserve">
+    <value>In any case, all I realize about it is that a few secretive powers that got us into this aspect.</value>
+  </data>
+  <data name="Powwene_6" xml:space="preserve">
+    <value>We have to stop this before it's too late.</value>
+  </data>
+  <data name="Powwene_7" xml:space="preserve">
+    <value>These were the same kind that you fought earlier, as you could see. I also come from the human world.</value>
+  </data>
+  <data name="Powwene_8" xml:space="preserve">
+    <value>I was too preoccupied with attacking their town, but then that happened.</value>
+  </data>
+  <data name="Powwene_9" xml:space="preserve">
+    <value>To be honest, raiding them was fun, but then they suddenly attacked us.</value>
+  </data>
+  <data name="Powwene_10" xml:space="preserve">
+    <value>and... Oh, Is this an Amusement park?</value>
+  </data>
+  <data name="Powwene_11" xml:space="preserve">
+    <value>Looks like I'll be staying there, I wish you good luck.</value>
+  </data>
+  <data name="Message_2" xml:space="preserve">
+    <value>No... You can't lose, Don't give up!</value>
+  </data>
+  <data name="Message_3" xml:space="preserve">
+    <value>You may have beaten them but they still held on for a bit...</value>
+  </data>
+  <data name="Powwene_12" xml:space="preserve">
+    <value>Sorry, but this park makes me too happy. But please keep an eye out for my species.</value>
+  </data>
+  <data name="Grumpig_1" xml:space="preserve">
+    <value>You're easily lost, aren't you Bayleef, Just go several blocks south of where you are.</value>
+  </data>
+  <data name="Bayleef_Davi_0" xml:space="preserve">
+    <value>Beg your pardon but where have you seen my house?</value>
+  </data>
+  <data name="Cradily_Davi_0" xml:space="preserve">
+    <value>*mutter* *mutter*</value>
+  </data>
+  <data name="Message_4" xml:space="preserve">
+    <value>Cradily is occupied with ritual. It's best to ignore him.</value>
+  </data>
+  <data name="Grumpig_2" xml:space="preserve">
+    <value>Oh, I think I have an idea on stopping their fight.</value>
+  </data>
+  <data name="Grumpig_3" xml:space="preserve">
+    <value>Think you could lend me two Friend Bows to put an end to their quarrel?</value>
+  </data>
+  <data name="Grumpig_4" xml:space="preserve">
+    <value>I detest seeing my children bully one another..</value>
+  </data>
+  <data name="Torchic_1" xml:space="preserve">
+    <value>Folks! You gotta help me!</value>
+  </data>
+  <data name="Torchic_2" xml:space="preserve">
+    <value>The second I looked away from my Teddiursa friend! He suddenly vanished!</value>
+  </data>
+  <data name="Torchic_3" xml:space="preserve">
+    <value>I think some kind of kidnapping or disappearance has occurred! But I ain't no warrior!</value>
+  </data>
+  <data name="Torchic_4" xml:space="preserve">
+    <value>When he was taken from him, a voice said, "Tiny Tillies!" It's like a dungeon!</value>
+  </data>
+  <data name="Torchic_5" xml:space="preserve">
+    <value>Please rescue my bear friend rather than causing him harm! I'm sorry!</value>
+  </data>
+  <data name="Torchic_6" xml:space="preserve">
+    <value>Gracious, my Teddiursa partner... Where might he at any point be? Is it possible that he has died?</value>
+  </data>
+  <data name="Torchic_7" xml:space="preserve">
+    <value>OH NO! What an unsettling thought! Please disregard what I just said, {0}.</value>
+  </data>
+  <data name="Sign_Crafting" xml:space="preserve">
+    <value>The Crafting Place is in under construction...</value>
+  </data>
+  <data name="Sign_Activities" xml:space="preserve">
+    <value>The Activities Center is in under construction...</value>
+  </data>
+  <data name="Sign_Museum" xml:space="preserve">
+    <value>Monster Museum is in under construction...</value>
+  </data>
+  <data name="Sign_Shop" xml:space="preserve">
+    <value>The shop looks vacant.</value>
+  </data>
+  <data name="Sign_Box" xml:space="preserve">
+    <value>The Box Appraisal Place is in under construction...</value>
+  </data>
+  <data name="Gapori_0" xml:space="preserve">
+    <value>What're you doing?</value>
+  </data>
+  <data name="Peron_0" xml:space="preserve">
+    <value>Well, I'm just started in opening up a shop.</value>
+  </data>
+  <data name="Gapori_1" xml:space="preserve">
+    <value>How come?</value>
+  </data>
+  <data name="Peron_1" xml:space="preserve">
+    <value>I dunno, I suppose my job is to teach people how to make games, but...</value>
+  </data>
+  <data name="Peron_2" xml:space="preserve">
+    <value>Some sort of portal just chugged me in the world! Now that I'm broke, I'm opening a store.</value>
+  </data>
+  <data name="Gapori_2" xml:space="preserve">
+    <value>I see. When we need something, we'll plan to buy it from you. Boy, stock up.</value>
+  </data>
+  <data name="Peron_3" xml:space="preserve">
+    <value>I will try my best. After all, you will be a significant client. By the way, my name is Peron.</value>
+  </data>
+  <data name="Message_5" xml:space="preserve">
+    <value>Peron's Shop is now open!</value>
+  </data>
+  <data name="Grumpig_5" xml:space="preserve">
+    <value>You brought one? Nice! Just bring me one more!</value>
+  </data>
+  <data name="Grumpig_6" xml:space="preserve">
+    <value>I cannot thank you enough! You bought another!</value>
+  </data>
+  <data name="Grumpig_7" xml:space="preserve">
+    <value>Look! Friend Bow Magic Effect is starting!</value>
+  </data>
+  <data name="Grumpig_8" xml:space="preserve">
+    <value>Now they're friends with each other!</value>
+  </data>
+  <data name="Grumpig_9" xml:space="preserve">
+    <value>Thank you so much!</value>
+  </data>
+  <data name="Spoink_L_1" xml:space="preserve">
+    <value>We're friends, brother!</value>
+  </data>
+  <data name="Spoink_R_1" xml:space="preserve">
+    <value>I'm happy to be with your existance!</value>
+  </data>
+  <data name="Hoppip_0" xml:space="preserve">
+    <value>It's odd that the park is open when there are no attractions open...</value>
+  </data>
+  <data name="Hoppip_1" xml:space="preserve">
+    <value>I know where Teddiursa is because I overheard the worries about him. Take my hand.</value>
+  </data>
+  <data name="Hoppip_2" xml:space="preserve">
+    <value>When you get there, you won't believe what you find! To the Emolga's Lot!</value>
+  </data>
+  <data name="ARaichu_0" xml:space="preserve">
+    <value>Check out the history book I found! "The History of Countryfair!"</value>
+  </data>
+  <data name="ARaichu_1" xml:space="preserve">
+    <value>It is written that on June 15, 1956, there was active spying and a military campaign to regain lost territory in...</value>
+  </data>
+  <data name="Gapori_4" xml:space="preserve">
+    <value>Hold on! Didn't the territory already regained 4 years ag-</value>
+  </data>
+  <data name="ARaichu_2" xml:space="preserve">
+    <value>No way! 1952 does not see this! This really is the case!</value>
+  </data>
+  <data name="Gapori_5" xml:space="preserve">
+    <value>I think you got a misconception between this book.. Somebody probably missed the point.</value>
+  </data>
+  <data name="ARaichu_3" xml:space="preserve">
+    <value>Nothing to do with you! How can you tell if this history book is a hoax? The rest are forged!</value>
+  </data>
+  <data name="Gapori_6" xml:space="preserve">
+    <value>Wake up, sir.</value>
+  </data>
+  <data name="ARaichu_4" xml:space="preserve">
+    <value>Out of my sight! I have no time dealing with you! OUT!</value>
+  </data>
+  <data name="Message_6" xml:space="preserve">
+    <value>This Raichu appears to have experienced numerous adverse effects from the book. It's best to ignore him.</value>
+  </data>
+  <data name="Sandslash_0" xml:space="preserve">
+    <value>Oi! Where are you brat off to now?</value>
+  </data>
+  <data name="Sandslash_1" xml:space="preserve">
+    <value>What...? You happens to be going to restore the light? Did you get an blow to the head or something similar?</value>
+  </data>
+  <data name="Sandslash_2" xml:space="preserve">
+    <value>Mmm, I've seen better of your hideous skills!</value>
+  </data>
+  <data name="Teddiursa_1" xml:space="preserve">
+    <value>Remind me to never trust a candy-giving stranger.</value>
+  </data>
+  <data name="Torchic_8" xml:space="preserve">
+    <value>Teddiursa revealed everything to me about your efforts to save him!</value>
+  </data>
+  <data name="Torchic_9" xml:space="preserve">
+    <value>You deserve some items for that!</value>
+  </data>
+  <data name="Torchic_10" xml:space="preserve">
+    <value>Thank you sincerely!</value>
+  </data>
+  <data name="Hoppip_3" xml:space="preserve">
+    <value>Job's done!</value>
+  </data>
+  <data name="Message_7" xml:space="preserve">
+    <value>That poor Mimikyu is busy sewing their cloth, Best to leave them alone...</value>
+  </data>
+  <data name="Hattrem_4" xml:space="preserve">
+    <value>Say, I believe you are worthy of the adventurers, and it is time to assign you a quest.</value>
+  </data>
+  <data name="Hattrem_5" xml:space="preserve">
+    <value>A pink freak, who resides in Cobalt Cells, just killed those corviknights and turned them into hammers.</value>
+  </data>
+  <data name="Hattrem_6" xml:space="preserve">
+    <value>Could you kindly get rid of the punk for the sake of the birds' safety?</value>
+  </data>
+  <data name="Hattrem_7" xml:space="preserve">
+    <value>She was said to live in the left of creepy dungeon.</value>
+  </data>
+  <data name="Girafarig_1" xml:space="preserve">
+    <value>Who are you? Where did you come from?</value>
+  </data>
+  <data name="Gapori_7" xml:space="preserve">
+    <value>You see... I came from another world.</value>
+  </data>
+  <data name="Girafarig_2" xml:space="preserve">
+    <value>Woah, My buddies weren't lying when they said that in the sky, they observed comets that were supposed to be individuals from other dimensions.</value>
+  </data>
+  <data name="Gapori_8" xml:space="preserve">
+    <value>Seriously? I didn't know that!</value>
+  </data>
+  <data name="Aron_1" xml:space="preserve">
+    <value>Hey, White Creature. You're not a Pokemon, are you?</value>
+  </data>
+  <data name="Gapori_9" xml:space="preserve">
+    <value>Absolutely Not!</value>
+  </data>
+  <data name="Slakoth_1" xml:space="preserve">
+    <value>A white creature? Is this a dream?</value>
+  </data>
+  <data name="Gapori_10" xml:space="preserve">
+    <value>No, This is not a dream! You're in reality!</value>
+  </data>
+  <data name="Slakoth_2" xml:space="preserve">
+    <value>Wow!</value>
+  </data>
+  <data name="Hattrem_8" xml:space="preserve">
+    <value>You people are very tough! You truly defeated the atrocious Tinkaton!</value>
+  </data>
+  <data name="Hattrem_9" xml:space="preserve">
+    <value>It's critical to publicize the event! The birds should be aware of this!</value>
+  </data>
+  <data name="Hattrem_10" xml:space="preserve">
+    <value>Thank you so much for the help!</value>
+  </data>
+  <data name="Tinkaton_0" xml:space="preserve">
+    <value>I give! I'm not going to make a fuss, J-Just... please don't hurt me further!</value>
+  </data>
+  <data name="Corviknight_0_0" xml:space="preserve">
+    <value>Thank you!</value>
+  </data>
+  <data name="Corviknight_1_0" xml:space="preserve">
+    <value>You're our hero!</value>
+  </data>
+  <data name="Indeedee_0" xml:space="preserve">
+    <value>Can you imagine how insane Archipelago is?</value>
+  </data>
+  <data name="Indeedee_1" xml:space="preserve">
+    <value>When players acquire items to transmit to other player's world, it acts as a multi-world randomizer!</value>
+  </data>
+  <data name="Indeedee_2" xml:space="preserve">
+    <value>I recently obtained a Power Star for another player's Super Mario 64 game,</value>
+  </data>
+  <data name="Indeedee_3" xml:space="preserve">
+    <value>and guess what happened? In exchange just in time, they sent me a Golden Seed.</value>
+  </data>
+  <data name="Indeedee_4" xml:space="preserve">
+    <value>If you want to check this randomizer out for yourself, copy this link: https://archipelago.gg/.</value>
+  </data>
+  <data name="Indeedee_5" xml:space="preserve">
+    <value>Isn't this beautiful?</value>
+  </data>
+</root>

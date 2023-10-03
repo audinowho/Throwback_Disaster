@@ -1,0 +1,10018 @@
+﻿{
+"Version": "0.7.22.0",
+"Object": {
+"$type": "RogueEssence.Dungeon.Map, RogueEssence",
+"Name": {
+"DefaultText": "Davigny DangerZone",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"Begun": false,
+"ID": 0,
+"MapTeams": [
+{
+"$type": "RogueEssence.Dungeon.MonsterTeam, RogueEssence",
+"Players": [
+{
+"Element1": "fighting",
+"Element2": "none",
+"TurnWait": 0,
+"TiersUsed": 0,
+"TurnUsed": false,
+"movementSpeed": 0,
+"dead": false,
+"serializationLoc": {
+"X": 8,
+"Y": 11
+},
+"serializationDir": 4,
+"ProxyName": "",
+"ProxySprite": {
+"Species": "",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"CurrentForm": {
+"Species": "machop",
+"Form": 0,
+"Skin": "normal",
+"Gender": 1
+},
+"ProxyAtk": -1,
+"ProxyDef": -1,
+"ProxyMAtk": -1,
+"ProxyMDef": -1,
+"ProxySpeed": -1,
+"Skills": [
+{
+"Element": {
+"SkillNum": "revenge",
+"Charges": 16,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 0
+},
+{
+"Element": {
+"SkillNum": "focus_energy",
+"Charges": 16,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 1
+},
+{
+"Element": {
+"SkillNum": "scary_face",
+"Charges": 16,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 2
+},
+{
+"Element": {
+"SkillNum": "knock_off",
+"Charges": 20,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 3
+}
+],
+"Intrinsics": [
+{
+"Element": {
+"ID": "no_guard"
+},
+"BackRef": 0
+}
+],
+"EquippedItem": {
+"ID": "",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Absentee": false,
+"ChargeBoost": 0,
+"HP": 46,
+"HPRemainder": 0,
+"Fullness": 100,
+"FullnessRemainder": 0,
+"MaxFullness": 100,
+"StatusEffects": {},
+"MustHitNext": false,
+"EXPMarked": false,
+"Tactic": {
+"Name": {
+"DefaultText": "Boss",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"ID": "boss",
+"Assignable": false,
+"Plans": [
+{
+"$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
+"AttackPattern": 4,
+"PositionPattern": 2,
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 4
+},
+{
+"$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.ExplorePlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.WaitPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+}
+]
+},
+"Mobility": 0,
+"CantWalk": false,
+"ItemDisabled": false,
+"IntrinsicDisabled": false,
+"CanRemoveStuck": false,
+"StopItemAtHit": false,
+"MovesScrambled": false,
+"ChargeSaver": false,
+"WaitToAttack": false,
+"CantInteract": false,
+"EnemyOfFriend": false,
+"AttackFriend": false,
+"TileSight": -1,
+"CharSight": -1,
+"Unidentifiable": false,
+"Unlocatable": false,
+"SeeAllChars": false,
+"SeeItems": false,
+"SeeWallItems": false,
+"SeeTraps": false,
+"CharStates": [],
+"BackRef": {
+"Assembly": false,
+"Index": -1
+},
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "machop",
+"Form": 0,
+"Skin": "normal",
+"Gender": 1
+},
+"Level": 18,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "revenge",
+"Charges": 16
+},
+{
+"SkillNum": "focus_energy",
+"Charges": 16
+},
+{
+"SkillNum": "scary_face",
+"Charges": 16
+},
+{
+"SkillNum": "knock_off",
+"Charges": 20
+}
+],
+"BaseIntrinsics": [
+"no_guard"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+}
+],
+"Guests": [],
+"inventory": [],
+"Name": "",
+"LeaderIndex": 0,
+"FoeConflict": false
+},
+{
+"$type": "RogueEssence.Dungeon.MonsterTeam, RogueEssence",
+"Players": [
+{
+"Element1": "ice",
+"Element2": "none",
+"TurnWait": 0,
+"TiersUsed": 0,
+"TurnUsed": false,
+"movementSpeed": 0,
+"dead": false,
+"serializationLoc": {
+"X": 9,
+"Y": 4
+},
+"serializationDir": 0,
+"ProxyName": "",
+"ProxySprite": {
+"Species": "",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"CurrentForm": {
+"Species": "vulpix",
+"Form": 1,
+"Skin": "normal",
+"Gender": 2
+},
+"ProxyAtk": -1,
+"ProxyDef": -1,
+"ProxyMAtk": -1,
+"ProxyMDef": -1,
+"ProxySpeed": -1,
+"Skills": [
+{
+"Element": {
+"SkillNum": "tail_whip",
+"Charges": 22,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 0
+},
+{
+"Element": {
+"SkillNum": "confuse_ray",
+"Charges": 10,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 1
+},
+{
+"Element": {
+"SkillNum": "icy_wind",
+"Charges": 14,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 2
+},
+{
+"Element": {
+"SkillNum": "dig",
+"Charges": 14,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 3
+}
+],
+"Intrinsics": [
+{
+"Element": {
+"ID": "snow_cloak"
+},
+"BackRef": 0
+}
+],
+"EquippedItem": {
+"ID": "",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Absentee": false,
+"ChargeBoost": 0,
+"HP": 26,
+"HPRemainder": 0,
+"Fullness": 100,
+"FullnessRemainder": 0,
+"MaxFullness": 100,
+"StatusEffects": {},
+"MustHitNext": false,
+"EXPMarked": false,
+"Tactic": {
+"Name": {
+"DefaultText": "Boss",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"ID": "boss",
+"Assignable": false,
+"Plans": [
+{
+"$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
+"AttackPattern": 4,
+"PositionPattern": 2,
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 4
+},
+{
+"$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.ExplorePlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.WaitPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+}
+]
+},
+"Mobility": 0,
+"CantWalk": false,
+"ItemDisabled": false,
+"IntrinsicDisabled": false,
+"CanRemoveStuck": false,
+"StopItemAtHit": false,
+"MovesScrambled": false,
+"ChargeSaver": false,
+"WaitToAttack": false,
+"CantInteract": false,
+"EnemyOfFriend": false,
+"AttackFriend": false,
+"TileSight": -1,
+"CharSight": -1,
+"Unidentifiable": false,
+"Unlocatable": false,
+"SeeAllChars": false,
+"SeeItems": false,
+"SeeWallItems": false,
+"SeeTraps": false,
+"CharStates": [
+{
+"$type": "PMDC.Dungeon.HailState, PMDC"
+}
+],
+"BackRef": {
+"Assembly": false,
+"Index": -1
+},
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "vulpix",
+"Form": 1,
+"Skin": "normal",
+"Gender": 2
+},
+"Level": 10,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "tail_whip",
+"Charges": 22
+},
+{
+"SkillNum": "confuse_ray",
+"Charges": 10
+},
+{
+"SkillNum": "icy_wind",
+"Charges": 14
+},
+{
+"SkillNum": "dig",
+"Charges": 14
+}
+],
+"BaseIntrinsics": [
+"snow_cloak"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+}
+],
+"Guests": [],
+"inventory": [],
+"Name": "",
+"LeaderIndex": 0,
+"FoeConflict": false
+},
+{
+"$type": "RogueEssence.Dungeon.MonsterTeam, RogueEssence",
+"Players": [
+{
+"Element1": "psychic",
+"Element2": "flying",
+"TurnWait": 0,
+"TiersUsed": 0,
+"TurnUsed": false,
+"movementSpeed": 0,
+"dead": false,
+"serializationLoc": {
+"X": 10,
+"Y": 3
+},
+"serializationDir": 0,
+"ProxyName": "",
+"ProxySprite": {
+"Species": "",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"CurrentForm": {
+"Species": "natu",
+"Form": 0,
+"Skin": "normal",
+"Gender": 0
+},
+"ProxyAtk": -1,
+"ProxyDef": -1,
+"ProxyMAtk": -1,
+"ProxyMDef": -1,
+"ProxySpeed": -1,
+"Skills": [
+{
+"Element": {
+"SkillNum": "leer",
+"Charges": 16,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 0
+},
+{
+"Element": {
+"SkillNum": "rest",
+"Charges": 8,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 1
+},
+{
+"Element": {
+"SkillNum": "thief",
+"Charges": 20,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 2
+},
+{
+"Element": {
+"SkillNum": "light_screen",
+"Charges": 15,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 3
+}
+],
+"Intrinsics": [
+{
+"Element": {
+"ID": "early_bird"
+},
+"BackRef": 0
+}
+],
+"EquippedItem": {
+"ID": "",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Absentee": false,
+"ChargeBoost": 0,
+"HP": 30,
+"HPRemainder": 0,
+"Fullness": 100,
+"FullnessRemainder": 0,
+"MaxFullness": 100,
+"StatusEffects": {},
+"MustHitNext": false,
+"EXPMarked": false,
+"Tactic": {
+"Name": {
+"DefaultText": "Boss",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"ID": "boss",
+"Assignable": false,
+"Plans": [
+{
+"$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
+"AttackPattern": 4,
+"PositionPattern": 2,
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 4
+},
+{
+"$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.ExplorePlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.WaitPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+}
+]
+},
+"Mobility": 7,
+"CantWalk": false,
+"ItemDisabled": false,
+"IntrinsicDisabled": false,
+"CanRemoveStuck": false,
+"StopItemAtHit": false,
+"MovesScrambled": false,
+"ChargeSaver": false,
+"WaitToAttack": false,
+"CantInteract": false,
+"EnemyOfFriend": false,
+"AttackFriend": false,
+"TileSight": -1,
+"CharSight": -1,
+"Unidentifiable": false,
+"Unlocatable": false,
+"SeeAllChars": false,
+"SeeItems": false,
+"SeeWallItems": false,
+"SeeTraps": false,
+"CharStates": [],
+"BackRef": {
+"Assembly": false,
+"Index": -1
+},
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "natu",
+"Form": 0,
+"Skin": "normal",
+"Gender": 0
+},
+"Level": 12,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "leer",
+"Charges": 16
+},
+{
+"SkillNum": "rest",
+"Charges": 8
+},
+{
+"SkillNum": "thief",
+"Charges": 20
+},
+{
+"SkillNum": "light_screen",
+"Charges": 15
+}
+],
+"BaseIntrinsics": [
+"early_bird"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+}
+],
+"Guests": [],
+"inventory": [],
+"Name": "",
+"LeaderIndex": 0,
+"FoeConflict": false
+},
+{
+"$type": "RogueEssence.Dungeon.MonsterTeam, RogueEssence",
+"Players": [
+{
+"Element1": "electric",
+"Element2": "none",
+"TurnWait": 0,
+"TiersUsed": 0,
+"TurnUsed": false,
+"movementSpeed": 0,
+"dead": false,
+"serializationLoc": {
+"X": 7,
+"Y": 3
+},
+"serializationDir": 0,
+"ProxyName": "",
+"ProxySprite": {
+"Species": "",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"CurrentForm": {
+"Species": "pichu",
+"Form": 0,
+"Skin": "normal",
+"Gender": 1
+},
+"ProxyAtk": -1,
+"ProxyDef": -1,
+"ProxyMAtk": -1,
+"ProxyMDef": -1,
+"ProxySpeed": -1,
+"Skills": [
+{
+"Element": {
+"SkillNum": "sweet_kiss",
+"Charges": 18,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 0
+},
+{
+"Element": {
+"SkillNum": "thunder_punch",
+"Charges": 18,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 1
+},
+{
+"Element": {
+"SkillNum": "body_slam",
+"Charges": 18,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 2
+},
+{
+"Element": {
+"SkillNum": "thunder_shock",
+"Charges": 20,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 3
+}
+],
+"Intrinsics": [
+{
+"Element": {
+"ID": "static"
+},
+"BackRef": 0
+}
+],
+"EquippedItem": {
+"ID": "",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Absentee": false,
+"ChargeBoost": 0,
+"HP": 22,
+"HPRemainder": 0,
+"Fullness": 100,
+"FullnessRemainder": 0,
+"MaxFullness": 100,
+"StatusEffects": {},
+"MustHitNext": false,
+"EXPMarked": false,
+"Tactic": {
+"Name": {
+"DefaultText": "Boss",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"ID": "boss",
+"Assignable": false,
+"Plans": [
+{
+"$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
+"AttackPattern": 4,
+"PositionPattern": 2,
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 4
+},
+{
+"$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.ExplorePlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.WaitPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+}
+]
+},
+"Mobility": 0,
+"CantWalk": false,
+"ItemDisabled": false,
+"IntrinsicDisabled": false,
+"CanRemoveStuck": false,
+"StopItemAtHit": false,
+"MovesScrambled": false,
+"ChargeSaver": false,
+"WaitToAttack": false,
+"CantInteract": false,
+"EnemyOfFriend": false,
+"AttackFriend": false,
+"TileSight": -1,
+"CharSight": -1,
+"Unidentifiable": false,
+"Unlocatable": false,
+"SeeAllChars": false,
+"SeeItems": false,
+"SeeWallItems": false,
+"SeeTraps": false,
+"CharStates": [],
+"BackRef": {
+"Assembly": false,
+"Index": -1
+},
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "pichu",
+"Form": 0,
+"Skin": "normal",
+"Gender": 1
+},
+"Level": 8,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "sweet_kiss",
+"Charges": 18
+},
+{
+"SkillNum": "thunder_punch",
+"Charges": 18
+},
+{
+"SkillNum": "body_slam",
+"Charges": 18
+},
+{
+"SkillNum": "thunder_shock",
+"Charges": 20
+}
+],
+"BaseIntrinsics": [
+"static"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+}
+],
+"Guests": [],
+"inventory": [],
+"Name": "",
+"LeaderIndex": 0,
+"FoeConflict": false
+},
+{
+"$type": "RogueEssence.Dungeon.MonsterTeam, RogueEssence",
+"Players": [
+{
+"Element1": "ice",
+"Element2": "psychic",
+"TurnWait": 0,
+"TiersUsed": 0,
+"TurnUsed": false,
+"movementSpeed": 0,
+"dead": false,
+"serializationLoc": {
+"X": 8,
+"Y": 2
+},
+"serializationDir": 0,
+"ProxyName": "",
+"ProxySprite": {
+"Species": "",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"CurrentForm": {
+"Species": "smoochum",
+"Form": 0,
+"Skin": "normal",
+"Gender": 2
+},
+"ProxyAtk": -1,
+"ProxyDef": -1,
+"ProxyMAtk": -1,
+"ProxyMDef": -1,
+"ProxySpeed": -1,
+"Skills": [
+{
+"Element": {
+"SkillNum": "copycat",
+"Charges": 25,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 0
+},
+{
+"Element": {
+"SkillNum": "powder_snow",
+"Charges": 16,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 1
+},
+{
+"Element": {
+"SkillNum": "lick",
+"Charges": 20,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 2
+},
+{
+"Element": {
+"SkillNum": "ice_punch",
+"Charges": 18,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 3
+}
+],
+"Intrinsics": [
+{
+"Element": {
+"ID": "oblivious"
+},
+"BackRef": 0
+}
+],
+"EquippedItem": {
+"ID": "",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Absentee": false,
+"ChargeBoost": 0,
+"HP": 24,
+"HPRemainder": 0,
+"Fullness": 100,
+"FullnessRemainder": 0,
+"MaxFullness": 100,
+"StatusEffects": {},
+"MustHitNext": false,
+"EXPMarked": false,
+"Tactic": {
+"Name": {
+"DefaultText": "Boss",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"ID": "boss",
+"Assignable": false,
+"Plans": [
+{
+"$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
+"AttackPattern": 4,
+"PositionPattern": 2,
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 4
+},
+{
+"$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.ExplorePlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.WaitPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+}
+]
+},
+"Mobility": 0,
+"CantWalk": false,
+"ItemDisabled": false,
+"IntrinsicDisabled": false,
+"CanRemoveStuck": false,
+"StopItemAtHit": false,
+"MovesScrambled": false,
+"ChargeSaver": false,
+"WaitToAttack": false,
+"CantInteract": false,
+"EnemyOfFriend": false,
+"AttackFriend": false,
+"TileSight": -1,
+"CharSight": -1,
+"Unidentifiable": false,
+"Unlocatable": false,
+"SeeAllChars": false,
+"SeeItems": false,
+"SeeWallItems": false,
+"SeeTraps": false,
+"CharStates": [],
+"BackRef": {
+"Assembly": false,
+"Index": -1
+},
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "smoochum",
+"Form": 0,
+"Skin": "normal",
+"Gender": 2
+},
+"Level": 8,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "copycat",
+"Charges": 25
+},
+{
+"SkillNum": "powder_snow",
+"Charges": 16
+},
+{
+"SkillNum": "lick",
+"Charges": 20
+},
+{
+"SkillNum": "ice_punch",
+"Charges": 18
+}
+],
+"BaseIntrinsics": [
+"oblivious"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+}
+],
+"Guests": [],
+"inventory": [],
+"Name": "",
+"LeaderIndex": 0,
+"FoeConflict": false
+},
+{
+"$type": "RogueEssence.Dungeon.MonsterTeam, RogueEssence",
+"Players": [
+{
+"Element1": "water",
+"Element2": "ground",
+"TurnWait": 0,
+"TiersUsed": 0,
+"TurnUsed": false,
+"movementSpeed": 0,
+"dead": false,
+"serializationLoc": {
+"X": 6,
+"Y": 2
+},
+"serializationDir": 0,
+"ProxyName": "",
+"ProxySprite": {
+"Species": "",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"CurrentForm": {
+"Species": "wooper",
+"Form": 0,
+"Skin": "normal",
+"Gender": 1
+},
+"ProxyAtk": -1,
+"ProxyDef": -1,
+"ProxyMAtk": -1,
+"ProxyMDef": -1,
+"ProxySpeed": -1,
+"Skills": [
+{
+"Element": {
+"SkillNum": "water_gun",
+"Charges": 19,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 0
+},
+{
+"Element": {
+"SkillNum": "tail_whip",
+"Charges": 22,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 1
+},
+{
+"Element": {
+"SkillNum": "mud_shot",
+"Charges": 12,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 2
+},
+{
+"Element": {
+"SkillNum": "rain_dance",
+"Charges": 10,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 3
+}
+],
+"Intrinsics": [
+{
+"Element": {
+"ID": "damp"
+},
+"BackRef": 0
+}
+],
+"EquippedItem": {
+"ID": "",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Absentee": false,
+"ChargeBoost": 0,
+"HP": 24,
+"HPRemainder": 0,
+"Fullness": 100,
+"FullnessRemainder": 0,
+"MaxFullness": 100,
+"StatusEffects": {},
+"MustHitNext": false,
+"EXPMarked": false,
+"Tactic": {
+"Name": {
+"DefaultText": "Boss",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"ID": "boss",
+"Assignable": false,
+"Plans": [
+{
+"$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
+"AttackPattern": 4,
+"PositionPattern": 2,
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 4
+},
+{
+"$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.ExplorePlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.WaitPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+}
+]
+},
+"Mobility": 1,
+"CantWalk": false,
+"ItemDisabled": false,
+"IntrinsicDisabled": false,
+"CanRemoveStuck": false,
+"StopItemAtHit": false,
+"MovesScrambled": false,
+"ChargeSaver": false,
+"WaitToAttack": false,
+"CantInteract": false,
+"EnemyOfFriend": false,
+"AttackFriend": false,
+"TileSight": -1,
+"CharSight": -1,
+"Unidentifiable": false,
+"Unlocatable": false,
+"SeeAllChars": false,
+"SeeItems": false,
+"SeeWallItems": false,
+"SeeTraps": false,
+"CharStates": [],
+"BackRef": {
+"Assembly": false,
+"Index": -1
+},
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "wooper",
+"Form": 0,
+"Skin": "normal",
+"Gender": 1
+},
+"Level": 8,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "water_gun",
+"Charges": 19
+},
+{
+"SkillNum": "tail_whip",
+"Charges": 22
+},
+{
+"SkillNum": "mud_shot",
+"Charges": 12
+},
+{
+"SkillNum": "rain_dance",
+"Charges": 10
+}
+],
+"BaseIntrinsics": [
+"damp"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+}
+],
+"Guests": [],
+"inventory": [],
+"Name": "",
+"LeaderIndex": 0,
+"FoeConflict": false
+},
+{
+"$type": "RogueEssence.Dungeon.MonsterTeam, RogueEssence",
+"Players": [
+{
+"Element1": "fighting",
+"Element2": "none",
+"TurnWait": 0,
+"TiersUsed": 0,
+"TurnUsed": false,
+"movementSpeed": 0,
+"dead": false,
+"serializationLoc": {
+"X": 4,
+"Y": 4
+},
+"serializationDir": 0,
+"ProxyName": "",
+"ProxySprite": {
+"Species": "",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"CurrentForm": {
+"Species": "mankey",
+"Form": 0,
+"Skin": "normal",
+"Gender": 1
+},
+"ProxyAtk": -1,
+"ProxyDef": -1,
+"ProxyMAtk": -1,
+"ProxyMDef": -1,
+"ProxySpeed": -1,
+"Skills": [
+{
+"Element": {
+"SkillNum": "low_kick",
+"Charges": 20,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 0
+},
+{
+"Element": {
+"SkillNum": "facade",
+"Charges": 18,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 1
+},
+{
+"Element": {
+"SkillNum": "focus_energy",
+"Charges": 16,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 2
+},
+{
+"Element": {
+"SkillNum": "seismic_toss",
+"Charges": 20,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 3
+}
+],
+"Intrinsics": [
+{
+"Element": {
+"ID": "anger_point"
+},
+"BackRef": 0
+}
+],
+"EquippedItem": {
+"ID": "",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Absentee": false,
+"ChargeBoost": 0,
+"HP": 35,
+"HPRemainder": 0,
+"Fullness": 100,
+"FullnessRemainder": 0,
+"MaxFullness": 100,
+"StatusEffects": {},
+"MustHitNext": false,
+"EXPMarked": false,
+"Tactic": {
+"Name": {
+"DefaultText": "Boss",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"ID": "boss",
+"Assignable": false,
+"Plans": [
+{
+"$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
+"AttackPattern": 4,
+"PositionPattern": 2,
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 4
+},
+{
+"$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.ExplorePlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.WaitPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+}
+]
+},
+"Mobility": 0,
+"CantWalk": false,
+"ItemDisabled": false,
+"IntrinsicDisabled": false,
+"CanRemoveStuck": false,
+"StopItemAtHit": false,
+"MovesScrambled": false,
+"ChargeSaver": false,
+"WaitToAttack": false,
+"CantInteract": false,
+"EnemyOfFriend": false,
+"AttackFriend": false,
+"TileSight": -1,
+"CharSight": -1,
+"Unidentifiable": false,
+"Unlocatable": false,
+"SeeAllChars": false,
+"SeeItems": false,
+"SeeWallItems": false,
+"SeeTraps": false,
+"CharStates": [],
+"BackRef": {
+"Assembly": false,
+"Index": -1
+},
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "mankey",
+"Form": 0,
+"Skin": "normal",
+"Gender": 1
+},
+"Level": 15,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "low_kick",
+"Charges": 20
+},
+{
+"SkillNum": "facade",
+"Charges": 18
+},
+{
+"SkillNum": "focus_energy",
+"Charges": 16
+},
+{
+"SkillNum": "seismic_toss",
+"Charges": 20
+}
+],
+"BaseIntrinsics": [
+"anger_point"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+}
+],
+"Guests": [],
+"inventory": [],
+"Name": "",
+"LeaderIndex": 0,
+"FoeConflict": false
+},
+{
+"$type": "RogueEssence.Dungeon.MonsterTeam, RogueEssence",
+"Players": [
+{
+"Element1": "water",
+"Element2": "rock",
+"TurnWait": 0,
+"TiersUsed": 0,
+"TurnUsed": false,
+"movementSpeed": 0,
+"dead": false,
+"serializationLoc": {
+"X": 2,
+"Y": 1
+},
+"serializationDir": 0,
+"ProxyName": "",
+"ProxySprite": {
+"Species": "",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"CurrentForm": {
+"Species": "corsola",
+"Form": 0,
+"Skin": "normal",
+"Gender": 2
+},
+"ProxyAtk": -1,
+"ProxyDef": -1,
+"ProxyMAtk": -1,
+"ProxyMDef": -1,
+"ProxySpeed": -1,
+"Skills": [
+{
+"Element": {
+"SkillNum": "water_gun",
+"Charges": 19,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 0
+},
+{
+"Element": {
+"SkillNum": "tackle",
+"Charges": 22,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 1
+},
+{
+"Element": {
+"SkillNum": "aqua_ring",
+"Charges": 16,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 2
+},
+{
+"Element": {
+"SkillNum": "harden",
+"Charges": 21,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 3
+}
+],
+"Intrinsics": [
+{
+"Element": {
+"ID": "hustle"
+},
+"BackRef": 0
+}
+],
+"EquippedItem": {
+"ID": "",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Absentee": false,
+"ChargeBoost": 0,
+"HP": 29,
+"HPRemainder": 0,
+"Fullness": 100,
+"FullnessRemainder": 0,
+"MaxFullness": 100,
+"StatusEffects": {},
+"MustHitNext": false,
+"EXPMarked": false,
+"Tactic": {
+"Name": {
+"DefaultText": "Boss",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"ID": "boss",
+"Assignable": false,
+"Plans": [
+{
+"$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
+"AttackPattern": 4,
+"PositionPattern": 2,
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 4
+},
+{
+"$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.ExplorePlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.WaitPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+}
+]
+},
+"Mobility": 1,
+"CantWalk": false,
+"ItemDisabled": false,
+"IntrinsicDisabled": false,
+"CanRemoveStuck": false,
+"StopItemAtHit": false,
+"MovesScrambled": false,
+"ChargeSaver": false,
+"WaitToAttack": false,
+"CantInteract": false,
+"EnemyOfFriend": false,
+"AttackFriend": false,
+"TileSight": -1,
+"CharSight": -1,
+"Unidentifiable": false,
+"Unlocatable": false,
+"SeeAllChars": false,
+"SeeItems": false,
+"SeeWallItems": false,
+"SeeTraps": false,
+"CharStates": [],
+"BackRef": {
+"Assembly": false,
+"Index": -1
+},
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "corsola",
+"Form": 0,
+"Skin": "normal",
+"Gender": 2
+},
+"Level": 10,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "water_gun",
+"Charges": 19
+},
+{
+"SkillNum": "tackle",
+"Charges": 22
+},
+{
+"SkillNum": "aqua_ring",
+"Charges": 16
+},
+{
+"SkillNum": "harden",
+"Charges": 21
+}
+],
+"BaseIntrinsics": [
+"hustle"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+}
+],
+"Guests": [],
+"inventory": [],
+"Name": "",
+"LeaderIndex": 0,
+"FoeConflict": false
+},
+{
+"$type": "RogueEssence.Dungeon.MonsterTeam, RogueEssence",
+"Players": [
+{
+"Element1": "normal",
+"Element2": "none",
+"TurnWait": 0,
+"TiersUsed": 0,
+"TurnUsed": false,
+"movementSpeed": 0,
+"dead": false,
+"serializationLoc": {
+"X": 1,
+"Y": 5
+},
+"serializationDir": 0,
+"ProxyName": "",
+"ProxySprite": {
+"Species": "",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"CurrentForm": {
+"Species": "td_mamel",
+"Form": 0,
+"Skin": "normal",
+"Gender": 0
+},
+"ProxyAtk": -1,
+"ProxyDef": -1,
+"ProxyMAtk": -1,
+"ProxyMDef": -1,
+"ProxySpeed": -1,
+"Skills": [
+{
+"Element": {
+"SkillNum": "tackle",
+"Charges": 22,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 0
+},
+{
+"Element": {
+"SkillNum": "pound",
+"Charges": 25,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 1
+},
+{
+"Element": {
+"SkillNum": "",
+"Charges": 0,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 2
+},
+{
+"Element": {
+"SkillNum": "",
+"Charges": 0,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 3
+}
+],
+"Intrinsics": [
+{
+"Element": {
+"ID": "run_away"
+},
+"BackRef": 0
+}
+],
+"EquippedItem": {
+"ID": "",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Absentee": false,
+"ChargeBoost": 0,
+"HP": 18,
+"HPRemainder": 0,
+"Fullness": 100,
+"FullnessRemainder": 0,
+"MaxFullness": 100,
+"StatusEffects": {},
+"MustHitNext": false,
+"EXPMarked": false,
+"Tactic": {
+"Name": {
+"DefaultText": "Boss",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"ID": "boss",
+"Assignable": false,
+"Plans": [
+{
+"$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
+"AttackPattern": 4,
+"PositionPattern": 2,
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 4
+},
+{
+"$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.ExplorePlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.WaitPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+}
+]
+},
+"Mobility": 0,
+"CantWalk": false,
+"ItemDisabled": false,
+"IntrinsicDisabled": false,
+"CanRemoveStuck": false,
+"StopItemAtHit": false,
+"MovesScrambled": false,
+"ChargeSaver": false,
+"WaitToAttack": false,
+"CantInteract": false,
+"EnemyOfFriend": false,
+"AttackFriend": false,
+"TileSight": -1,
+"CharSight": -1,
+"Unidentifiable": false,
+"Unlocatable": false,
+"SeeAllChars": false,
+"SeeItems": false,
+"SeeWallItems": false,
+"SeeTraps": false,
+"CharStates": [],
+"BackRef": {
+"Assembly": false,
+"Index": -1
+},
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "td_mamel",
+"Form": 0,
+"Skin": "normal",
+"Gender": 0
+},
+"Level": 5,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "tackle",
+"Charges": 22
+},
+{
+"SkillNum": "pound",
+"Charges": 25
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+}
+],
+"BaseIntrinsics": [
+"run_away"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+}
+],
+"Guests": [],
+"inventory": [],
+"Name": "",
+"LeaderIndex": 0,
+"FoeConflict": false
+},
+{
+"$type": "RogueEssence.Dungeon.MonsterTeam, RogueEssence",
+"Players": [
+{
+"Element1": "grass",
+"Element2": "dark",
+"TurnWait": 0,
+"TiersUsed": 0,
+"TurnUsed": false,
+"movementSpeed": 0,
+"dead": false,
+"serializationLoc": {
+"X": 7,
+"Y": 1
+},
+"serializationDir": 0,
+"ProxyName": "",
+"ProxySprite": {
+"Species": "",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"CurrentForm": {
+"Species": "nuzleaf",
+"Form": 0,
+"Skin": "normal",
+"Gender": 1
+},
+"ProxyAtk": -1,
+"ProxyDef": -1,
+"ProxyMAtk": -1,
+"ProxyMDef": -1,
+"ProxySpeed": -1,
+"Skills": [
+{
+"Element": {
+"SkillNum": "razor_leaf",
+"Charges": 14,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 0
+},
+{
+"Element": {
+"SkillNum": "tackle",
+"Charges": 22,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 1
+},
+{
+"Element": {
+"SkillNum": "astonish",
+"Charges": 22,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 2
+},
+{
+"Element": {
+"SkillNum": "rollout",
+"Charges": 14,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 3
+}
+],
+"Intrinsics": [
+{
+"Element": {
+"ID": "chlorophyll"
+},
+"BackRef": 0
+}
+],
+"EquippedItem": {
+"ID": "",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Absentee": false,
+"ChargeBoost": 0,
+"HP": 34,
+"HPRemainder": 0,
+"Fullness": 100,
+"FullnessRemainder": 0,
+"MaxFullness": 100,
+"StatusEffects": {},
+"MustHitNext": false,
+"EXPMarked": false,
+"Tactic": {
+"Name": {
+"DefaultText": "Boss",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"ID": "boss",
+"Assignable": false,
+"Plans": [
+{
+"$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
+"AttackPattern": 4,
+"PositionPattern": 2,
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 4
+},
+{
+"$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.ExplorePlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.WaitPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+}
+]
+},
+"Mobility": 0,
+"CantWalk": false,
+"ItemDisabled": false,
+"IntrinsicDisabled": false,
+"CanRemoveStuck": false,
+"StopItemAtHit": false,
+"MovesScrambled": false,
+"ChargeSaver": false,
+"WaitToAttack": false,
+"CantInteract": false,
+"EnemyOfFriend": false,
+"AttackFriend": false,
+"TileSight": -1,
+"CharSight": -1,
+"Unidentifiable": false,
+"Unlocatable": false,
+"SeeAllChars": false,
+"SeeItems": false,
+"SeeWallItems": false,
+"SeeTraps": false,
+"CharStates": [],
+"BackRef": {
+"Assembly": false,
+"Index": -1
+},
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "nuzleaf",
+"Form": 0,
+"Skin": "normal",
+"Gender": 1
+},
+"Level": 12,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "razor_leaf",
+"Charges": 14
+},
+{
+"SkillNum": "tackle",
+"Charges": 22
+},
+{
+"SkillNum": "astonish",
+"Charges": 22
+},
+{
+"SkillNum": "rollout",
+"Charges": 14
+}
+],
+"BaseIntrinsics": [
+"chlorophyll"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+}
+],
+"Guests": [],
+"inventory": [],
+"Name": "",
+"LeaderIndex": 0,
+"FoeConflict": false
+},
+{
+"$type": "RogueEssence.Dungeon.MonsterTeam, RogueEssence",
+"Players": [
+{
+"Element1": "ghost",
+"Element2": "none",
+"TurnWait": 0,
+"TiersUsed": 0,
+"TurnUsed": false,
+"movementSpeed": 0,
+"dead": false,
+"serializationLoc": {
+"X": 12,
+"Y": 7
+},
+"serializationDir": 0,
+"ProxyName": "",
+"ProxySprite": {
+"Species": "",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"CurrentForm": {
+"Species": "shuppet",
+"Form": 0,
+"Skin": "normal",
+"Gender": 1
+},
+"ProxyAtk": -1,
+"ProxyDef": -1,
+"ProxyMAtk": -1,
+"ProxyMDef": -1,
+"ProxySpeed": -1,
+"Skills": [
+{
+"Element": {
+"SkillNum": "screech",
+"Charges": 16,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 0
+},
+{
+"Element": {
+"SkillNum": "spite",
+"Charges": 18,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 1
+},
+{
+"Element": {
+"SkillNum": "night_shade",
+"Charges": 15,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 2
+},
+{
+"Element": {
+"SkillNum": "will_o_wisp",
+"Charges": 18,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 3
+}
+],
+"Intrinsics": [
+{
+"Element": {
+"ID": "frisk"
+},
+"BackRef": 0
+}
+],
+"EquippedItem": {
+"ID": "",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Absentee": false,
+"ChargeBoost": 0,
+"HP": 30,
+"HPRemainder": 0,
+"Fullness": 100,
+"FullnessRemainder": 0,
+"MaxFullness": 100,
+"StatusEffects": {},
+"MustHitNext": false,
+"EXPMarked": false,
+"Tactic": {
+"Name": {
+"DefaultText": "Boss",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"ID": "boss",
+"Assignable": false,
+"Plans": [
+{
+"$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
+"AttackPattern": 4,
+"PositionPattern": 2,
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 4
+},
+{
+"$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.ExplorePlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.WaitPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+}
+]
+},
+"Mobility": 8,
+"CantWalk": false,
+"ItemDisabled": false,
+"IntrinsicDisabled": false,
+"CanRemoveStuck": false,
+"StopItemAtHit": false,
+"MovesScrambled": false,
+"ChargeSaver": false,
+"WaitToAttack": false,
+"CantInteract": false,
+"EnemyOfFriend": false,
+"AttackFriend": false,
+"TileSight": -1,
+"CharSight": -1,
+"Unidentifiable": false,
+"Unlocatable": false,
+"SeeAllChars": false,
+"SeeItems": false,
+"SeeWallItems": false,
+"SeeTraps": false,
+"CharStates": [],
+"BackRef": {
+"Assembly": false,
+"Index": -1
+},
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "shuppet",
+"Form": 0,
+"Skin": "normal",
+"Gender": 1
+},
+"Level": 12,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "screech",
+"Charges": 16
+},
+{
+"SkillNum": "spite",
+"Charges": 18
+},
+{
+"SkillNum": "night_shade",
+"Charges": 15
+},
+{
+"SkillNum": "will_o_wisp",
+"Charges": 18
+}
+],
+"BaseIntrinsics": [
+"frisk"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+}
+],
+"Guests": [],
+"inventory": [],
+"Name": "",
+"LeaderIndex": 0,
+"FoeConflict": false
+},
+{
+"$type": "RogueEssence.Dungeon.MonsterTeam, RogueEssence",
+"Players": [
+{
+"Element1": "water",
+"Element2": "ice",
+"TurnWait": 0,
+"TiersUsed": 0,
+"TurnUsed": false,
+"movementSpeed": 0,
+"dead": false,
+"serializationLoc": {
+"X": 13,
+"Y": 2
+},
+"serializationDir": 0,
+"ProxyName": "",
+"ProxySprite": {
+"Species": "",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"CurrentForm": {
+"Species": "lapras",
+"Form": 0,
+"Skin": "normal",
+"Gender": 1
+},
+"ProxyAtk": -1,
+"ProxyDef": -1,
+"ProxyMAtk": -1,
+"ProxyMDef": -1,
+"ProxySpeed": -1,
+"Skills": [
+{
+"Element": {
+"SkillNum": "ice_shard",
+"Charges": 18,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 0
+},
+{
+"Element": {
+"SkillNum": "life_dew",
+"Charges": 10,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 1
+},
+{
+"Element": {
+"SkillNum": "mist",
+"Charges": 18,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 2
+},
+{
+"Element": {
+"SkillNum": "waterfall",
+"Charges": 15,
+"Enabled": true,
+"Sealed": false
+},
+"BackRef": 3
+}
+],
+"Intrinsics": [
+{
+"Element": {
+"ID": "shell_armor"
+},
+"BackRef": 0
+}
+],
+"EquippedItem": {
+"ID": "",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Absentee": false,
+"ChargeBoost": 0,
+"HP": 62,
+"HPRemainder": 0,
+"Fullness": 100,
+"FullnessRemainder": 0,
+"MaxFullness": 100,
+"StatusEffects": {},
+"MustHitNext": false,
+"EXPMarked": false,
+"Tactic": {
+"Name": {
+"DefaultText": "Boss",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"ID": "boss",
+"Assignable": false,
+"Plans": [
+{
+"$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
+"AttackPattern": 4,
+"PositionPattern": 2,
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 4
+},
+{
+"$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.ExplorePlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.WaitPlan, PMDC",
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+}
+]
+},
+"Mobility": 1,
+"CantWalk": false,
+"ItemDisabled": false,
+"IntrinsicDisabled": false,
+"CanRemoveStuck": false,
+"StopItemAtHit": false,
+"MovesScrambled": false,
+"ChargeSaver": false,
+"WaitToAttack": false,
+"CantInteract": false,
+"EnemyOfFriend": false,
+"AttackFriend": false,
+"TileSight": -1,
+"CharSight": -1,
+"Unidentifiable": false,
+"Unlocatable": false,
+"SeeAllChars": false,
+"SeeItems": false,
+"SeeWallItems": false,
+"SeeTraps": false,
+"CharStates": [],
+"BackRef": {
+"Assembly": false,
+"Index": -1
+},
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "lapras",
+"Form": 0,
+"Skin": "normal",
+"Gender": 1
+},
+"Level": 20,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "ice_shard",
+"Charges": 18
+},
+{
+"SkillNum": "life_dew",
+"Charges": 10
+},
+{
+"SkillNum": "mist",
+"Charges": 18
+},
+{
+"SkillNum": "waterfall",
+"Charges": 15
+}
+],
+"BaseIntrinsics": [
+"shell_armor"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+}
+],
+"Guests": [],
+"inventory": [],
+"Name": "",
+"LeaderIndex": 0,
+"FoeConflict": false
+}
+],
+"AllyTeams": [],
+"rand": {
+"$type": "RogueElements.ReRandom, RogueElements",
+"FirstSeed": 0,
+"s": [
+16294208416658607535,
+7960286522194355700,
+487617019471545679,
+17909611376780542444
+]
+},
+"AssetName": "davigny_dangerzone",
+"ScriptEvents": {},
+"Music": "NadEvent25. Escape.ogg",
+"TileSight": 0,
+"CharSight": 0,
+"Status": {},
+"MapEffect": {
+"UniversalStates": [],
+"BeforeTryActions": [],
+"BeforeActions": [],
+"OnActions": [],
+"BeforeExplosions": [],
+"BeforeHits": [],
+"OnHits": [],
+"OnHitTiles": [],
+"AfterActions": [],
+"ElementEffects": [],
+"OnEquips": [],
+"OnPickups": [],
+"BeforeStatusAdds": [],
+"OnStatusAdds": [],
+"OnStatusRemoves": [],
+"OnMapStatusAdds": [],
+"OnMapStatusRemoves": [],
+"OnMapStarts": [
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.BeginBattleEvent, PMDC",
+"CheckClearStatus": "map_clear_check"
+}
+}
+],
+"OnTurnStarts": [],
+"OnTurnEnds": [],
+"OnMapTurnEnds": [],
+"OnWalks": [],
+"OnDeaths": [],
+"OnRefresh": [],
+"OnMapRefresh": [],
+"ModifyHPs": [],
+"RestoreHPs": [],
+"InitActionData": []
+},
+"TeamSpawns": [],
+"MoneyAmount": {
+"Min": 0,
+"Max": 0
+},
+"ItemSpawns": {
+"Spawns": {
+"spawns": {},
+"spawnTotal": 0
+}
+},
+"BlankBG": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"TextureMap": {},
+"Element": "none",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+},
+"ViewCenter": null,
+"ViewOffset": {
+"X": 0,
+"Y": 0
+},
+"HideMinimap": false,
+"NoRescue": false,
+"NoSwitching": false,
+"MapTurns": 0,
+"CurrentTurnMap": {
+"CurrentOrder": {
+"TurnTier": 0,
+"Faction": 0,
+"TurnIndex": 0
+},
+"TurnToChar": []
+},
+"DiscoveryArray": [
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+]
+],
+"Layers": [
+{
+"Name": "New Layer",
+"Layer": 0,
+"Visible": true,
+"Tiles": [
+[
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 110
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 411
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+}
+],
+[
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 110
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 411
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+}
+],
+[
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 110
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 155
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+}
+],
+[
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 110
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 411
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+}
+],
+[
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 110
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 411
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+}
+],
+[
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 110
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 19
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 55
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 191
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+}
+],
+[
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 239
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 205
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 76
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 19
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 311
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 55
+}
+],
+[
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 239
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 205
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 205
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 205
+}
+],
+[
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+}
+],
+[
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 127
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 55
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 55
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 55
+}
+],
+[
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 127
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 55
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 38
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 137
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 461
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 205
+}
+],
+[
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 110
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 137
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 461
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 223
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+}
+],
+[
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 110
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 411
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+}
+],
+[
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 110
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 155
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+}
+],
+[
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 110
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 155
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+}
+],
+[
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 110
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 411
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+}
+],
+[
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 767
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_floor",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 110
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 155
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 255
+},
+{
+"AutoTileset": "sky_peak_4th_pass_wall",
+"Associates": [],
+"Layers": [],
+"NeighborCode": 511
+}
+]
+]
+}
+],
+"Decorations": [
+{
+"Name": "New Deco",
+"Layer": 0,
+"Visible": true,
+"Anims": []
+}
+],
+"Tiles": [
+[
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 1
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 2
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 3
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 4
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 5
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 6
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 7
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 8
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 9
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 10
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 11
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 12
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 13
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+[
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 1,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 1,
+"Y": 1
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 1,
+"Y": 2
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 1,
+"Y": 3
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 1,
+"Y": 4
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 1,
+"Y": 5
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 1,
+"Y": 6
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 1,
+"Y": 7
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 1,
+"Y": 8
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 1,
+"Y": 9
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 1,
+"Y": 10
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 1,
+"Y": 11
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 1,
+"Y": 12
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 1,
+"Y": 13
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+[
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 2,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 2,
+"Y": 1
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 2,
+"Y": 2
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 2,
+"Y": 3
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 2,
+"Y": 4
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 2,
+"Y": 5
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 2,
+"Y": 6
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 2,
+"Y": 7
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 2,
+"Y": 8
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 2,
+"Y": 9
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 2,
+"Y": 10
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 2,
+"Y": 11
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 2,
+"Y": 12
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 2,
+"Y": 13
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+[
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 3,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 3,
+"Y": 1
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 3,
+"Y": 2
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 3,
+"Y": 3
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 3,
+"Y": 4
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 3,
+"Y": 5
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 3,
+"Y": 6
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 3,
+"Y": 7
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 3,
+"Y": 8
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 3,
+"Y": 9
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 3,
+"Y": 10
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 3,
+"Y": 11
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 3,
+"Y": 12
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 3,
+"Y": 13
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+[
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 4,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 4,
+"Y": 1
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 4,
+"Y": 2
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 4,
+"Y": 3
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 4,
+"Y": 4
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 4,
+"Y": 5
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 4,
+"Y": 6
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 4,
+"Y": 7
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 4,
+"Y": 8
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 4,
+"Y": 9
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 4,
+"Y": 10
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 4,
+"Y": 11
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 4,
+"Y": 12
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 4,
+"Y": 13
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+[
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 5,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 5,
+"Y": 1
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 5,
+"Y": 2
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 5,
+"Y": 3
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 5,
+"Y": 4
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 5,
+"Y": 5
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 5,
+"Y": 6
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 5,
+"Y": 7
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 5,
+"Y": 8
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 5,
+"Y": 9
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 5,
+"Y": 10
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 5,
+"Y": 11
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 5,
+"Y": 12
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 5,
+"Y": 13
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+[
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 6,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 6,
+"Y": 1
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 6,
+"Y": 2
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 6,
+"Y": 3
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 6,
+"Y": 4
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 6,
+"Y": 5
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 6,
+"Y": 6
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 6,
+"Y": 7
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 6,
+"Y": 8
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 6,
+"Y": 9
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 6,
+"Y": 10
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 6,
+"Y": 11
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 6,
+"Y": 12
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 6,
+"Y": 13
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+[
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 7,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 7,
+"Y": 1
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 7,
+"Y": 2
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 7,
+"Y": 3
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 7,
+"Y": 4
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 7,
+"Y": 5
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 7,
+"Y": 6
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 7,
+"Y": 7
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 7,
+"Y": 8
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 7,
+"Y": 9
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 7,
+"Y": 10
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 7,
+"Y": 11
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 7,
+"Y": 12
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 7,
+"Y": 13
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+[
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 8,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 8,
+"Y": 1
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 8,
+"Y": 2
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 8,
+"Y": 3
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 8,
+"Y": 4
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 8,
+"Y": 5
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 8,
+"Y": 6
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 8,
+"Y": 7
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 8,
+"Y": 8
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 8,
+"Y": 9
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 8,
+"Y": 10
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 8,
+"Y": 11
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 8,
+"Y": 12
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 8,
+"Y": 13
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+[
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 9,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 9,
+"Y": 1
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 9,
+"Y": 2
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 9,
+"Y": 3
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 9,
+"Y": 4
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 9,
+"Y": 5
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 9,
+"Y": 6
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 9,
+"Y": 7
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 9,
+"Y": 8
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 9,
+"Y": 9
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 9,
+"Y": 10
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 9,
+"Y": 11
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 9,
+"Y": 12
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 9,
+"Y": 13
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+[
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 10,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 10,
+"Y": 1
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 10,
+"Y": 2
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 10,
+"Y": 3
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 10,
+"Y": 4
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 10,
+"Y": 5
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 10,
+"Y": 6
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 10,
+"Y": 7
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 10,
+"Y": 8
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 10,
+"Y": 9
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 10,
+"Y": 10
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 10,
+"Y": 11
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 10,
+"Y": 12
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 10,
+"Y": 13
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+[
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 11,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 11,
+"Y": 1
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 11,
+"Y": 2
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 11,
+"Y": 3
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 11,
+"Y": 4
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 11,
+"Y": 5
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 11,
+"Y": 6
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 11,
+"Y": 7
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 11,
+"Y": 8
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 11,
+"Y": 9
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 11,
+"Y": 10
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 11,
+"Y": 11
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 11,
+"Y": 12
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 11,
+"Y": 13
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+[
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 12,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 12,
+"Y": 1
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 12,
+"Y": 2
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 12,
+"Y": 3
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 12,
+"Y": 4
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 12,
+"Y": 5
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 12,
+"Y": 6
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 12,
+"Y": 7
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 12,
+"Y": 8
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 12,
+"Y": 9
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 12,
+"Y": 10
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 12,
+"Y": 11
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 12,
+"Y": 12
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 12,
+"Y": 13
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+[
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 13,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 13,
+"Y": 1
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 13,
+"Y": 2
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 13,
+"Y": 3
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 13,
+"Y": 4
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 13,
+"Y": 5
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 13,
+"Y": 6
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 13,
+"Y": 7
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 13,
+"Y": 8
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 13,
+"Y": 9
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 13,
+"Y": 10
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 13,
+"Y": 11
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 13,
+"Y": 12
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 13,
+"Y": 13
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+[
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 14,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 14,
+"Y": 1
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 14,
+"Y": 2
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 14,
+"Y": 3
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 14,
+"Y": 4
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 14,
+"Y": 5
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 14,
+"Y": 6
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 14,
+"Y": 7
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 14,
+"Y": 8
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 14,
+"Y": 9
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 14,
+"Y": 10
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 14,
+"Y": 11
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 14,
+"Y": 12
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 14,
+"Y": 13
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+[
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 15,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 15,
+"Y": 1
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 15,
+"Y": 2
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 15,
+"Y": 3
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 15,
+"Y": 4
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 15,
+"Y": 5
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 15,
+"Y": 6
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 15,
+"Y": 7
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 15,
+"Y": 8
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 15,
+"Y": 9
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 15,
+"Y": 10
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 15,
+"Y": 11
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 15,
+"Y": 12
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 15,
+"Y": 13
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+[
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 16,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 16,
+"Y": 1
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 16,
+"Y": 2
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 16,
+"Y": 3
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 16,
+"Y": 4
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 16,
+"Y": 5
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 16,
+"Y": 6
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 16,
+"Y": 7
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 16,
+"Y": 8
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 16,
+"Y": 9
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 16,
+"Y": 10
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 16,
+"Y": 11
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 16,
+"Y": 12
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"Data": {
+"ID": "floor",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 16,
+"Y": 13
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+]
+],
+"EdgeView": 1,
+"EntryPoints": [
+{
+"Loc": {
+"X": 8,
+"Y": 8
+},
+"Dir": 4
+}
+],
+"Items": []
+}
+}

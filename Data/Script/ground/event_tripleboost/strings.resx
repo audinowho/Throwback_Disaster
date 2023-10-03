@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="OnionKuya_0" xml:space="preserve">
+    <value>Waah! No good! We're outnumbered!</value>
+  </data>
+  <data name="Gapori_0" xml:space="preserve">
+    <value>We can't do anything to stop them, can we?</value>
+  </data>
+  <data name="OnionKuya_1" xml:space="preserve">
+    <value>Monya, what do you want to demonstrate to me?</value>
+  </data>
+  <data name="Monya_0" xml:space="preserve">
+    <value>Capsule...!</value>
+  </data>
+  <data name="Gapori_1" xml:space="preserve">
+    <value>What use would a boost capsule have against them?</value>
+  </data>
+  <data name="OnionKuya_2" xml:space="preserve">
+    <value>I think we need to...</value>
+  </data>
+  <data name="Message_0" xml:space="preserve">
+    <value>Sprinkles were all over them when Monya suddenly opened the capsule.</value>
+  </data>
+  <data name="OnionKuya_3" xml:space="preserve">
+    <value>WHAT THE!?</value>
+  </data>
+  <data name="Gapori_2" xml:space="preserve">
+    <value>WE CAN'T CONTROL OUR SPEED!!!</value>
+  </data>
+  <data name="Monya_1" xml:space="preserve">
+    <value>Monyaaaaa~~~!!!</value>
+  </data>
+  <data name="Message_1" xml:space="preserve">
+    <value>{0} sprinted through every obstacle and rammed every adversary.</value>
+  </data>
+  <data name="Monya_2" xml:space="preserve">
+    <value>Fun! Fun!</value>
+  </data>
+</root>

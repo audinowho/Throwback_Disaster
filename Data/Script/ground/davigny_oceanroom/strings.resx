@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Purrloin_0" xml:space="preserve">
+    <value>There are rumors that a runt lives there in the orange cat suit.</value>
+  </data>
+  <data name="Purrloin_1" xml:space="preserve">
+    <value>You can't be sure if she's an actual human over there?</value>
+  </data>
+  <data name="Purrloin_2" xml:space="preserve">
+    <value>I thought no humans actually exists in the world.</value>
+  </data>
+  <data name="Sign_0" xml:space="preserve">
+    <value>Warning! Underwater Ahead.</value>
+  </data>
+  <data name="Phantump_0" xml:space="preserve">
+    <value>*shiver*... I dislike water, but I was told that ice-type mons may occasionally appear.</value>
+  </data>
+  <data name="Patrat_0" xml:space="preserve">
+    <value>Electric and grass-type moves are effective against enemies of the water type.</value>
+  </data>
+  <data name="Patrat_1" xml:space="preserve">
+    <value>Therefore, if you bring at least one of them with those kinds of moves,</value>
+  </data>
+  <data name="Patrat_2" xml:space="preserve">
+    <value>The dungeon would be a breeze for you to clear.</value>
+  </data>
+  <data name="Phantump_1" xml:space="preserve">
+    <value>What is the connection between water-type mons and ice-type mons?</value>
+  </data>
+  <data name="Powwene_0" xml:space="preserve">
+    <value>Are you ready, {0}?</value>
+  </data>
+  <data name="Powwene_1" xml:space="preserve">
+    <value>While rescuing Smoochum, let's not waste time and never drown!</value>
+  </data>
+  <data name="Purrloin_3" xml:space="preserve">
+    <value>Wait! Did you just...</value>
+  </data>
+  <data name="Purrloin_4" xml:space="preserve">
+    <value>I said bring her alive, not kill her!</value>
+  </data>
+  <data name="Phantump_2" xml:space="preserve">
+    <value>Gyarados? Yeah, They're scary...!</value>
+  </data>
+  <data name="Phantump_3" xml:space="preserve">
+    <value>I heard they are of the Water and Flying type, all you have to do is destroy them with your Electric move! Rock-like works as well!</value>
+  </data>
+  <data name="Phantump_4" xml:space="preserve">
+    <value>There's a tale of Gyarados I remember but...</value>
+  </data>
+  <data name="Phantump_5" xml:space="preserve">
+    <value>I completely forgot all the words about it, Sorry.</value>
+  </data>
+  <data name="Purrloin_5" xml:space="preserve">
+    <value>Did something's happen to the surface nearby?</value>
+  </data>
+  <data name="Phantump_6" xml:space="preserve">
+    <value>What's that? Buneary's not affected?</value>
+  </data>
+  <data name="Phantump_7" xml:space="preserve">
+    <value>How should I know? Maybe she's still asleep...</value>
+  </data>
+  <data name="Patrat_3" xml:space="preserve">
+    <value>Now that you mentioned it, I don't wanna go back to the surface.</value>
+  </data>
+  <data name="Phantump_8" xml:space="preserve">
+    <value>The surface... scary...</value>
+  </data>
+</root>

@@ -1,0 +1,99 @@
+﻿{
+"Version": "0.7.13.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"ammo_nokia3310": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.7.13.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"Name": {
+"DefaultText": "Nokia 3310",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 9
+},
+"gummi_wonder": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.7.13.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.7.13.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.GummiState"
+}
+],
+"Name": {
+"DefaultText": "Wonder Gummi",
+"LocalTexts": {
+"fr": "Gelée Miracle",
+"de": "Wundergummi",
+"ko": "이상한구미"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 2
+},
+"orb_blue": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"UsageType": 1,
+"States": [
+{
+"assembly": "PMDC, Version=0.7.13.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.OrbState"
+}
+],
+"Name": {
+"DefaultText": "Blue Portal Orb",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 12
+},
+"orb_monster": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"UsageType": 1,
+"States": [
+{
+"assembly": "PMDC, Version=0.7.13.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.OrbState"
+}
+],
+"Name": {
+"DefaultText": "Monster Orb",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 12
+},
+"orb_orange": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"UsageType": 1,
+"States": [
+{
+"assembly": "PMDC, Version=0.7.13.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.OrbState"
+}
+],
+"Name": {
+"DefaultText": "Orange Portal Orb",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 12
+}
+}
+}

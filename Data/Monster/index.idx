@@ -1,0 +1,344 @@
+﻿{
+"Version": "0.7.22.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"vulpix": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Vulpix",
+"LocalTexts": {
+"ja": "ロコン",
+"ko": "식스테일",
+"zh-hant": "六尾",
+"fr": "Goupix",
+"de": "Vulpix",
+"es": "Vulpix",
+"it": "Vulpix",
+"ja-jp": "ロコン",
+"zh-hans": "六尾"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Alolan Vulpix",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "",
+"de": "",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Vulpix",
+"LocalTexts": {
+"ja": "ロコン",
+"ko": "식스테일",
+"zh-hant": "六尾",
+"fr": "Goupix",
+"de": "Vulpix",
+"es": "Vulpix",
+"it": "Vulpix",
+"ja-jp": "ロコン",
+"zh-hans": "六尾"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 37
+},
+"tdchar_gapori": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Gapori",
+"LocalTexts": {}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Gapori",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 1014
+},
+"tdchar_ohchan": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Oh-Chan",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Oh-Chan",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1013
+},
+"td_hankuma": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Hankuma",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Hankuma",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1024
+},
+"td_huohua": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Huohua",
+"LocalTexts": {
+"zh-hans": "火花"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Huohua",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1018
+},
+"td_huoshen": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [],
+"Name": {
+"DefaultText": "Huoshen",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1020
+},
+"td_mamel": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Mamel",
+"LocalTexts": {}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Mamel",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 1011
+},
+"td_miao": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Miao",
+"LocalTexts": {
+"zh-hans": "喵喵"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Miao",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1015
+},
+"td_miaowu": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [],
+"Name": {
+"DefaultText": "Miaowu",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1016
+},
+"td_mikon": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Mikon",
+"LocalTexts": {}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Mikon",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 1009
+},
+"td_molimao": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [],
+"Name": {
+"DefaultText": "Molimao",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1017
+},
+"td_notebeat": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Yellow Notebeat",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Notebeat",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 1012
+},
+"td_popola": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [],
+"Name": {
+"DefaultText": "Popola",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1022
+},
+"td_powpow": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Pow-Pow",
+"LocalTexts": {}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Powwene",
+"LocalTexts": {}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Pow-Pow",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 1010
+},
+"td_shuilanlan": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Shuilanlan",
+"LocalTexts": {
+"zh-hans": "水蓝蓝"
+}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Shuilanlan",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1021
+},
+"td_shuiling": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [],
+"Name": {
+"DefaultText": "Shuiling",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1023
+},
+"td_yanhuo": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [],
+"Name": {
+"DefaultText": "Yanhuo",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1019
+}
+}
+}

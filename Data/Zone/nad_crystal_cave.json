@@ -1,0 +1,1031 @@
+﻿{
+"Version": "0.7.22.0",
+"Object": {
+"$type": "RogueEssence.Data.ZoneData, RogueEssence",
+"Name": {
+"DefaultText": "Crystalline Grotto",
+"LocalTexts": {
+"zh-hans": "结晶石窟"
+}
+},
+"Released": true,
+"Comment": "",
+"NoEXP": false,
+"ExpPercent": 200,
+"Level": 1,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"BagSize": -1,
+"Persistent": false,
+"Rescues": 0,
+"Rogue": 0,
+"Segments": [
+{
+"$type": "RogueEssence.LevelGen.RangeDictSegment, RogueEssence",
+"Floors": {
+"nodes": [
+{
+"Item": {
+"$type": "RogueEssence.LevelGen.GridFloorGen, RogueEssence",
+"GenSteps": [
+{
+"Key": {
+"str": [
+-6
+]
+},
+"Value": {
+"$type": "PMDC.LevelGen.MapDataStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Music": "Nad10. Crystal Cave.ogg",
+"TimeLimit": 1500,
+"TileSight": 1,
+"CharSight": 1,
+"ClampCamera": false
+}
+},
+{
+"Key": {
+"str": [
+-5
+]
+},
+"Value": {
+"$type": "RogueElements.InitGridPlanStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
+"CellWidth": 7,
+"CellHeight": 7,
+"CellX": 5,
+"CellY": 4,
+"CellWall": 1,
+"Wrap": false
+}
+},
+{
+"Key": {
+"str": [
+-4
+]
+},
+"Value": {
+"$type": "RogueElements.GridPathBranch`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
+"RoomRatio": {
+"Min": 70,
+"Max": 81
+},
+"BranchRatio": {
+"Min": 0,
+"Max": 25
+},
+"NoForcedBranches": false,
+"GenericRooms": {
+"$type": "RogueElements.SpawnList`1[[RogueElements.RoomGen`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements]], RogueElements",
+"$values": [
+{
+"Spawn": {
+"$type": "RogueElements.RoomGenCross`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
+"MajorWidth": {
+"Min": 3,
+"Max": 8
+},
+"MinorHeight": {
+"Min": 2,
+"Max": 5
+},
+"MajorHeight": {
+"Min": 3,
+"Max": 8
+},
+"MinorWidth": {
+"Min": 2,
+"Max": 5
+}
+},
+"Rate": 10
+},
+{
+"Spawn": {
+"$type": "RogueElements.RoomGenRound`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
+"Width": {
+"Min": 3,
+"Max": 7
+},
+"Height": {
+"Min": 3,
+"Max": 7
+}
+},
+"Rate": 10
+}
+]
+},
+"RoomComponents": [
+{
+"$type": "PMDC.LevelGen.ConnectivityRoom, PMDC",
+"Connection": 1
+}
+],
+"GenericHalls": {
+"$type": "RogueElements.SpawnList`1[[RogueElements.PermissiveRoomGen`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements]], RogueElements",
+"$values": [
+{
+"Spawn": {
+"$type": "RogueElements.RoomGenAngledHall`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
+"HallTurnBias": 50,
+"Brush": {
+"$type": "RogueElements.DefaultHallBrush, RogueElements"
+},
+"Width": {
+"Min": 0,
+"Max": 0
+},
+"Height": {
+"Min": 0,
+"Max": 0
+}
+},
+"Rate": 10
+}
+]
+},
+"HallComponents": [
+{
+"$type": "PMDC.LevelGen.ConnectivityRoom, PMDC",
+"Connection": 1
+}
+]
+}
+},
+{
+"Key": {
+"str": [
+-4
+]
+},
+"Value": {
+"$type": "RogueElements.ConnectGridBranchStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
+"ConnectPercent": 75,
+"Filters": [
+{
+"$type": "RogueElements.RoomFilterComponent, RogueElements",
+"Negate": true,
+"Components": [
+{
+"$type": "PMDC.LevelGen.NoConnectRoom, PMDC"
+}
+]
+}
+],
+"GenericHalls": {
+"$type": "RogueElements.PresetPicker`1[[RogueElements.PermissiveRoomGen`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements]], RogueElements",
+"ToSpawn": {
+"$type": "RogueElements.RoomGenAngledHall`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
+"HallTurnBias": 50,
+"Brush": {
+"$type": "RogueElements.DefaultHallBrush, RogueElements"
+},
+"Width": {
+"Min": 0,
+"Max": 0
+},
+"Height": {
+"Min": 0,
+"Max": 0
+}
+}
+},
+"HallComponents": [
+{
+"$type": "PMDC.LevelGen.ConnectivityRoom, PMDC",
+"Connection": 1
+}
+]
+}
+},
+{
+"Key": {
+"str": [
+-3
+]
+},
+"Value": {
+"$type": "RogueElements.DrawGridToFloorStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements"
+}
+},
+{
+"Key": {
+"str": [
+-1
+]
+},
+"Value": {
+"$type": "RogueElements.DrawFloorToTileStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
+"Padding": 1
+}
+},
+{
+"Key": {
+"str": [
+0,
+1
+]
+},
+"Value": {
+"$type": "RogueEssence.LevelGen.UnbreakableBorderStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"Thickness": 1
+}
+},
+{
+"Key": {
+"str": [
+1,
+2
+]
+},
+"Value": {
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
+"MaxFoes": 0,
+"RespawnTime": 0
+}
+},
+{
+"Key": {
+"str": [
+2
+]
+},
+"Value": {
+"$type": "RogueElements.FloorStairsStep`3[[RogueEssence.LevelGen.MapGenContext, RogueEssence],[RogueEssence.LevelGen.MapGenEntrance, RogueEssence],[RogueEssence.LevelGen.MapGenExit, RogueEssence]], RogueElements",
+"Entrances": [
+{
+"Loc": {
+"X": 0,
+"Y": 0
+},
+"Dir": 0
+}
+],
+"Exits": [
+{
+"Loc": {
+"X": 0,
+"Y": 0
+},
+"Tile": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "stairs_go_up",
+"Revealed": true,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+"Filters": [
+{
+"$type": "PMDC.LevelGen.RoomFilterConnectivity, PMDC",
+"Connection": 1
+},
+{
+"$type": "RogueElements.RoomFilterComponent, RogueElements",
+"Negate": true,
+"Components": [
+{
+"$type": "PMDC.LevelGen.BossRoom, PMDC"
+}
+]
+}
+]
+}
+},
+{
+"Key": {
+"str": [
+3
+]
+},
+"Value": {
+"$type": "RogueElements.PerlinWaterStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
+"OrderComplexity": 3,
+"OrderSoftness": 1,
+"WaterPercent": {
+"Min": 30,
+"Max": 30
+},
+"Bowl": true,
+"Terrain": {
+"$type": "RogueEssence.Dungeon.Tile, RogueEssence",
+"Data": {
+"ID": "water",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+"TerrainStencil": {
+"$type": "RogueElements.MapTerrainStencil`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
+"Room": false,
+"Wall": true,
+"Blocked": false,
+"Not": false
+}
+}
+},
+{
+"Key": {
+"str": [
+3,
+1
+]
+},
+"Value": {
+"$type": "RogueElements.DropDiagonalBlockStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
+"Terrain": {
+"$type": "RogueEssence.Dungeon.Tile, RogueEssence",
+"Data": {
+"ID": "water",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+}
+},
+{
+"Key": {
+"str": [
+3,
+2
+]
+},
+"Value": {
+"$type": "RogueElements.EraseIsolatedStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
+"Terrain": {
+"$type": "RogueEssence.Dungeon.Tile, RogueEssence",
+"Data": {
+"ID": "water",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+}
+},
+{
+"Key": {
+"str": [
+4
+]
+},
+"Value": {
+"$type": "RogueEssence.LevelGen.MapTextureStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"GroundTileset": "beach_cave_floor",
+"BlockTileset": "beach_cave_wall",
+"WaterTileset": "beach_cave_secondary",
+"LayeredGround": false,
+"IndependentGround": false,
+"GroundElement": "none"
+}
+},
+{
+"Key": {
+"str": [
+5
+]
+},
+"Value": {
+"$type": "RogueElements.TerminalSpawnStep`2[[RogueEssence.LevelGen.MapGenContext, RogueEssence],[RogueEssence.LevelGen.MoneySpawn, RogueEssence]], RogueElements",
+"IncludeHalls": false,
+"Filters": [],
+"Spawn": {
+"$type": "RogueEssence.LevelGen.MoneyDivSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"DivAmount": {
+"Min": 1,
+"Max": 4
+}
+}
+}
+},
+{
+"Key": {
+"str": [
+5,
+1
+]
+},
+"Value": {
+"$type": "RogueElements.DueSpawnStep`3[[RogueEssence.LevelGen.MapGenContext, RogueEssence],[RogueEssence.Dungeon.InvItem, RogueEssence],[RogueEssence.LevelGen.MapGenEntrance, RogueEssence]], RogueElements",
+"SuccessPercent": 25,
+"IncludeHalls": false,
+"Filters": [
+{
+"$type": "PMDC.LevelGen.RoomFilterConnectivity, PMDC",
+"Connection": 1
+}
+],
+"Spawn": {
+"$type": "RogueElements.ContextSpawner`2[[RogueEssence.LevelGen.MapGenContext, RogueEssence],[RogueEssence.Dungeon.InvItem, RogueEssence]], RogueElements",
+"Amount": {
+"Min": 6,
+"Max": 13
+}
+}
+}
+},
+{
+"Key": {
+"str": [
+5,
+2
+]
+},
+"Value": {
+"$type": "RogueEssence.LevelGen.PlaceRandomMobsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"Filters": [
+{
+"$type": "PMDC.LevelGen.RoomFilterConnectivity, PMDC",
+"Connection": 1
+}
+],
+"IncludeHalls": false,
+"Spawn": {
+"$type": "RogueEssence.LevelGen.TeamContextSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"Amount": {
+"Min": 2,
+"Max": 5
+}
+},
+"Ally": false,
+"ClumpFactor": 20
+}
+}
+],
+"Comment": ""
+},
+"Range": {
+"Min": 0,
+"Max": 5
+}
+}
+]
+},
+"ZoneSteps": [
+{
+"$type": "PMDC.LevelGen.SaveVarsZoneStep, PMDC",
+"Priority": {
+"str": [
+2,
+1
+]
+}
+},
+{
+"$type": "PMDC.LevelGen.FloorNameDropZoneStep, PMDC",
+"DropPriority": {
+"str": [
+-15
+]
+},
+"Name": {
+"DefaultText": "Crystalline Grotto\\n{0}F",
+"LocalTexts": {
+"zh-hans": "结晶石窟\\n{0}F"
+}
+},
+"Priority": {
+"str": [
+-6
+]
+}
+},
+{
+"$type": "RogueEssence.LevelGen.MoneySpawnZoneStep, RogueEssence",
+"Priority": {
+"str": [
+1
+]
+},
+"StartAmount": {
+"Min": 5,
+"Max": 11
+},
+"AddAmount": {
+"Min": 5,
+"Max": 6
+},
+"ModStates": [
+{
+"assembly": "PMDC, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.CoinModGenState"
+}
+]
+},
+{
+"$type": "RogueEssence.LevelGen.ItemSectionedZoneStep, RogueEssence",
+"Priority": {
+"str": [
+1,
+1
+]
+},
+"Spawns": {
+"nodes": [
+{
+"Item": {
+"spawns": {
+"supplies": {
+"Spawn": [
+{
+"Spawn": {
+"ID": "apricorn_plain",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 2
+},
+{
+"Spawn": {
+"ID": "food_apple",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 3
+},
+{
+"Spawn": {
+"ID": "berry_oran",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 4
+}
+],
+"Rate": 2
+},
+"reinforcements": {
+"Spawn": [
+{
+"Spawn": {
+"ID": "ammo_nokia3310",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1
+},
+{
+"Spawn": {
+"ID": "ammo_geo_pebble",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 1,
+"Price": 0
+},
+"Rate": 16
+},
+{
+"Spawn": {
+"ID": "ammo_stick",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 1,
+"Price": 0
+},
+"Rate": 24
+}
+],
+"Rate": 16
+}
+},
+"spawnTotal": 18
+},
+"Range": {
+"Min": 0,
+"Max": 5
+}
+}
+]
+}
+},
+{
+"$type": "RogueEssence.LevelGen.TeamSpawnZoneStep, RogueEssence",
+"Priority": {
+"str": [
+1,
+2
+]
+},
+"Spawns": [
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "zigzagoon",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 1,
+"Max": 2
+},
+"SpecifiedSkills": [
+"tackle"
+],
+"Intrinsic": "",
+"Tactic": "wander_dumb",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
+},
+{
+"$type": "PMDC.LevelGen.MobSpawnMovesOff, PMDC",
+"StartAt": 1,
+"Remove": false
+}
+]
+},
+"Role": 0
+},
+"Rate": 15,
+"Range": {
+"Min": 0,
+"Max": 3
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "poochyena",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 1,
+"Max": 3
+},
+"SpecifiedSkills": [
+"tackle"
+],
+"Intrinsic": "",
+"Tactic": "wander_dumb",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
+},
+{
+"$type": "PMDC.LevelGen.MobSpawnMovesOff, PMDC",
+"StartAt": 1,
+"Remove": false
+}
+]
+},
+"Role": 0
+},
+"Rate": 6,
+"Range": {
+"Min": 3,
+"Max": 5
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "duskull",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 1,
+"Max": 3
+},
+"SpecifiedSkills": [
+"astonish"
+],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
+},
+{
+"$type": "PMDC.LevelGen.MobSpawnMovesOff, PMDC",
+"StartAt": 1,
+"Remove": false
+}
+]
+},
+"Role": 0
+},
+"Rate": 6,
+"Range": {
+"Min": 3,
+"Max": 5
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "roggenrola",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 1,
+"Max": 2
+},
+"SpecifiedSkills": [
+"tackle"
+],
+"Intrinsic": "",
+"Tactic": "wander_dumb",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
+},
+{
+"$type": "PMDC.LevelGen.MobSpawnMovesOff, PMDC",
+"StartAt": 1,
+"Remove": false
+}
+]
+},
+"Role": 0
+},
+"Rate": 9,
+"Range": {
+"Min": 2,
+"Max": 5
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "voltorb",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 1,
+"Max": 2
+},
+"SpecifiedSkills": [
+"tackle"
+],
+"Intrinsic": "",
+"Tactic": "wander_dumb",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
+},
+{
+"$type": "PMDC.LevelGen.MobSpawnMovesOff, PMDC",
+"StartAt": 1,
+"Remove": false
+}
+]
+},
+"Role": 0
+},
+"Rate": 5,
+"Range": {
+"Min": 0,
+"Max": 3
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "carbink",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 2,
+"Max": 4
+},
+"SpecifiedSkills": [
+"tackle"
+],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 1,
+"Range": {
+"Min": 2,
+"Max": 5
+}
+}
+],
+"TeamSizes": [
+{
+"Spawn": 1,
+"Rate": 12,
+"Range": {
+"Min": 0,
+"Max": 5
+}
+},
+{
+"Spawn": 2,
+"Rate": 6,
+"Range": {
+"Min": 3,
+"Max": 5
+}
+}
+],
+"SpecificSpawns": []
+},
+{
+"$type": "RogueEssence.LevelGen.SpreadStepZoneStep, RogueEssence",
+"StepPriority": {
+"str": [
+6,
+1
+]
+},
+"Spawns": {
+"$type": "RogueElements.SpawnList`1[[RogueElements.IGenStep, RogueElements]], RogueElements",
+"$values": [
+{
+"Spawn": {
+"$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.MapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
+"Spawn": {
+"$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.MapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
+"Picker": {
+"$type": "RogueElements.PresetMultiRand`1[[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
+"ToSpawn": [
+{
+"$type": "RogueElements.PresetPicker`1[[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
+"ToSpawn": {
+"IsMoney": false,
+"Cursed": false,
+"Value": "apricorn_plain",
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0,
+"TileLoc": {
+"X": 0,
+"Y": 0
+}
+}
+}
+]
+}
+}
+},
+"Rate": 10
+}
+]
+},
+"SpreadPlan": {
+"$type": "RogueEssence.LevelGen.SpreadPlanSpaced, RogueEssence",
+"FloorSpacing": {
+"Min": 2,
+"Max": 4
+},
+"FloorRange": {
+"Min": 0,
+"Max": 5
+}
+},
+"ModStates": []
+}
+],
+"IsRelevant": true,
+"Comment": ""
+},
+{
+"$type": "RogueEssence.LevelGen.LayeredSegment, RogueEssence",
+"Floors": [
+{
+"$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
+"GenSteps": [
+{
+"Key": {
+"str": [
+-1
+]
+},
+"Value": {
+"$type": "RogueEssence.LevelGen.MappedRoomStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueEssence",
+"MapID": "crystal_cave_boss"
+}
+}
+],
+"Comment": ""
+}
+],
+"ZoneSteps": [
+{
+"$type": "PMDC.LevelGen.FloorNameDropZoneStep, PMDC",
+"DropPriority": {
+"str": [
+-15
+]
+},
+"Name": {
+"DefaultText": "VS. Wartortle",
+"LocalTexts": {}
+},
+"Priority": {
+"str": [
+-6
+]
+}
+}
+],
+"IsRelevant": false,
+"Comment": ""
+}
+],
+"GroundMaps": [
+"crystal_cave_entrance",
+"crystal_cave_end",
+"event_waterfallaccident"
+]
+}
+}

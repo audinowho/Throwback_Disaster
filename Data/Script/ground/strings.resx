@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Powwene_0" xml:space="preserve">
+    <value>Oh, Is that a treasure underneath it?</value>
+  </data>
+  <data name="Powwene_1" xml:space="preserve">
+    <value>Allow me!</value>
+  </data>
+  <data name="Powwene_2" xml:space="preserve">
+    <value>Hiyah!!</value>
+  </data>
+  <data name="Powwene_3" xml:space="preserve">
+    <value>Nothing...?</value>
+  </data>
+  <data name="Powwene_4_A" xml:space="preserve">
+    <value>Huh??</value>
+  </data>
+  <data name="Powwene_4_B" xml:space="preserve">
+    <value>...Hmm??</value>
+  </data>
+  <data name="Answer_1_A" xml:space="preserve">
+    <value>You idiot!!</value>
+  </data>
+  <data name="Answer_1_B" xml:space="preserve">
+    <value>What're you doing!?</value>
+  </data>
+  <data name="Powwene_5" xml:space="preserve">
+    <value>What's that? {0}, You're saying a shrine linked to the Mythical Pokémon called Celebi?</value>
+  </data>
+  <data name="Powwene_6" xml:space="preserve">
+    <value>How should I know!?</value>
+  </data>
+  <data name="Celebi_0" xml:space="preserve">
+    <value>What the, What're you doing to...!?</value>
+  </data>
+  <data name="Powwene_7" xml:space="preserve">
+    <value>Oh, I'm sorry... I...</value>
+  </data>
+  <data name="Celebi_1" xml:space="preserve">
+    <value>You're going down after you destroyed the shrine of blessing. I can't believe you're in hold of bad luck.</value>
+  </data>
+  <data name="Powwene_8" xml:space="preserve">
+    <value>No no no wait!</value>
+  </data>
+  <data name="Powwene_9" xml:space="preserve">
+    <value>Hah...! At least you're willing to forgive me for this, right?</value>
+  </data>
+  <data name="Powwene_10_A" xml:space="preserve">
+    <value>Thanks.</value>
+  </data>
+  <data name="Powwene_10_B" xml:space="preserve">
+    <value>I see...</value>
+  </data>
+  <data name="Powwene_11" xml:space="preserve">
+    <value>Let's continue ahead and get this over with...</value>
+  </data>
+</root>

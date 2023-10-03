@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Lifmunk0_0" xml:space="preserve">
+    <value>Wheeze... So tired... I need to rest...</value>
+  </data>
+  <data name="Lifmunk1_0" xml:space="preserve">
+    <value>Ngh... I feel like I'm gonna faint...</value>
+  </data>
+  <data name="Lifmunk2_0" xml:space="preserve">
+    <value>Please visit Palworld if you wish to learn more about what takes place with us.</value>
+  </data>
+  <data name="Lifmunk2_1" xml:space="preserve">
+    <value>But you really don't want us to suffer, do you?</value>
+  </data>
+  <data name="Lifmunk3_0" xml:space="preserve">
+    <value>Think you can help me out of it?</value>
+  </data>
+  <data name="Reuniclus_0" xml:space="preserve">
+    <value>No! I refuse to work with you!</value>
+  </data>
+  <data name="Venusaur_0" xml:space="preserve">
+    <value>Work, you little gloom!</value>
+  </data>
+  <data name="Sandshrew_0" xml:space="preserve">
+    <value>I'm exhausted...</value>
+  </data>
+  <data name="Piplup_0" xml:space="preserve">
+    <value>Is it really necessary for me to hold a pickaxe that heavy?</value>
+  </data>
+  <data name="Spinda_0" xml:space="preserve">
+    <value>They are disrespectful of the boundaries set by my species, and the world continues to spin.</value>
+  </data>
+  <data name="Skiploom_0" xml:space="preserve">
+    <value>We are becoming wealthier!</value>
+  </data>
+  <data name="Roselia_0" xml:space="preserve">
+    <value>You ought to go see our boss! She's more prettier than me- I mean, you!</value>
+  </data>
+  <data name="Tsarenna_0" xml:space="preserve">
+    <value>Well, you chose to collaborate with us, right?</value>
+  </data>
+  <data name="Gapori_0" xml:space="preserve">
+    <value>Give it up! Don't you dare put them into slavery!</value>
+  </data>
+  <data name="Tsarenna_1" xml:space="preserve">
+    <value>No can do!</value>
+  </data>
+  <data name="Gapori_1" xml:space="preserve">
+    <value>{0}, I think we need to find a way...</value>
+  </data>
+</root>

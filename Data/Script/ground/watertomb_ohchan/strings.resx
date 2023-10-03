@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="OhChan_0" xml:space="preserve">
+    <value>What do you want?</value>
+  </data>
+  <data name="Powwene_0" xml:space="preserve">
+    <value>Smoochum, the creature, is what we're looking for. She-</value>
+  </data>
+  <data name="OhChan_1" xml:space="preserve">
+    <value>Silence! I'll demonstrate how to vanish..</value>
+  </data>
+  <data name="OhChan_2" xml:space="preserve">
+    <value>Ohahahaha!</value>
+  </data>
+  <data name="OhChan_3" xml:space="preserve">
+    <value>H-How could I lose with such ease? This will not occur!</value>
+  </data>
+  <data name="OhChan_4" xml:space="preserve">
+    <value>EHHHHHHH?</value>
+  </data>
+  <data name="Powwene_1" xml:space="preserve">
+    <value>That was interesting, but what was she doing here, preventing access to the next level?</value>
+  </data>
+  <data name="Powwene_2" xml:space="preserve">
+    <value>Agh... My legs sore! I think we can rest here for now.</value>
+  </data>
+  <data name="Powwene_3" xml:space="preserve">
+    <value>Are your buddies already in bed? They must also be worn out.</value>
+  </data>
+  <data name="Powwene_4" xml:space="preserve">
+    <value>How did you acquire those beings for your team?</value>
+  </data>
+  <data name="Powwene_5" xml:space="preserve">
+    <value>You just threw your apricorns at them? They were already very good to eat.</value>
+  </data>
+  <data name="Powwene_6" xml:space="preserve">
+    <value>It's not surprising that they really valued your offer.</value>
+  </data>
+  <data name="Powwene_7" xml:space="preserve">
+    <value>They do possess a lot of potential. You'll have a great team if you give them a lot of training.</value>
+  </data>
+  <data name="Powwene_8" xml:space="preserve">
+    <value>How well do you all keep up?</value>
+  </data>
+  <data name="Powwene_9" xml:space="preserve">
+    <value>I see! with numerous strategies and skills.</value>
+  </data>
+  <data name="Powwene_10" xml:space="preserve">
+    <value>Maybe you wouldn't have had any trouble getting through those dungeons.</value>
+  </data>
+  <data name="Powwene_11" xml:space="preserve">
+    <value>However, in the interim, we can immediately protect Smoochum from those! Let's go to bed now!</value>
+  </data>
+  <data name="Powwene_12" xml:space="preserve">
+    <value>This is not the time to back down, {0}!</value>
+  </data>
+</root>

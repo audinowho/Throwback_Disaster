@@ -1,0 +1,169 @@
+﻿{
+"Version": "0.7.18.2",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Gapori",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"Title": {
+"DefaultText": "The White Creature",
+"LocalTexts": {}
+},
+"IndexNum": 1014,
+"EXPTable": "erratic",
+"SkillGroup1": "undiscovered",
+"SkillGroup2": "undiscovered",
+"JoinRate": 0,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": true,
+"Generation": 6,
+"GenderlessWeight": 1,
+"MaleWeight": 0,
+"FemaleWeight": 0,
+"BaseHP": 96,
+"BaseAtk": 40,
+"BaseDef": 55,
+"BaseMAtk": 101,
+"BaseMDef": 53,
+"BaseSpeed": 105,
+"ExpYield": 162,
+"Height": 0.0,
+"Weight": 0.0,
+"Personalities": [
+51
+],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Gapori",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "fairy",
+"Element2": "normal",
+"Intrinsic1": "serene_grace",
+"Intrinsic2": "none",
+"Intrinsic3": "none",
+"LevelSkills": [
+{
+"Level": 1,
+"Skill": "swift"
+},
+{
+"Level": 1,
+"Skill": "teleport"
+},
+{
+"Level": 4,
+"Skill": "fairy_wind"
+},
+{
+"Level": 6,
+"Skill": "minimize"
+},
+{
+"Level": 8,
+"Skill": "flash"
+},
+{
+"Level": 10,
+"Skill": "misty_terrain"
+},
+{
+"Level": 13,
+"Skill": "metronome"
+},
+{
+"Level": 15,
+"Skill": "refresh"
+},
+{
+"Level": 18,
+"Skill": "sweet_kiss"
+},
+{
+"Level": 22,
+"Skill": "acupressure"
+},
+{
+"Level": 24,
+"Skill": "stockpile"
+},
+{
+"Level": 24,
+"Skill": "spit_up"
+},
+{
+"Level": 24,
+"Skill": "swallow"
+},
+{
+"Level": 27,
+"Skill": "me_first"
+},
+{
+"Level": 30,
+"Skill": "dazzling_gleam"
+},
+{
+"Level": 33,
+"Skill": "flower_shield"
+},
+{
+"Level": 35,
+"Skill": "charm"
+},
+{
+"Level": 38,
+"Skill": "td_pyroblast"
+},
+{
+"Level": 40,
+"Skill": "disable"
+},
+{
+"Level": 42,
+"Skill": "tri_attack"
+},
+{
+"Level": 45,
+"Skill": "helping_hand"
+},
+{
+"Level": 47,
+"Skill": "protect"
+},
+{
+"Level": 50,
+"Skill": "moonblast"
+},
+{
+"Level": 53,
+"Skill": "td_comet"
+},
+{
+"Level": 55,
+"Skill": "aromatic_mist"
+},
+{
+"Level": 58,
+"Skill": "encore"
+},
+{
+"Level": 60,
+"Skill": "rest"
+}
+]
+}
+]
+}
+}

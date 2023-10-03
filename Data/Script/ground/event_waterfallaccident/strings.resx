@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Message_0" xml:space="preserve">
+    <value>You struggled to cross the bridge and almost fell down.</value>
+  </data>
+  <data name="Espurr_0" xml:space="preserve">
+    <value>W-woah, be careful! if one of us falls, we'll be screwed.</value>
+  </data>
+  <data name="Minccino_0" xml:space="preserve">
+    <value>Are you aware that there is a treasure atop this mountain?</value>
+  </data>
+  <data name="Espurr_1" xml:space="preserve">
+    <value>If that's the case, when we succeed, we would each receive a share.</value>
+  </data>
+  <data name="Minccino_1" xml:space="preserve">
+    <value>Hey, we just met {0}. At least have some respect.</value>
+  </data>
+  <data name="Espurr_2" xml:space="preserve">
+    <value>Right... Then, at that point, I'll think about giving that peep an offer, perhaps more than us.</value>
+  </data>
+  <data name="Minccino_2" xml:space="preserve">
+    <value>Kind thought.</value>
+  </data>
+  <data name="Message_1" xml:space="preserve">
+    <value>You attempted to grab the ledge when your foot slipped on the wet spot...</value>
+  </data>
+  <data name="Espurr_3" xml:space="preserve">
+    <value>Ah!? {0}!!</value>
+  </data>
+  <data name="Minccino_3" xml:space="preserve">
+    <value>They simply tumbled down into the opening... How are we going to enlighten [color=#00FFFF]Vitaro[color] regarding this...</value>
+  </data>
+</root>

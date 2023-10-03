@@ -1,0 +1,355 @@
+﻿{
+"Version": "0.7.10.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Mikon",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"Title": {
+"DefaultText": "Baby Fox Pokémon",
+"LocalTexts": {}
+},
+"IndexNum": 1009,
+"EXPTable": "medium_fast",
+"SkillGroup1": "field",
+"SkillGroup2": "amorphous",
+"JoinRate": 64,
+"PromoteFrom": "",
+"Promotions": [
+{
+"Result": "vulpix",
+"Details": [
+{
+"$type": "PMDC.Data.EvoSetForm, PMDC",
+"Conditions": [],
+"Form": 0
+},
+{
+"$type": "PMDC.Data.EvoLevel, PMDC",
+"Level": 12
+}
+]
+}
+],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": true,
+"Generation": 2,
+"GenderlessWeight": 0,
+"MaleWeight": 2,
+"FemaleWeight": 6,
+"BaseHP": 26,
+"BaseAtk": 31,
+"BaseDef": 30,
+"BaseMAtk": 40,
+"BaseMDef": 50,
+"BaseSpeed": 50,
+"ExpYield": 50,
+"Height": 0.4,
+"Weight": 6.6,
+"Personalities": [
+0,
+1,
+2,
+3,
+8,
+9,
+11,
+13,
+15,
+16,
+30,
+31,
+36
+],
+"TeachSkills": [
+{
+"Skill": "roar"
+},
+{
+"Skill": "flamethrower"
+},
+{
+"Skill": "dig"
+},
+{
+"Skill": "toxic"
+},
+{
+"Skill": "double_team"
+},
+{
+"Skill": "fire_blast"
+},
+{
+"Skill": "rest"
+},
+{
+"Skill": "protect"
+},
+{
+"Skill": "attract"
+},
+{
+"Skill": "return"
+},
+{
+"Skill": "frustration"
+},
+{
+"Skill": "safeguard"
+},
+{
+"Skill": "iron_tail"
+},
+{
+"Skill": "hidden_power"
+},
+{
+"Skill": "sunny_day"
+},
+{
+"Skill": "facade"
+},
+{
+"Skill": "secret_power"
+},
+{
+"Skill": "overheat"
+},
+{
+"Skill": "substitute"
+},
+{
+"Skill": "endure"
+},
+{
+"Skill": "swagger"
+},
+{
+"Skill": "sleep_talk"
+},
+{
+"Skill": "psych_up"
+},
+{
+"Skill": "will_o_wisp"
+},
+{
+"Skill": "natural_gift"
+},
+{
+"Skill": "payback"
+},
+{
+"Skill": "dark_pulse"
+},
+{
+"Skill": "energy_ball"
+},
+{
+"Skill": "flame_charge"
+},
+{
+"Skill": "round"
+},
+{
+"Skill": "incinerate"
+},
+{
+"Skill": "confide"
+}
+],
+"SharedSkills": [
+{
+"Skill": "disable"
+},
+{
+"Skill": "hypnosis"
+},
+{
+"Skill": "flail"
+},
+{
+"Skill": "spite"
+},
+{
+"Skill": "feint_attack"
+},
+{
+"Skill": "psych_up"
+},
+{
+"Skill": "heat_wave"
+},
+{
+"Skill": "howl"
+},
+{
+"Skill": "extrasensory"
+},
+{
+"Skill": "flare_blitz"
+},
+{
+"Skill": "energy_ball"
+},
+{
+"Skill": "power_swap"
+},
+{
+"Skill": "secret_power"
+},
+{
+"Skill": "hex"
+},
+{
+"Skill": "tail_slap"
+}
+],
+"SecretSkills": [
+{
+"Skill": "body_slam"
+},
+{
+"Skill": "double_edge"
+},
+{
+"Skill": "mimic"
+},
+{
+"Skill": "swift"
+},
+{
+"Skill": "substitute"
+},
+{
+"Skill": "snore"
+},
+{
+"Skill": "endure"
+},
+{
+"Skill": "swagger"
+},
+{
+"Skill": "sleep_talk"
+},
+{
+"Skill": "spite"
+},
+{
+"Skill": "heat_wave"
+},
+{
+"Skill": "zen_headbutt"
+},
+{
+"Skill": "ominous_wind"
+},
+{
+"Skill": "headbutt"
+},
+{
+"Skill": "pain_split"
+},
+{
+"Skill": "role_play"
+},
+{
+"Skill": "iron_tail"
+},
+{
+"Skill": "covet"
+},
+{
+"Skill": "dark_pulse"
+},
+{
+"Skill": "foul_play"
+}
+],
+"FormName": {
+"DefaultText": "Mikon",
+"LocalTexts": {}
+},
+"Temporary": false,
+"Element1": "fire",
+"Element2": "none",
+"Intrinsic1": "flash_fire",
+"Intrinsic2": "none",
+"Intrinsic3": "drought",
+"LevelSkills": [
+{
+"Level": 1,
+"Skill": "ember"
+},
+{
+"Level": 1,
+"Skill": "tail_whip"
+},
+{
+"Level": 4,
+"Skill": "disable"
+},
+{
+"Level": 8,
+"Skill": "roar"
+},
+{
+"Level": 12,
+"Skill": "spite"
+},
+{
+"Level": 16,
+"Skill": "incinerate"
+},
+{
+"Level": 20,
+"Skill": "confuse_ray"
+},
+{
+"Level": 24,
+"Skill": "will_o_wisp"
+},
+{
+"Level": 28,
+"Skill": "extrasensory"
+},
+{
+"Level": 32,
+"Skill": "flamethrower"
+},
+{
+"Level": 36,
+"Skill": "imprison"
+},
+{
+"Level": 40,
+"Skill": "fire_spin"
+},
+{
+"Level": 44,
+"Skill": "safeguard"
+},
+{
+"Level": 48,
+"Skill": "inferno"
+},
+{
+"Level": 52,
+"Skill": "grudge"
+},
+{
+"Level": 56,
+"Skill": "fire_blast"
+}
+]
+}
+]
+}
+}

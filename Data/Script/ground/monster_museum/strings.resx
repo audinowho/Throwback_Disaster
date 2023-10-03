@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Kirila_0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Flareon_0" xml:space="preserve">
+    <value>Welcome to "Monster Museum", where the creatures from other dimensions exists to be showcased.</value>
+  </data>
+  <data name="Flareon_1" xml:space="preserve">
+    <value>Have Fun.</value>
+  </data>
+  <data name="Sentret_0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Flaaffy_0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sandshrew_0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Mikon_0" xml:space="preserve">
+    <value>Mikon, commonly known as Trifox, The Baby Fox Pokemon.</value>
+  </data>
+  <data name="Mikon_1" xml:space="preserve">
+    <value>Trifox was supposed to be a pre-evolution of Vulpix on the Spaceworld Demo</value>
+  </data>
+  <data name="Mikon_2" xml:space="preserve">
+    <value>Sadly, They were scrapped from the official games and remains lost in the world.</value>
+  </data>
+  <data name="Flareon_Intro" xml:space="preserve">
+    <value>Oh, Welcome!</value>
+  </data>
+  <data name="PowPow_0" xml:space="preserve">
+    <value>Pow-Pow, originated from Dungeon Village, by Kairosoft.</value>
+  </data>
+  <data name="PowPow_1" xml:space="preserve">
+    <value>They are weak but attacks with their sharp ears.</value>
+  </data>
+  <data name="Mamel_0" xml:space="preserve">
+    <value>Mamels are originated from Shiren The Wanderer Series.</value>
+  </data>
+  <data name="Mamel_1" xml:space="preserve">
+    <value>They're the first monsters encountered there.</value>
+  </data>
+  <data name="Mamel_2" xml:space="preserve">
+    <value>Because of that, They're pretty weak but their variants are stronger.</value>
+  </data>
+</root>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Narration_0" xml:space="preserve">
+    <value>You approached the shivering Buneary, What will you do?</value>
+  </data>
+  <data name="ActionChoice_0" xml:space="preserve">
+    <value>Poke behind</value>
+  </data>
+  <data name="ActionChoice_1" xml:space="preserve">
+    <value>Greet them</value>
+  </data>
+  <data name="ActionChoice_2" xml:space="preserve">
+    <value>Scare them</value>
+  </data>
+  <data name="Buneary_0" xml:space="preserve">
+    <value>AIEEEEEE!!!!</value>
+  </data>
+  <data name="Narration_1A" xml:space="preserve">
+    <value>Appears as though she ran off into the dungeon... I'm certain you didn't mean it that way...</value>
+  </data>
+  <data name="Narration_1B" xml:space="preserve">
+    <value>Wow, what an idiotic act! You frightened her away into running...</value>
+  </data>
+  <data name="Narration_2" xml:space="preserve">
+    <value>Perhaps you are familiar with their trepidation. Now, let's get them back to safety!</value>
+  </data>
+  <data name="Chespin_0" xml:space="preserve">
+    <value>Wouldn't you say Ghosts are startling? They're simply a weaklings of some kind or another!</value>
+  </data>
+  <data name="Litwick_0" xml:space="preserve">
+    <value>I saw that kid ran off in the dungeon to prove themselves, It was nice knowing her.</value>
+  </data>
+  <data name="Litwick_1" xml:space="preserve">
+    <value>She's alive!? It can't be...</value>
+  </data>
+  <data name="Sign_0" xml:space="preserve">
+    <value>Beware of the Ghost Pokémon, You'll stand no chance against them!</value>
+  </data>
+</root>

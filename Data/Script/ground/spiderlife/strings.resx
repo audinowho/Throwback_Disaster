@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Abigail_0" xml:space="preserve">
+    <value>Heeelp! The Ratatta have consumed everything!</value>
+  </data>
+  <data name="Reuniclus_0" xml:space="preserve">
+    <value>I'm finished!</value>
+  </data>
+  <data name="Narration_0" xml:space="preserve">
+    <value>Ratatta... huh?</value>
+  </data>
+  <data name="Narration_1" xml:space="preserve">
+    <value>Wow! What a lifesaver!</value>
+  </data>
+  <data name="Snorunt_0" xml:space="preserve">
+    <value>YOU! What are you doing around here? Only spies could be as stupid as that!</value>
+  </data>
+  <data name="Gapori_0" xml:space="preserve">
+    <value>Give us a break!</value>
+  </data>
+  <data name="OnionKuya_0" xml:space="preserve">
+    <value>How irritating!</value>
+  </data>
+  <data name="Feraligatr_0" xml:space="preserve">
+    <value>What're you doing!?</value>
+  </data>
+  <data name="Snorunt_1" xml:space="preserve">
+    <value>Captain! Our ship has been invaded by the spies!</value>
+  </data>
+  <data name="Feraligatr_1" xml:space="preserve">
+    <value>Hold on. Maybe they just got lost...</value>
+  </data>
+  <data name="OnionKuya_1" xml:space="preserve">
+    <value>We'd almost give in!</value>
+  </data>
+  <data name="Feraligatr_2" xml:space="preserve">
+    <value>Well, it appears sufficient evidence that you are not spies. Therefore, we will assist!</value>
+  </data>
+  <data name="Feraligatr_3" xml:space="preserve">
+    <value>However, you will be assisting us in the production of our soldiers' supplies.</value>
+  </data>
+  <data name="Gapori_1" xml:space="preserve">
+    <value>I'm sorry... what!?</value>
+  </data>
+  <data name="Snorunt_2" xml:space="preserve">
+    <value>The captain was heard by you! Get behind you to get there!</value>
+  </data>
+  <data name="Gapori_2" xml:space="preserve">
+    <value>I wanna go home...!</value>
+  </data>
+</root>

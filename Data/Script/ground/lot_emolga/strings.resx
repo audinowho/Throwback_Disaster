@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Emolga_0" xml:space="preserve">
+    <value>Look, I built a new home all by myself, pretty cool, huh?</value>
+  </data>
+  <data name="Emolga_1" xml:space="preserve">
+    <value>There is a rumor that the dungeon has a shrine at the end.</value>
+  </data>
+  <data name="Emolga_2" xml:space="preserve">
+    <value>Ugh, Do I have to go there alone?</value>
+  </data>
+  <data name="Powwene_0" xml:space="preserve">
+    <value>Let me handle it! I'll go find them.</value>
+  </data>
+  <data name="Emolga_3" xml:space="preserve">
+    <value>I appreciate!</value>
+  </data>
+  <data name="Emolga_4" xml:space="preserve">
+    <value>Did you see the shrine?</value>
+  </data>
+  <data name="Powwene_1" xml:space="preserve">
+    <value>Not yet.</value>
+  </data>
+  <data name="Emolga_5" xml:space="preserve">
+    <value>Take your time.</value>
+  </data>
+  <data name="Powwene_2" xml:space="preserve">
+    <value>Of course but...</value>
+  </data>
+  <data name="Emolga_6" xml:space="preserve">
+    <value>YOU WHAT!?</value>
+  </data>
+  <data name="Powwene_3" xml:space="preserve">
+    <value>Oh no!</value>
+  </data>
+  <data name="Emolga_7" xml:space="preserve">
+    <value>MR. BUNNY WHY!!! That was the world's most significant!</value>
+  </data>
+  <data name="Powwene_4" xml:space="preserve">
+    <value>Come on {0}. Let's get out of here!</value>
+  </data>
+  <data name="Emolga_8" xml:space="preserve">
+    <value>In that case, who would want to rebuild the shrine?</value>
+  </data>
+  <data name="Emolga_7_B" xml:space="preserve">
+    <value>WHY!!! That was the world's most significant!</value>
+  </data>
+  <data name="Emolga_9" xml:space="preserve">
+    <value>If it's not too much trouble, remove your hands from my goodies in there, much obliged.</value>
+  </data>
+  <data name="Emolga_10" xml:space="preserve">
+    <value>Please do not enter my house without my permission, sincerely sorry.</value>
+  </data>
+  <data name="Hoppip_0" xml:space="preserve">
+    <value>I believe that the house conceals this dungeon entrance. Tiny Tillies result from this.</value>
+  </data>
+  <data name="Hoppip_1" xml:space="preserve">
+    <value>If you're asking why this was in Emolga's home... Maybe we should put Emolga unconscious.</value>
+  </data>
+  <data name="Emolga_11" xml:space="preserve">
+    <value>Zzzz...!</value>
+  </data>
+  <data name="Hoppip_2" xml:space="preserve">
+    <value>I regret that I cannot enter the dungeon. I don't want to run the risk of being rekt by them.</value>
+  </data>
+  <data name="Hoppip_3" xml:space="preserve">
+    <value>I'm counting on you because I know how strong you guys were.</value>
+  </data>
+  <data name="Hoppip_4" xml:space="preserve">
+    <value>Gracious no doubt, At whatever point you step on, Be cautious experiencing a monster house!</value>
+  </data>
+  <data name="Message_0" xml:space="preserve">
+    <value>You looked around and decided to peek in the treasure...</value>
+  </data>
+  <data name="Message_1" xml:space="preserve">
+    <value>In the treasure box, you found.... Emolga's Diary![pause=200]</value>
+  </data>
+  <data name="Message_2" xml:space="preserve">
+    <value>There's nothing in here.</value>
+  </data>
+  <data name="Emolga_12" xml:space="preserve">
+    <value>W.. huh!?</value>
+  </data>
+  <data name="Emolga_13" xml:space="preserve">
+    <value>When exactly did the dungeon enter my house?</value>
+  </data>
+  <data name="Emolga_14" xml:space="preserve">
+    <value>Yessh... Things doesn't make sense nowadays.</value>
+  </data>
+  <data name="Emolga_15" xml:space="preserve">
+    <value>Ugh.. What happened to this world...?</value>
+  </data>
+</root>

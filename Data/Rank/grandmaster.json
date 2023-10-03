@@ -1,0 +1,20 @@
+﻿{
+"Version": "0.7.10.0",
+"Object": {
+"$type": "RogueEssence.Data.RankData, RogueEssence",
+"Name": {
+"DefaultText": "Grandmaster",
+"LocalTexts": {
+"fr-ca": "Grand Maître",
+"de": "Gildenmeister",
+"es": "Maestro",
+"pt": "Grão-Mestre",
+"ko": "그레이트 마스터"
+}
+},
+"Comment": "",
+"BagSize": 80,
+"FameToNext": 0,
+"Next": ""
+}
+}
