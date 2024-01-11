@@ -34,6 +34,9 @@ end
 --Engine callback function
 function amusement_castle_ruins.Enter(map)
 
+  if SV.global_quest.StoryProgression < 29 then
+      GROUND:Hide("Cim")
+  end
   if SV.global_quest.StoryProgression == 21 then
     SV.global_quest.StoryProgression = 22
 	GAME:CutsceneMode(true)
@@ -125,9 +128,6 @@ function amusement_castle_ruins.Enter(map)
 	  GROUND:RemoveCharacter("WaitUp")
 	else
 	  GROUND:TeleportTo(CH('Gapori'), 301, 122, Direction.UpRight)
-	end
-	if SV.global_quest.StoryProgression < 29 then
-      GROUND:Hide("Cim")
 	end
 	GROUND:RemoveCharacter("Misdreavus")
 	GROUND:RemoveCharacter("Zigzagoon")
