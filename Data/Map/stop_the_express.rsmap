@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.16.0",
+"Version": "0.7.22.0",
 "Object": {
 "$type": "RogueEssence.Dungeon.Map, RogueEssence",
 "Name": {
@@ -84,7 +84,7 @@
 "Y": 0
 },
 "BGAnim": {
-"AnimIndex": "",
+"AnimIndex": "Train_Rode",
 "FrameTime": 1,
 "StartFrame": -1,
 "EndFrame": -1,
@@ -93,11 +93,11 @@
 "AnimFlip": 0
 },
 "BGMovement": {
-"X": 0,
+"X": -312,
 "Y": 0
 },
 "Parallax": "0, 0",
-"RepeatX": false,
+"RepeatX": true,
 "RepeatY": false
 },
 "ViewCenter": null,
@@ -113,8 +113,7 @@
 "CurrentOrder": {
 "TurnTier": 0,
 "Faction": 0,
-"TurnIndex": 0,
-"SkipAll": false
+"TurnIndex": 0
 },
 "TurnToChar": []
 },

@@ -89,7 +89,7 @@
     <value>I heard that a berry could help my sister recover from her illness..</value>
   </data>
   <data name="Bayleef_2" xml:space="preserve">
-    <value>Kind gentleman, could you please locate that Lum Berry for my ill sister?</value>
+    <value>If it's not too much trouble... would you please locate that Lum Berry for my ill sister?</value>
   </data>
   <data name="Natu_0" xml:space="preserve">
     <value>If you're heading out to dungeon, Make sure to check the Storage and Assembly often.</value>
@@ -200,7 +200,7 @@
     <value>I suppose you should be more careful out there next time.</value>
   </data>
   <data name="Togetic_0" xml:space="preserve">
-    <value>How are you? Would you like to establish a secure point here??</value>
+    <value>How are you? Would you like to establish a save point here??</value>
   </data>
   <data name="Togetic_1" xml:space="preserve">
     <value>Please be patient while I secure this area for you.[pause=300]</value>

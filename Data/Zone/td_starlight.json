@@ -465,8 +465,8 @@
 "Spawn": {
 "$type": "RogueEssence.LevelGen.MoneyDivSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
 "DivAmount": {
-"Min": 3,
-"Max": 8
+"Min": 2,
+"Max": 5
 }
 }
 }
@@ -491,8 +491,8 @@
 "Spawn": {
 "$type": "RogueElements.ContextSpawner`2[[RogueEssence.LevelGen.MapGenContext, RogueEssence],[RogueEssence.Dungeon.InvItem, RogueEssence]], RogueElements",
 "Amount": {
-"Min": 2,
-"Max": 7
+"Min": 4,
+"Max": 8
 }
 }
 }
@@ -517,7 +517,7 @@
 "$type": "RogueEssence.LevelGen.TeamContextSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
 "Amount": {
 "Min": 6,
-"Max": 13
+"Max": 12
 }
 },
 "Ally": false,
@@ -675,12 +675,12 @@
 ]
 },
 "StartAmount": {
-"Min": 10,
-"Max": 19
+"Min": 16,
+"Max": 28
 },
 "AddAmount": {
-"Min": 4,
-"Max": 9
+"Min": 7,
+"Max": 15
 },
 "ModStates": [
 {
@@ -702,7 +702,7 @@
 {
 "Item": {
 "spawns": {
-"supplies": {
+"apricorns": {
 "Spawn": [
 {
 "Spawn": {
@@ -712,7 +712,7 @@
 "Amount": 0,
 "Price": 0
 },
-"Rate": 9
+"Rate": 2
 },
 {
 "Spawn": {
@@ -722,7 +722,7 @@
 "Amount": 0,
 "Price": 0
 },
-"Rate": 9
+"Rate": 2
 },
 {
 "Spawn": {
@@ -732,8 +732,33 @@
 "Amount": 0,
 "Price": 0
 },
-"Rate": 18
+"Rate": 3
 },
+{
+"Spawn": {
+"ID": "apricorn_purple",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1
+},
+{
+"Spawn": {
+"ID": "apricorn_green",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1
+}
+],
+"Rate": 2
+},
+"supplies": {
+"Spawn": [
 {
 "Spawn": {
 "ID": "orb_fill_in",
@@ -845,10 +870,10 @@
 "Rate": 42
 }
 ],
-"Rate": 1
+"Rate": 10
 }
 },
-"spawnTotal": 1
+"spawnTotal": 12
 },
 "Range": {
 "Min": 0,
@@ -1360,7 +1385,7 @@
 "Rate": 12,
 "Range": {
 "Min": 0,
-"Max": 4
+"Max": 6
 }
 },
 {
@@ -1375,7 +1400,7 @@
 "Spawn": 2,
 "Rate": 9,
 "Range": {
-"Min": 2,
+"Min": 1,
 "Max": 9
 }
 }

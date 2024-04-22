@@ -214,4 +214,16 @@
   <data name="Cim_7" xml:space="preserve">
     <value>Just give it some time, and I'll have the castle fixed on my own in no time!</value>
   </data>
+  <data name="Gapori_20" xml:space="preserve">
+    <value>A trapdoor!?</value>
+  </data>
+  <data name="Braixen_0" xml:space="preserve">
+    <value>Cura... Firaga... Thunda- Wait...!</value>
+  </data>
+  <data name="Braixen_1" xml:space="preserve">
+    <value>What kind of baloney spell name is that?</value>
+  </data>
+  <data name="Braixen_2" xml:space="preserve">
+    <value>Couldn't they come up with something better?</value>
+  </data>
 </root>

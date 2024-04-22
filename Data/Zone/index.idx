@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.22.0",
+"Version": "0.7.25.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
 "nad_crystal_cave": {
@@ -12,6 +12,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
 "CountedFloors": 5,
@@ -53,6 +54,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
 "CountedFloors": 15,
@@ -95,11 +97,15 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
-"CountedFloors": 9,
+"CountedFloors": 12,
 "Rogue": 0,
-"Grounds": [],
+"Grounds": [
+"apramunem_entrance",
+"event_apramunem_arena"
+],
 "Maps": [
 [
 0,
@@ -110,7 +116,10 @@
 5,
 6,
 7,
-8
+8,
+9,
+10,
+11
 ]
 ],
 "Name": {
@@ -131,6 +140,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 1,
 "CountedFloors": 10,
@@ -165,7 +175,7 @@
 },
 "td_newforest": {
 "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 100,
+"ExpPercent": 125,
 "Level": 3,
 "LevelCap": false,
 "KeepSkills": false,
@@ -173,6 +183,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 1,
 "CountedFloors": 11,
@@ -211,6 +222,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 2,
 "CountedFloors": 7,
@@ -250,6 +262,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
 "CountedFloors": 9,
@@ -286,6 +299,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 1,
 "CountedFloors": 6,
@@ -319,6 +333,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
 "CountedFloors": 0,
@@ -374,6 +389,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
 "CountedFloors": 3,
@@ -404,6 +420,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 2,
 "CountedFloors": 8,
@@ -462,6 +479,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
 "CountedFloors": 10,
@@ -499,6 +517,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
 "CountedFloors": 9,
@@ -535,6 +554,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
 "CountedFloors": 11,
@@ -578,6 +598,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
 "CountedFloors": 9,
@@ -614,6 +635,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
 "CountedFloors": 11,
@@ -657,6 +679,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
 "CountedFloors": 1,
@@ -685,6 +708,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
 "CountedFloors": 1,
@@ -713,6 +737,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
 "CountedFloors": 6,
@@ -746,6 +771,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
 "CountedFloors": 1,
@@ -768,7 +794,7 @@
 },
 "td_pinkandblue": {
 "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 100,
+"ExpPercent": 150,
 "Level": 3,
 "LevelCap": false,
 "KeepSkills": false,
@@ -776,6 +802,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
 "CountedFloors": 6,
@@ -796,6 +823,116 @@
 "LocalTexts": {}
 },
 "Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"td_strangeparadise": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": -1,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 10,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9
+]
+],
+"Name": {
+"DefaultText": "Strange Paradise",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"td_moomoofrenzy": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 12,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 0,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6
+],
+[]
+],
+"Name": {
+"DefaultText": "Moo Moo Frenzy",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"td_flaming_house": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 12,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 0,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7
+]
+],
+"Name": {
+"DefaultText": "Flaming House",
+"LocalTexts": {}
+},
+"Released": false,
 "Comment": "",
 "SortOrder": 0
 }

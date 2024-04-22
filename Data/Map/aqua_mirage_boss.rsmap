@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.14.0",
+"Version": "0.7.25.0",
 "Object": {
 "$type": "RogueEssence.Dungeon.Map, RogueEssence",
 "Name": {
@@ -17,6 +17,9 @@
 {
 "Element1": "water",
 "Element2": "none",
+"TurnWait": 0,
+"TiersUsed": 0,
+"TurnUsed": false,
 "movementSpeed": 0,
 "dead": false,
 "serializationLoc": {
@@ -97,16 +100,13 @@
 },
 "Absentee": false,
 "ChargeBoost": 0,
-"HP": 470,
+"HP": 261,
 "HPRemainder": 0,
 "Fullness": 100,
 "FullnessRemainder": 0,
 "MaxFullness": 100,
 "StatusEffects": {},
 "MustHitNext": false,
-"TurnWait": 0,
-"TiersUsed": 0,
-"TurnUsed": false,
 "EXPMarked": false,
 "Tactic": {
 "Name": {
@@ -117,6 +117,7 @@
 "de": "Zusammen bleiben",
 "es": "Vayamos juntos",
 "pt": "Fiquem Juntos",
+"it": "Restiamo uniti",
 "ko": "함께 가자",
 "zh-hans": "一起走吧"
 }
@@ -130,13 +131,8 @@
 "$type": "PMDC.Dungeon.PrepareWithLeaderPlan, PMDC",
 "AttackPattern": 4,
 "IQ": 413,
-"AttackRange": 0,
-"StatusRange": 0,
-"SelfStatusRange": 0
-},
-{
-"$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
-"IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -146,6 +142,18 @@
 "AttackPattern": 4,
 "PositionPattern": 2,
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
+},
+{
+"$type": "PMDC.Dungeon.FindItemPlan, PMDC",
+"IncludeMoney": true,
+"IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -153,6 +161,8 @@
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -160,6 +170,8 @@
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -211,19 +223,23 @@
 "BaseSkills": [
 {
 "SkillNum": "trick",
-"Charges": 18
+"Charges": 18,
+"CanForget": true
 },
 {
 "SkillNum": "trick_room",
-"Charges": 16
+"Charges": 16,
+"CanForget": true
 },
 {
 "SkillNum": "trick_or_treat",
-"Charges": 16
+"Charges": 16,
+"CanForget": true
 },
 {
 "SkillNum": "aqua_jet",
-"Charges": 18
+"Charges": 18,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [
@@ -253,7 +269,7 @@
 "IsPartner": false,
 "NameLocked": false,
 "IsFavorite": false,
-"Unrecruitable": false,
+"Unrecruitable": true,
 "ActionEvents": [],
 "ScriptVars": null
 }
@@ -367,8 +383,7 @@
 "CurrentOrder": {
 "TurnTier": 0,
 "Faction": 0,
-"TurnIndex": 0,
-"SkipAll": false
+"TurnIndex": 0
 },
 "TurnToChar": []
 },
@@ -1980,6 +1995,14 @@
 }
 ]
 ]
+}
+],
+"Decorations": [
+{
+"Name": "New Deco",
+"Layer": 0,
+"Visible": true,
+"Anims": []
 }
 ],
 "Tiles": [

@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.18.2",
+"Version": "0.7.22.0",
 "Object": {
 "$type": "RogueEssence.Data.MonsterData, RogueEssence",
 "Name": {
@@ -52,6 +52,270 @@
 "SecretSkills": [],
 "FormName": {
 "DefaultText": "Yellow Notebeat",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "normal",
+"Element2": "psychic",
+"Intrinsic1": "victory_star",
+"Intrinsic2": "soundproof",
+"Intrinsic3": "serene_grace",
+"LevelSkills": [
+{
+"Level": 1,
+"Skill": "splash"
+},
+{
+"Level": 1,
+"Skill": "disarming_voice"
+},
+{
+"Level": 1,
+"Skill": "echoed_voice"
+},
+{
+"Level": 4,
+"Skill": "swift"
+},
+{
+"Level": 5,
+"Skill": "sing"
+},
+{
+"Level": 8,
+"Skill": "encore"
+},
+{
+"Level": 12,
+"Skill": "round"
+},
+{
+"Level": 14,
+"Skill": "chatter"
+},
+{
+"Level": 17,
+"Skill": "minimize"
+},
+{
+"Level": 20,
+"Skill": "grass_whistle"
+},
+{
+"Level": 24,
+"Skill": "hyper_voice"
+},
+{
+"Level": 27,
+"Skill": "life_dew"
+},
+{
+"Level": 30,
+"Skill": "wish"
+},
+{
+"Level": 33,
+"Skill": "bug_buzz"
+},
+{
+"Level": 36,
+"Skill": "uproar"
+},
+{
+"Level": 40,
+"Skill": "moonlight"
+},
+{
+"Level": 42,
+"Skill": "heal_bell"
+},
+{
+"Level": 45,
+"Skill": "meteor_mash"
+},
+{
+"Level": 48,
+"Skill": "perish_song"
+},
+{
+"Level": 52,
+"Skill": "cosmic_power"
+},
+{
+"Level": 55,
+"Skill": "moonblast"
+},
+{
+"Level": 60,
+"Skill": "boomburst"
+}
+]
+},
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 4,
+"GenderlessWeight": 2,
+"MaleWeight": 6,
+"FemaleWeight": 6,
+"BaseHP": 60,
+"BaseAtk": 46,
+"BaseDef": 46,
+"BaseMAtk": 77,
+"BaseMDef": 77,
+"BaseSpeed": 54,
+"ExpYield": 92,
+"Height": 0.4,
+"Weight": 4.2,
+"Personalities": [
+0,
+1,
+2,
+8,
+9,
+11,
+13,
+24,
+31
+],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Salmon Notebeat",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "normal",
+"Element2": "psychic",
+"Intrinsic1": "victory_star",
+"Intrinsic2": "soundproof",
+"Intrinsic3": "serene_grace",
+"LevelSkills": [
+{
+"Level": 1,
+"Skill": "splash"
+},
+{
+"Level": 1,
+"Skill": "disarming_voice"
+},
+{
+"Level": 1,
+"Skill": "echoed_voice"
+},
+{
+"Level": 4,
+"Skill": "swift"
+},
+{
+"Level": 5,
+"Skill": "sing"
+},
+{
+"Level": 8,
+"Skill": "encore"
+},
+{
+"Level": 12,
+"Skill": "round"
+},
+{
+"Level": 14,
+"Skill": "chatter"
+},
+{
+"Level": 17,
+"Skill": "minimize"
+},
+{
+"Level": 20,
+"Skill": "grass_whistle"
+},
+{
+"Level": 24,
+"Skill": "hyper_voice"
+},
+{
+"Level": 27,
+"Skill": "life_dew"
+},
+{
+"Level": 30,
+"Skill": "wish"
+},
+{
+"Level": 33,
+"Skill": "bug_buzz"
+},
+{
+"Level": 36,
+"Skill": "uproar"
+},
+{
+"Level": 40,
+"Skill": "moonlight"
+},
+{
+"Level": 42,
+"Skill": "heal_bell"
+},
+{
+"Level": 45,
+"Skill": "meteor_mash"
+},
+{
+"Level": 48,
+"Skill": "perish_song"
+},
+{
+"Level": 52,
+"Skill": "cosmic_power"
+},
+{
+"Level": 55,
+"Skill": "moonblast"
+},
+{
+"Level": 60,
+"Skill": "boomburst"
+}
+]
+},
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 4,
+"GenderlessWeight": 2,
+"MaleWeight": 6,
+"FemaleWeight": 6,
+"BaseHP": 60,
+"BaseAtk": 46,
+"BaseDef": 46,
+"BaseMAtk": 77,
+"BaseMDef": 77,
+"BaseSpeed": 54,
+"ExpYield": 92,
+"Height": 0.4,
+"Weight": 4.2,
+"Personalities": [
+0,
+1,
+2,
+8,
+9,
+11,
+13,
+24,
+31
+],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Pizazz Notebeat",
 "LocalTexts": {}
 },
 "Temporary": false,

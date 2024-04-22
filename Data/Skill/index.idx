@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.22.0",
+"Version": "0.7.25.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
 "td_comet": {
@@ -37,6 +37,18 @@
 "LocalTexts": {}
 },
 "Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"td_upt_co": {
+"Name": {
+"DefaultText": "Upt Co",
+"LocalTexts": {
+"ja": "ひずみ つめ",
+"ja-jp": "ひずみ つめ"
+}
+},
+"Released": true,
 "Comment": "",
 "SortOrder": 0
 }

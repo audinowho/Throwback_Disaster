@@ -1,0 +1,85 @@
+﻿{
+"Version": "0.7.25.0",
+"Object": {
+"$type": "RogueEssence.Data.ZoneData, RogueEssence",
+"Name": {
+"DefaultText": "Moo Moo Frenzy",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"NoEXP": false,
+"ExpPercent": 100,
+"Level": 12,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Persistent": false,
+"Rescues": 0,
+"Rogue": 0,
+"Segments": [
+{
+"$type": "RogueEssence.LevelGen.SingularSegment, RogueEssence",
+"BaseFloor": {
+"$type": "RogueEssence.LevelGen.GridFloorGen, RogueEssence",
+"GenSteps": [
+{
+"Key": {
+"str": [
+-6
+]
+},
+"Value": {
+"$type": "PMDC.LevelGen.MapDataStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Music": "Nad97. BakuBakuAnimal.ogg",
+"TimeLimit": 1500,
+"TileSight": 1,
+"CharSight": 1,
+"ClampCamera": false
+}
+}
+],
+"Comment": ""
+},
+"FloorSpan": 7,
+"ZoneSteps": [],
+"IsRelevant": false,
+"Comment": ""
+},
+{
+"$type": "RogueEssence.LevelGen.SingularSegment, RogueEssence",
+"BaseFloor": {
+"$type": "RogueEssence.LevelGen.GridFloorGen, RogueEssence",
+"GenSteps": [
+{
+"Key": {
+"str": [
+-6
+]
+},
+"Value": {
+"$type": "PMDC.LevelGen.MapDataStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Music": "Nad97. BakuBakuAnimal.ogg",
+"TimeLimit": 1500,
+"TileSight": 1,
+"CharSight": 1,
+"ClampCamera": false
+}
+}
+],
+"Comment": ""
+},
+"FloorSpan": 0,
+"ZoneSteps": [],
+"IsRelevant": false,
+"Comment": ""
+}
+],
+"GroundMaps": []
+}
+}

@@ -118,7 +118,7 @@ end
 
 function lot_emolga.House_Touch(chara, activator)
   if SV.sidequest.quest03 > 2 then
-    local dungeon_entrances = {'td_tinytillies'}
+    local dungeon_entrances = {'td_tinytillies','td_flaming_house','td_moomoofrenzy'}
     local ground_entrances = {}
     COMMON.ShowDestinationMenu(dungeon_entrances,ground_entrances)
   else

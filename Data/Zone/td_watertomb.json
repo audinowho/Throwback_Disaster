@@ -761,6 +761,16 @@
 }
 },
 {
+"$type": "RogueEssence.LevelGen.FloorNameIDZoneStep, RogueEssence",
+"Name": {
+"DefaultText": "Water Tomb (Dungeon)",
+"LocalTexts": {}
+},
+"Priority": {
+"str": null
+}
+},
+{
 "$type": "PMDC.LevelGen.FloorNameDropZoneStep, PMDC",
 "DropPriority": {
 "str": [
@@ -4255,6 +4265,16 @@
 2,
 1
 ]
+}
+},
+{
+"$type": "RogueEssence.LevelGen.FloorNameIDZoneStep, RogueEssence",
+"Name": {
+"DefaultText": "Water Tomb (Story)",
+"LocalTexts": {}
+},
+"Priority": {
+"str": null
 }
 },
 {

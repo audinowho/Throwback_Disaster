@@ -1,0 +1,58 @@
+﻿{
+"Version": "0.7.25.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Trollite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"Title": {
+"DefaultText": "",
+"LocalTexts": {}
+},
+"IndexNum": 1030,
+"EXPTable": "slow",
+"SkillGroup1": "field",
+"SkillGroup2": "undiscovered",
+"JoinRate": 45,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 0,
+"GenderlessWeight": 1,
+"MaleWeight": 7,
+"FemaleWeight": 3,
+"BaseHP": 70,
+"BaseAtk": 100,
+"BaseDef": 55,
+"BaseMAtk": 85,
+"BaseMDef": 50,
+"BaseSpeed": 40,
+"ExpYield": 210,
+"Height": 0.4,
+"Weight": 3.6,
+"Personalities": [],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Trollite",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "dark",
+"Element2": "none",
+"Intrinsic1": "rattled",
+"Intrinsic2": "justified",
+"Intrinsic3": "dark_aura",
+"LevelSkills": []
+}
+]
+}
+}

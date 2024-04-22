@@ -1,6 +1,10 @@
 require 'common'
 COMMONEX = {}
 
+function COMMONEX.MaxPartySet(val)
+  RogueEssence.Dungeon.ExplorerTeam.MAX_TEAM_SLOTS = val
+end
+
 function COMMONEX.PlayerCutscene()
   local character = RogueEssence.Dungeon.CharData()
   character.BaseForm = RogueEssence.Dungeon.MonsterID(SV.General.Starter.Species, SV.General.Starter.Form, SV.General.Starter.Skin, LUA_ENGINE:LuaCast(SV.General.Starter.Gender, Gender))

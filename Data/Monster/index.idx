@@ -1,7 +1,47 @@
 ﻿{
-"Version": "0.7.22.0",
+"Version": "0.7.25.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"missingno": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Missingno.",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Substitute",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Peron",
+"LocalTexts": {
+"jp": "ペロン",
+"zh-hans": "贝隆",
+"zh-hant": "貝隆"
+}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Missingno.",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
 "vulpix": {
 "$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
 "Forms": [
@@ -114,7 +154,11 @@
 ],
 "Name": {
 "DefaultText": "Hankuma",
-"LocalTexts": {}
+"LocalTexts": {
+"jp": "ハンクマ",
+"zh-hant": "錘熊",
+"zh-hans": "锤熊"
+}
 },
 "Released": false,
 "Comment": "",
@@ -247,6 +291,22 @@
 },
 "Released": false,
 "Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Salmon Notebeat",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Pizazz Notebeat",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
 }
 ],
 "Name": {
@@ -312,9 +372,11 @@
 ],
 "Name": {
 "DefaultText": "Shuilanlan",
-"LocalTexts": {}
+"LocalTexts": {
+"zh-hans": "水蓝蓝"
+}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "SortOrder": 1021
 },
@@ -339,6 +401,226 @@
 "Released": false,
 "Comment": "",
 "SortOrder": 1019
+},
+"td_bebetar": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Bebetar",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Bebetar",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1025
+},
+"td_sandato": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Sandato",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Sandato",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1026
+},
+"td_mondama": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Mondama",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Mondama",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1027
+},
+"td_purery": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Purery",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Purery",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1028
+},
+"td_slabby": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Slabby",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Slabby",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1029
+},
+"td_trollite": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Trollite",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Trollite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1030
+},
+"td_rabite": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Rabite",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Rabite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1031
+},
+"td_mushboom": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Mushboom",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Mushboom",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1032
+},
+"td_firrel": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Firrel",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Firrel",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1033
+},
+"td_lifmunk": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Lifmunk",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Lifmunk",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1034
+},
+"td_lamball": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Lamball",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Lamball",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1035
 }
 }
 }

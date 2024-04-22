@@ -1,21 +1,29 @@
 ﻿{
-"Version": "0.7.16.0",
+"Version": "0.7.22.0",
 "Object": {
 "$type": "RogueEssence.Data.MonsterData, RogueEssence",
 "Name": {
 "DefaultText": "Hankuma",
-"LocalTexts": {}
+"LocalTexts": {
+"jp": "ハンクマ",
+"zh-hant": "錘熊",
+"zh-hans": "锤熊"
+}
 },
 "Released": false,
 "Comment": "",
 "Title": {
-"DefaultText": "Hammer Kid",
-"LocalTexts": {}
+"DefaultText": "Hammer Bear Enemy",
+"LocalTexts": {
+"jp": "ハンマーベア敵",
+"zh-hans": "锤熊敌人",
+"zh-hant": "錘熊敵人"
+}
 },
 "IndexNum": 1024,
-"EXPTable": "erratic",
-"SkillGroup1": "amorphous",
-"SkillGroup2": "amorphous",
+"EXPTable": "fluctuating",
+"SkillGroup1": "field",
+"SkillGroup2": "monster",
 "JoinRate": 74,
 "PromoteFrom": "",
 "Promotions": [],
@@ -141,6 +149,7 @@
 "LocalTexts": {}
 },
 "Temporary": false,
+"PromoteForm": 0,
 "Element1": "normal",
 "Element2": "none",
 "Intrinsic1": "mold_breaker",

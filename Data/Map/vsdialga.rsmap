@@ -280,7 +280,7 @@
 "Species": "rotom",
 "Form": 0,
 "Skin": "normal",
-"Gender": 0
+"Gender": 1
 },
 "ProxyAtk": -1,
 "ProxyDef": -1,
@@ -290,8 +290,8 @@
 "Skills": [
 {
 "Element": {
-"SkillNum": "",
-"Charges": 0,
+"SkillNum": "hex",
+"Charges": 15,
 "Enabled": true,
 "Sealed": false
 },
@@ -299,8 +299,8 @@
 },
 {
 "Element": {
-"SkillNum": "",
-"Charges": 0,
+"SkillNum": "electro_ball",
+"Charges": 15,
 "Enabled": true,
 "Sealed": false
 },
@@ -308,8 +308,8 @@
 },
 {
 "Element": {
-"SkillNum": "",
-"Charges": 0,
+"SkillNum": "charge",
+"Charges": 20,
 "Enabled": true,
 "Sealed": false
 },
@@ -317,8 +317,8 @@
 },
 {
 "Element": {
-"SkillNum": "",
-"Charges": 0,
+"SkillNum": "electric_terrain",
+"Charges": 10,
 "Enabled": true,
 "Sealed": false
 },
@@ -442,7 +442,7 @@
 "Species": "rotom",
 "Form": 0,
 "Skin": "normal",
-"Gender": 0
+"Gender": 1
 },
 "Level": 36,
 "EXP": 0,
@@ -454,20 +454,20 @@
 "SpeedBonus": 0,
 "BaseSkills": [
 {
-"SkillNum": "",
-"Charges": 0
+"SkillNum": "hex",
+"Charges": 15
 },
 {
-"SkillNum": "",
-"Charges": 0
+"SkillNum": "electro_ball",
+"Charges": 15
 },
 {
-"SkillNum": "",
-"Charges": 0
+"SkillNum": "charge",
+"Charges": 20
 },
 {
-"SkillNum": "",
-"Charges": 0
+"SkillNum": "electric_terrain",
+"Charges": 10
 }
 ],
 "BaseIntrinsics": [
@@ -535,7 +535,7 @@
 "Species": "claydol",
 "Form": 0,
 "Skin": "normal",
-"Gender": 0
+"Gender": 2
 },
 "ProxyAtk": -1,
 "ProxyDef": -1,
@@ -545,8 +545,8 @@
 "Skills": [
 {
 "Element": {
-"SkillNum": "",
-"Charges": 0,
+"SkillNum": "light_screen",
+"Charges": 15,
 "Enabled": true,
 "Sealed": false
 },
@@ -554,8 +554,8 @@
 },
 {
 "Element": {
-"SkillNum": "",
-"Charges": 0,
+"SkillNum": "psybeam",
+"Charges": 12,
 "Enabled": true,
 "Sealed": false
 },
@@ -563,8 +563,8 @@
 },
 {
 "Element": {
-"SkillNum": "",
-"Charges": 0,
+"SkillNum": "refresh",
+"Charges": 18,
 "Enabled": true,
 "Sealed": false
 },
@@ -572,8 +572,8 @@
 },
 {
 "Element": {
-"SkillNum": "",
-"Charges": 0,
+"SkillNum": "solar_beam",
+"Charges": 8,
 "Enabled": true,
 "Sealed": false
 },
@@ -697,7 +697,7 @@
 "Species": "claydol",
 "Form": 0,
 "Skin": "normal",
-"Gender": 0
+"Gender": 2
 },
 "Level": 36,
 "EXP": 0,
@@ -709,20 +709,20 @@
 "SpeedBonus": 0,
 "BaseSkills": [
 {
-"SkillNum": "",
-"Charges": 0
+"SkillNum": "light_screen",
+"Charges": 15
 },
 {
-"SkillNum": "",
-"Charges": 0
+"SkillNum": "psybeam",
+"Charges": 12
 },
 {
-"SkillNum": "",
-"Charges": 0
+"SkillNum": "refresh",
+"Charges": 18
 },
 {
-"SkillNum": "",
-"Charges": 0
+"SkillNum": "solar_beam",
+"Charges": 8
 }
 ],
 "BaseIntrinsics": [
@@ -800,8 +800,8 @@
 "Skills": [
 {
 "Element": {
-"SkillNum": "",
-"Charges": 0,
+"SkillNum": "swords_dance",
+"Charges": 12,
 "Enabled": true,
 "Sealed": false
 },
@@ -809,8 +809,8 @@
 },
 {
 "Element": {
-"SkillNum": "",
-"Charges": 0,
+"SkillNum": "zen_headbutt",
+"Charges": 14,
 "Enabled": true,
 "Sealed": false
 },
@@ -818,8 +818,8 @@
 },
 {
 "Element": {
-"SkillNum": "",
-"Charges": 0,
+"SkillNum": "leaf_blade",
+"Charges": 16,
 "Enabled": true,
 "Sealed": false
 },
@@ -827,8 +827,8 @@
 },
 {
 "Element": {
-"SkillNum": "",
-"Charges": 0,
+"SkillNum": "hyper_beam",
+"Charges": 5,
 "Enabled": true,
 "Sealed": false
 },
@@ -964,20 +964,20 @@
 "SpeedBonus": 0,
 "BaseSkills": [
 {
-"SkillNum": "",
-"Charges": 0
+"SkillNum": "swords_dance",
+"Charges": 12
 },
 {
-"SkillNum": "",
-"Charges": 0
+"SkillNum": "zen_headbutt",
+"Charges": 14
 },
 {
-"SkillNum": "",
-"Charges": 0
+"SkillNum": "leaf_blade",
+"Charges": 16
 },
 {
-"SkillNum": "",
-"Charges": 0
+"SkillNum": "hyper_beam",
+"Charges": 5
 }
 ],
 "BaseIntrinsics": [

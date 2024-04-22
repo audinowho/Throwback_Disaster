@@ -39,14 +39,22 @@ SV.General =
 
 SV.checkpoint = 
 {
-  Zone    = 'nad_crystal_cave', Segment  = -1,
-  Map  = 0, Entry  = 0
+  Zone    = 'guildmaster_island', Segment  = -1,
+  Map  = 1, Entry  = 0
 }
 
+SV.MissionsEnabled = false
+
+SV.MissionPrereq =
+{
+  DungeonsCompleted = {}, --Uses a bitmap to determine which sections are complete (
+  NumDungeonsCompleted = 0
+}
 
 SV.adventure = 
 {
-  Thief    = false
+  Thief    = false,
+  Tutors = { }
 }
 
 SV.base_shop = {
@@ -63,6 +71,505 @@ SV.base_trades = {
 }
 
 SV.unlocked_trades = {
+}
+
+SV.DestinationFloorNotified = false
+SV.MonsterHouseMessageNotified = false
+SV.OutlawDefeated = false
+SV.OutlawGoonsDefeated = false
+SV.MapTurnCounter = -1
+
+SV.TemporaryFlags =
+{
+  MissionCompleted = false,--used to mark if there are any pending missions to hand in.
+  PriorMapSetting = nil,--Used to mark what the player had their minimap setting whenever the game needs to temporarily change it to something else.
+}
+
+--empty string or a -1 indicates that there's nothing there currently.
+--board of jobs you've actually taken.
+SV.TakenBoard =
+{
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = "",
+    BackReference = -1
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = "",
+    BackReference = -1
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = "",
+    BackReference = -1
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = "",
+    BackReference = -1
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = "",
+    BackReference = -1
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = "",
+    BackReference = -1
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = "",
+    BackReference = -1
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = "",
+    BackReference = -1
+  }
+
+}
+
+--Needed to save data about dungeons
+SV.ExpectedLevel = {}
+SV.DungeonOrder = {}
+SV.StairType = {}
+
+--jobs on the mission board.
+SV.MissionBoard =
+{
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = ""
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = ""
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = ""
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = ""
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = ""
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = ""
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = ""
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = ""
+  }
+
+}
+
+--Jobs on the outlaw board.
+SV.OutlawBoard =
+{
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = ""
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = 1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = ""
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = ""
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = ""
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = ""
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = ""
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = ""
+  },
+  {
+    Client = "",
+    Target = "",
+    Flavor = "",
+    Title = "",
+    Zone = "",
+    Segment = -1,
+    Floor = -1,
+    Reward = "",
+    Type = -1,
+    Completion = -1,
+    Taken = false,
+    Difficulty = "",
+    Item = "",
+    Special = "",
+    ClientGender = -1,
+    TargetGender = -1,
+    BonusReward = ""
+  }
 }
 
 SV.missions =
@@ -274,6 +781,7 @@ SV.manaphy_egg =
 SV.sleeping_caldera = 
 {
   TookTreasure  = false,
+  TookMusicBox  = false,
   GotHeatran = false
 }
 
@@ -297,7 +805,13 @@ SV.base_town =
   ValueTraded = false,
   FreeRelearn = false,
   TutorOpen = false,
-  TutorMoves = {}
+  TutorMoves = {},
+  
+  --0 = Setting up
+  --1 = Wrong shipment, need help retrieving
+  --2 = Thanked for retrieving ingredient, bar's open!
+  --3 = Bar's got special orders!
+  JuiceShop = 0
 }
 
 SV.luminous_spring = 
@@ -318,17 +832,247 @@ SV.cliff_camp =
   TeamUndergrowthIntro = false
 }
 
-SV.team_retreat =
+SV.team_hunter =
 {
-  Intro = false
+  --0 = Base Town, lost everything
+  --1 = Cliff Camp, asking about retrieving something from flyaway cliffs
+  --2 = Cliff Camp, thanks for retrieving keepsake
+  --3 = Cycling
+  Status = 0,
+  SpokenTo = false,
+  DaysSinceCheckpoint = 0,
+  
+  -- TODO
+  --3 = canyon camp
+  --4 = cave camp
+  --5 = snow camp
+  --6 = summit
+  Cycle = 0
 }
 
+SV.town_elder =
+{
+  --0 = Base Town, talking about noctowl
+  --1 = Forest Camp, curious about a keepsake.  Mission given
+  --2 = Forest Camp, thanks for retrieving keepsake
+  --3 = Cycling?  Probably not.
+  Status = 0,
+  SpokenTo = false,
+  DaysSinceCheckpoint = 0,
+  
+  -- TODO
+  --3 = canyon camp
+  --4 = cave camp
+  --5 = snow camp
+  --6 = summit
+  Cycle = 0
+}
+
+SV.forest_child =
+{
+  --0 = Forest Camp, talking about playing
+  --1 = Forest Camp, sick.  Mission given
+  --2 = Forest Camp, recovering
+  --3 = Post-recovery, also plays catch with the kids sometimes
+  Status = 0,
+  SpokenTo = false,
+  DaysSinceCheckpoint = 0
+}
+
+SV.team_catch =
+{
+  --0 = Base Town, playing catch
+  --1 = Base Camp, playing catch
+  --2 = Forest Camp, playing catch
+  --3 = Cliff Camp, playing catch and threw the ball away, now they need help
+  --3 = Cliff Camp, got mission, thanks for retrieval (left)
+  --4 = Cycling
+  Status = 0,
+  SpokenTo = false,
+  DaysSinceCheckpoint = 0,
+  
+  -- TODO
+  --3 = canyon camp
+  --4 = cave camp
+  --5 = snow camp
+  --6 = summit
+  Cycle = 0
+}
+
+SV.team_rivals =
+{
+  --0 = Cliff Camp, in a rivalry
+  --1 = Ravine Camp, in a rivalry
+  --2 = Ravine Camp, zangoose asks to rescue seviper
+  --3 = Ravine Camp, post rescue
+  --4 = Cave Camp, in a rivalry
+  --5 = Cave Camp, seviper asks to rescue zangoose
+  --6 = Cave Camp, post rescue
+  --7 = Blizzard Camp, in a rivalry
+  --8 = Summit, in a rivalry
+  --9 = Cycling
+  Status = 0,
+  SpokenTo = false,
+  DaysSinceCheckpoint = 0,
+  
+  -- TODO
+  --3 = canyon camp
+  --4 = cave camp
+  --5 = snow camp
+  --6 = summit
+  Cycle = 0
+}
+
+SV.team_kidnapped =
+{
+  --0 = Base Camp, failed the trail
+  --1 = Forest Camp, looking for partner
+  --2 = Cliff Camp, meets drifloon
+  --2 = Cliff Camp, Spoken To, gone
+  --3 = Cliff Camp, sightseer is worried, asks you to get him back
+  --4 = Cliff Camp, thanks for rescue at oblivion valley
+  --5 = Cliff Camp, ended
+  Status = 0,
+  SpokenTo = false,
+  DaysSinceCheckpoint = 0,
+  
+  -- TODO
+  --3 = canyon camp
+  --4 = cave camp
+  --5 = snow camp
+  --6 = summit
+  Cycle = 0
+}
+
+SV.team_retreat =
+{
+  --0 = Forest Camp, gives an escape orb
+  --1 = Cliff Camp, advises on grass/distances
+  --2 = Cliff Camp, partner got trapped
+  --3 = Cliff Camp, thanks for rescue at fortress
+  --4 = Cliff Camp, ended
+  Status = 0,
+  SpokenTo = false,
+  DaysSinceCheckpoint = 0,
+  
+  -- TODO
+  --3 = canyon camp
+  --4 = cave camp
+  --5 = snow camp
+  --6 = summit
+  Cycle = 0
+}
+
+
+SV.team_meditate =
+{
+  --0 = Cliff Camp, asks about motivation
+  --1 = Ravine Camp, preparing to go to caldera
+  --2 = Ravine Camp, partner is doing fine
+  --3 = Ravine Camp, partner is worried, asks you to get him back
+  --4 = Ravine Camp, thanks for rescue at caldera
+  --5 = Ravine Camp, ended
+  Status = 0,
+  SpokenTo = false,
+  DaysSinceCheckpoint = 0,
+  
+  -- TODO
+  --3 = canyon camp
+  --4 = cave camp
+  --5 = snow camp
+  --6 = summit
+  Cycle = 0
+}
 
 SV.team_steel =
 {
   Argued = false,
   DaysSinceArgue = 0,
   Rescued = false
+}
+
+SV.team_solo =
+{
+  --0 = Base Town, claims he can solo
+  --1 = Forest Camp, claims he can solo
+  --2 = Cliff Camp, claims he can solo
+  --3 = Ravine Camp, claims he can solo
+  --4 = Ravine Camp, floatzel is worried and you need to rescue prinplup
+  --5 = Ravine Camp, thanks for rescue at forsaken desert
+  --6 = Ravine Camp, ended
+  Status = 0,
+  SpokenTo = false,
+  DaysSinceCheckpoint = 0,
+  
+  -- TODO
+  --3 = canyon camp
+  --4 = cave camp
+  --5 = snow camp
+  --6 = summit
+  Cycle = 0
+}
+
+SV.team_psychic =
+{
+  --0 = Ravine Camp, strategizing about sleeping caldera
+  --1 = Ravine Camp, strategizing about copper quary
+  --2 = Cave Camp, splitting due to different wants
+  --3 = Ravine Camp, strategizing about relic tower
+  --4 = Ravine Camp, needs your help with kirlia at relic tower
+  --5 = Ravine Camp, thanks for rescue at relic tower
+  --6 = Ravine Camp, ended
+  Status = 0,
+  SpokenTo = false,
+  DaysSinceCheckpoint = 0,
+  
+  -- TODO
+  --3 = canyon camp
+  --4 = cave camp
+  --5 = snow camp
+  --6 = summit
+  Cycle = 0
+}
+
+SV.team_dark =
+{
+  --0 = Not yet started
+  --1 = In Cave Camp, pushing for the next dungeon
+  --2 = Disappeared
+  --3 = Returned, needs mission
+  --4 = Mission complete
+  --5 = Ended
+  Status = 0,
+  SpokenTo = false,
+  DaysSinceCheckpoint = 0,
+  
+  -- TODO
+  --3 = canyon camp
+  --4 = cave camp
+  --5 = snow camp
+  --6 = summit
+  Cycle = 0
+}
+
+SV.team_dragon =
+{
+  --0 = At Ravine Camp, introduced themselves
+  --1 = At Ravine Camp, advising an actual dragon type
+  --2 = At Ravine Camp, advising another actual dragon type
+  --3 = At Cave Camp, charizard's gone missing
+  --4 = At Cave Camp, Rescued, they all make up.
+  --5 = At Ravine Camp, Mentoring the two dragon types
+  --6 = At Cave Camp, training with Flygon.
+  --7 = At Blizzard Camp, ready to battle.
+  --8 = In Cycle
+  Status = 0,
+  SpokenTo = false,
+  DaysSinceCheckpoint = 0,
+  
+  --3 = canyon camp
+  --4 = cave camp
+  --5 = snow camp
+  --6 = summit (TODO)
+  Cycle = 0
 }
 
 SV.team_firecracker =
@@ -343,17 +1087,15 @@ SV.team_firecracker =
   SpokenTo = false,
   DaysSinceCheckpoint = 0,
   
-  --0 = base camp
-  --1 = forest camp
   --2 = cliff camp
   --3 = canyon camp
   --4 = cave camp
   --5 = snow camp
-  --6 = summit
+  --6 = summit (TODO)
   Cycle = 0
 }
 
---TODO
+
 SV.supply_corps =
 {
   --0 = Stopped at Snorlax, 
@@ -423,19 +1165,14 @@ SV.supply_corps =
 SV.family = 
 {
   SisterActiveDays = 0,
-											  
   Sister = false,
   MotherActiveDays = 0,
-											  
   Mother = false,
   FatherActiveDays = 0,
-											  
   Father = false,
   BrotherActiveDays = 0,
   Brother = false,
-		  
   GrandmaActiveDays = 0,
-											  
   Grandma = false,
   PetActiveDays = 0,
   Pet = false,
@@ -466,7 +1203,8 @@ SV.rest_stop =
 
 SV.final_stop = 
 {
-  ExpositionComplete  = false
+  ExpositionComplete  = false,
+  DragonPhase = 0
 }
 
 

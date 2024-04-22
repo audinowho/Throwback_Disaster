@@ -123,9 +123,12 @@ function amusement_castle_ruins.Enter(map)
 	COMMONEX.PointIncrease(15)
 	GAME:CutsceneMode(false)
   else
-    if SV.global_quest.StoryProgression > 24 then
-	  GROUND:RemoveCharacter("Gapori")
-	  GROUND:RemoveCharacter("WaitUp")
+	if SV.global_quest.StoryProgression > 24 then
+	  GROUND:Hide("Gapori")
+	  GROUND:Hide("WaitUp")
+	  if SV.global_quest.StoryProgression == 30 then
+	    --GROUND:Unhide("WaitUp")
+	  end
 	else
 	  GROUND:TeleportTo(CH('Gapori'), 301, 122, Direction.UpRight)
 	end
@@ -194,6 +197,7 @@ end
 
 function amusement_castle_ruins.Cim_Action(chara, activator)
   UI:SetSpeaker(chara)
+  local gapori = CH("Gapori")
   GROUND:CharTurnToChar(chara,CH('PLAYER'))
   if SV.global_quest.StoryProgression == 29 then
     SOUND:PlayBGM("NadEvent32. Hey, Cid.ogg", true)
@@ -208,21 +212,32 @@ function amusement_castle_ruins.Cim_Action(chara, activator)
 	chara.Data.Nickname = "Cim"
 	UI:SetSpeaker(chara)
     UI:WaitShowDialogue(STRINGS:Format(MapStrings['Cim_4']))
-	UI:SetSpeaker(CH("Gapori"))
+	UI:SetSpeaker(gapori)
     UI:WaitShowDialogue(STRINGS:Format(MapStrings['Gapori_18'], SV.playername))
 	UI:SetSpeaker(chara)
 	UI:SetSpeakerEmotion("Worried")
     UI:WaitShowDialogue(STRINGS:Format(MapStrings['Cim_5']))
-	UI:SetSpeaker(CH("Gapori"))
+	UI:SetSpeaker(gapori)
 	UI:SetSpeakerEmotion("Worried")
     UI:WaitShowDialogue(STRINGS:Format(MapStrings['Gapori_19']))
 	UI:SetSpeaker(chara)
 	UI:SetSpeakerEmotion("Sad")
     UI:WaitShowDialogue(STRINGS:Format(MapStrings['Cim_6']))
 	SV.global_quest.StoryProgression = 30
+	GROUND:Unhide("WaitUp")
   end
   UI:SetSpeakerEmotion("Happy")
   UI:WaitShowDialogue(STRINGS:Format(MapStrings['Cim_7']))
+end
+
+function amusement_castle_ruins.Braixen_Action(chara, activator)
+  UI:SetSpeaker(chara)
+  GROUND:CharTurnToChar(chara,CH('PLAYER'))
+  UI:SetSpeakerEmotion("Worried")
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Braixen_0']))
+  UI:SetSpeakerEmotion("Determined")
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Braixen_1']))
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Braixen_2']))
 end
 
 function amusement_castle_ruins.Wigglytuff_Action(chara, activator)
@@ -275,8 +290,19 @@ function amusement_castle_ruins.Bellossom_Action(chara, activator)
 end
 
 function amusement_castle_ruins.WaitUp_Touch(obj, activator)
+  local gapori = CH('Gapori')
+  if SV.global_quest.StoryProgression == 30 then
+    UI:SetSpeaker(gapori)
+	SOUND:FadeOutBGM(10)
+	GAME:FadeOut(false, 10)
+	UI:SetSpeakerEmotion("Surprised")
+	UI:WaitShowDialogue(STRINGS:Format(MapStrings['Gapori_20']))
+	GAME:WaitFrames(50)
+	SOUND:PlayBattleSE("TB_EVT_LongFall")
+	GAME:WaitFrames(180)
+	GAME:EnterGroundMap('td_apramunem',"apramunem_entrance", "Entrance")
+  end
   if SV.global_quest.StoryProgression == 24 then
-    local gapori = CH('Gapori')
 	local player = CH('PLAYER')
     GAME:FadeOut(false, 20)
 	GAME:CutsceneMode(true)

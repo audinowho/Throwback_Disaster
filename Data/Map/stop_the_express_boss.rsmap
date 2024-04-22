@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.16.0",
+"Version": "0.7.22.0",
 "Object": {
 "$type": "RogueEssence.Dungeon.Map, RogueEssence",
 "Name": {
@@ -17,6 +17,9 @@
 {
 "Element1": "dark",
 "Element2": "none",
+"TurnWait": 0,
+"TiersUsed": 0,
+"TurnUsed": false,
 "movementSpeed": 0,
 "dead": false,
 "serializationLoc": {
@@ -104,9 +107,6 @@
 "MaxFullness": 100,
 "StatusEffects": {},
 "MustHitNext": false,
-"TurnWait": 0,
-"TiersUsed": 0,
-"TurnUsed": false,
 "EXPMarked": false,
 "Tactic": {
 "Name": {
@@ -117,7 +117,7 @@
 "de": "Zusammen bleiben",
 "es": "Vayamos juntos",
 "pt": "Fiquem Juntos",
-"it": "Restiamo Uniti",
+"it": "Restiamo uniti",
 "ko": "함께 가자",
 "zh-hans": "一起走吧"
 }
@@ -136,16 +136,17 @@
 "SelfStatusRange": 0
 },
 {
-"$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
+"$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
+"AttackPattern": 4,
+"PositionPattern": 2,
 "IQ": 413,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
 },
 {
-"$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
-"AttackPattern": 4,
-"PositionPattern": 2,
+"$type": "PMDC.Dungeon.FindItemPlan, PMDC",
+"IncludeMoney": true,
 "IQ": 413,
 "AttackRange": 0,
 "StatusRange": 0,
@@ -351,7 +352,7 @@
 "Y": 0
 },
 "BGAnim": {
-"AnimIndex": "",
+"AnimIndex": "Train_Rode",
 "FrameTime": 1,
 "StartFrame": -1,
 "EndFrame": -1,
@@ -360,11 +361,11 @@
 "AnimFlip": 0
 },
 "BGMovement": {
-"X": 0,
+"X": -312,
 "Y": 0
 },
 "Parallax": "0, 0",
-"RepeatX": false,
+"RepeatX": true,
 "RepeatY": false
 },
 "ViewCenter": null,
@@ -380,8 +381,7 @@
 "CurrentOrder": {
 "TurnTier": 0,
 "Faction": 0,
-"TurnIndex": 0,
-"SkipAll": false
+"TurnIndex": 0
 },
 "TurnToChar": []
 },

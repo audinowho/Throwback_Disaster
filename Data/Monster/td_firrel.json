@@ -1,0 +1,58 @@
+﻿{
+"Version": "0.7.25.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Firrel",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"Title": {
+"DefaultText": "Fire Squirrel Monster",
+"LocalTexts": {}
+},
+"IndexNum": 1033,
+"EXPTable": "medium_fast",
+"SkillGroup1": "field",
+"SkillGroup2": "undiscovered",
+"JoinRate": 55,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 0,
+"GenderlessWeight": 1,
+"MaleWeight": 8,
+"FemaleWeight": 2,
+"BaseHP": 45,
+"BaseAtk": 50,
+"BaseDef": 40,
+"BaseMAtk": 60,
+"BaseMDef": 50,
+"BaseSpeed": 65,
+"ExpYield": 78,
+"Height": 0.6,
+"Weight": 5.8,
+"Personalities": [],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Firrel",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "fire",
+"Element2": "none",
+"Intrinsic1": "blaze",
+"Intrinsic2": "none",
+"Intrinsic3": "heatproof",
+"LevelSkills": []
+}
+]
+}
+}

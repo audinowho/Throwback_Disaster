@@ -4,7 +4,7 @@
   <Description>A throwback quest filled with nostalgic baits!</Description>
   <Namespace>nadiyas_dungeon_collection</Namespace>
   <UUID>58FBB8E3-F8AF-4BCA-A680-C60DE05894A9</UUID>
-  <Version>0.0.10.0</Version>
+  <Version>0.0.11.0</Version>
   <ModType>Quest</ModType>
   <Relationships>
     <RelatedMod>

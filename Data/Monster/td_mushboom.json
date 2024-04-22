@@ -1,0 +1,58 @@
+﻿{
+"Version": "0.7.25.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Mushboom",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"Title": {
+"DefaultText": "",
+"LocalTexts": {}
+},
+"IndexNum": 1032,
+"EXPTable": "erratic",
+"SkillGroup1": "field",
+"SkillGroup2": "undiscovered",
+"JoinRate": 78,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 0,
+"GenderlessWeight": 0,
+"MaleWeight": 1,
+"FemaleWeight": 1,
+"BaseHP": 35,
+"BaseAtk": 35,
+"BaseDef": 35,
+"BaseMAtk": 45,
+"BaseMDef": 40,
+"BaseSpeed": 40,
+"ExpYield": 65,
+"Height": 0.4,
+"Weight": 5.4,
+"Personalities": [],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Mushboom",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "poison",
+"Element2": "none",
+"Intrinsic1": "immunity",
+"Intrinsic2": "none",
+"Intrinsic3": "effect_spore",
+"LevelSkills": []
+}
+]
+}
+}

@@ -10,6 +10,7 @@ AudinoWho
 Aseprite
 Audacity 3.0.2
 Quillbot
+MD Frame Editor (by caffeinepills)
 
 <Debugger/Prefull-release Tester>
 Palika
@@ -33,6 +34,16 @@ Oh-Chan - Hebereke
 Miao Line - Roco Kingdom
 Huohua Line - Roco Kingdom
 Shuilanlan Line - Roco Kingdom
+Bebetar - Kaeru nyo Panyon
+Firrel Line - Monster Squad (Nexon)
+(Mondama) - Pocket Bomberman
+Rabite - Secret of Mana
+Mushboom - Secret of Mana
+Lifmunk - Palworld
+Lamball - Palworld
+Slabby - Dungeon Village
+Trollite - 100% Orange Juice
+(Sandato) - Rockball (Sachen)
 
 [Mikon/Trifox - Pokemon Spaceworld 1997]
 Portrait & Sprite: baronessfaron

@@ -1,34 +1,17 @@
 ﻿{
-"Version": "0.7.13.0",
+"Version": "0.7.22.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
-"ammo_nokia3310": {
-"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
-"UsageType": 3,
-"States": [
-{
-"assembly": "PMDC, Version=0.7.13.0, Culture=neutral, PublicKeyToken=null",
-"type": "PMDC.Dungeon.AmmoState"
-}
-],
-"Name": {
-"DefaultText": "Nokia 3310",
-"LocalTexts": {}
-},
-"Released": true,
-"Comment": "",
-"SortOrder": 9
-},
 "gummi_wonder": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.13.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.7.22.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.13.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.7.22.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -44,12 +27,83 @@
 "Comment": "",
 "SortOrder": 2
 },
+"ammo_nokia3310": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.7.22.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"Name": {
+"DefaultText": "Nokia 3310",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 9
+},
+"medicine_max_elixir_s": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"UsageType": 1,
+"States": [
+{
+"assembly": "PMDC, Version=0.7.22.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.UtilityState"
+}
+],
+"Name": {
+"DefaultText": "Max Elixir S",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10
+},
+"medicine_max_potion_s": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"UsageType": 1,
+"States": [
+{
+"assembly": "PMDC, Version=0.7.22.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.UtilityState"
+}
+],
+"Name": {
+"DefaultText": "Max Potion S",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10
+},
+"medicine_megalixir": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"UsageType": 1,
+"States": [
+{
+"assembly": "PMDC, Version=0.7.22.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.UtilityState"
+}
+],
+"Name": {
+"DefaultText": "Megalixir",
+"LocalTexts": {
+"ja": "ラストエリクサー",
+"ja-jp": "ラストエリクサー"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10
+},
 "orb_blue": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
 "UsageType": 1,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.13.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.7.22.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.OrbState"
 }
 ],
@@ -66,7 +120,7 @@
 "UsageType": 1,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.13.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.7.22.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.OrbState"
 }
 ],
@@ -83,7 +137,7 @@
 "UsageType": 1,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.13.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.7.22.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.OrbState"
 }
 ],

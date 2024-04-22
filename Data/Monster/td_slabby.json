@@ -1,0 +1,58 @@
+﻿{
+"Version": "0.7.25.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Slabby",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"Title": {
+"DefaultText": "",
+"LocalTexts": {}
+},
+"IndexNum": 1029,
+"EXPTable": "medium_fast",
+"SkillGroup1": "mineral",
+"SkillGroup2": "undiscovered",
+"JoinRate": 35,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 0,
+"GenderlessWeight": 0,
+"MaleWeight": 7,
+"FemaleWeight": 1,
+"BaseHP": 75,
+"BaseAtk": 50,
+"BaseDef": 80,
+"BaseMAtk": 50,
+"BaseMDef": 85,
+"BaseSpeed": 20,
+"ExpYield": 125,
+"Height": 1.0,
+"Weight": 115.5,
+"Personalities": [],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Slabby",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "rock",
+"Element2": "none",
+"Intrinsic1": "sturdy",
+"Intrinsic2": "none",
+"Intrinsic3": "magnet_pull",
+"LevelSkills": []
+}
+]
+}
+}

@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.18.2",
+"Version": "0.7.22.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
@@ -16694,7 +16694,7 @@
 "OriginalTeam": "",
 "BaseForm": {
 "Species": "td_notebeat",
-"Form": 0,
+"Form": 1,
 "Skin": "normal",
 "Gender": 0
 },
@@ -16784,7 +16784,7 @@
 "OriginalTeam": "",
 "BaseForm": {
 "Species": "td_notebeat",
-"Form": 0,
+"Form": 1,
 "Skin": "normal",
 "Gender": 0
 },
@@ -16847,8 +16847,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 281,
+"Y": 191,
 "Width": 16,
 "Height": 16
 }
@@ -16874,7 +16874,7 @@
 "OriginalTeam": "",
 "BaseForm": {
 "Species": "td_notebeat",
-"Form": 0,
+"Form": 2,
 "Skin": "normal",
 "Gender": 0
 },
@@ -16937,8 +16937,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 304,
+"Y": 212,
 "Width": 16,
 "Height": 16
 }
@@ -17029,6 +17029,96 @@
 "Collider": {
 "X": 0,
 "Y": 0,
+"Width": 16,
+"Height": 16
+}
+},
+{
+"Direction": 1,
+"IsInteracting": false,
+"AIEnabled": true,
+"EntName": "Hankuma",
+"EntEnabled": true,
+"EntOrder": 0,
+"serializationLoc": {
+"X": 224,
+"Y": 102
+},
+"serializationHeight": 0,
+"serializationDir": 1,
+"triggerType": 1,
+"<AI>k__BackingField": null,
+"Data": {
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "td_hankuma",
+"Form": 0,
+"Skin": "normal",
+"Gender": 0
+},
+"Level": 1,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+}
+],
+"BaseIntrinsics": [
+""
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+},
+"CollisionDisabled": false,
+"Collider": {
+"X": 224,
+"Y": 102,
 "Width": 16,
 "Height": 16
 }

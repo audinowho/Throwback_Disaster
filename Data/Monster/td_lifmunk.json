@@ -1,0 +1,58 @@
+﻿{
+"Version": "0.7.25.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Lifmunk",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"Title": {
+"DefaultText": "Coward of the Steppe",
+"LocalTexts": {}
+},
+"IndexNum": 1034,
+"EXPTable": "medium_fast",
+"SkillGroup1": "field",
+"SkillGroup2": "grass",
+"JoinRate": 47,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 0,
+"GenderlessWeight": 0,
+"MaleWeight": 1,
+"FemaleWeight": 1,
+"BaseHP": 70,
+"BaseAtk": 70,
+"BaseDef": 65,
+"BaseMAtk": 70,
+"BaseMDef": 65,
+"BaseSpeed": 60,
+"ExpYield": 164,
+"Height": 0.3,
+"Weight": 1.8,
+"Personalities": [],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Lifmunk",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "grass",
+"Element2": "none",
+"Intrinsic1": "keen_eye",
+"Intrinsic2": "grass_pelt",
+"Intrinsic3": "sap_sipper",
+"LevelSkills": []
+}
+]
+}
+}

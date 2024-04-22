@@ -1,0 +1,106 @@
+﻿{
+"Version": "0.7.25.0",
+"Object": {
+"$type": "RogueEssence.Data.ZoneData, RogueEssence",
+"Name": {
+"DefaultText": "Flaming House",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"NoEXP": false,
+"ExpPercent": 100,
+"Level": 12,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Persistent": false,
+"Rescues": 0,
+"Rogue": 0,
+"Segments": [
+{
+"$type": "RogueEssence.LevelGen.SingularSegment, RogueEssence",
+"BaseFloor": {
+"$type": "RogueEssence.LevelGen.GridFloorGen, RogueEssence",
+"GenSteps": [
+{
+"Key": {
+"str": [
+-6
+]
+},
+"Value": {
+"$type": "PMDC.LevelGen.MapDataStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Music": "Nad102. Gurgu Volcano.ogg",
+"TimeLimit": 1500,
+"TileSight": 1,
+"CharSight": 1,
+"ClampCamera": false
+}
+}
+],
+"Comment": ""
+},
+"FloorSpan": 8,
+"ZoneSteps": [
+{
+"$type": "PMDC.LevelGen.SaveVarsZoneStep, PMDC",
+"Priority": {
+"str": [
+2,
+1
+]
+}
+},
+{
+"$type": "PMDC.LevelGen.FloorNameDropZoneStep, PMDC",
+"DropPriority": {
+"str": [
+-15
+]
+},
+"Name": {
+"DefaultText": "Flaming House\\nB{0}F",
+"LocalTexts": {}
+},
+"Priority": {
+"str": [
+-6
+]
+}
+},
+{
+"$type": "RogueEssence.LevelGen.MoneySpawnZoneStep, RogueEssence",
+"Priority": {
+"str": [
+1
+]
+},
+"StartAmount": {
+"Min": 60,
+"Max": 85
+},
+"AddAmount": {
+"Min": 8,
+"Max": 13
+},
+"ModStates": [
+{
+"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.CoinModGenState"
+}
+]
+}
+],
+"IsRelevant": false,
+"Comment": ""
+}
+],
+"GroundMaps": []
+}
+}

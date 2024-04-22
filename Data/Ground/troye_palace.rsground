@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.19.0",
+"Version": "0.7.22.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
@@ -54681,7 +54681,7 @@
 "Species": "lilligant",
 "Form": 0,
 "Skin": "normal",
-"Gender": 0
+"Gender": 2
 },
 "Level": 1,
 "EXP": 0,
@@ -54742,8 +54742,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 268,
+"Y": 461,
 "Width": 16,
 "Height": 16
 }
@@ -54771,7 +54771,7 @@
 "Species": "lilligant",
 "Form": 0,
 "Skin": "normal",
-"Gender": 0
+"Gender": 2
 },
 "Level": 1,
 "EXP": 0,
@@ -54832,8 +54832,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 316,
+"Y": 462,
 "Width": 16,
 "Height": 16
 }
@@ -54846,7 +54846,7 @@
 "EntEnabled": true,
 "EntOrder": 0,
 "serializationLoc": {
-"X": 135,
+"X": 122,
 "Y": 105
 },
 "serializationHeight": 0,
@@ -54861,7 +54861,7 @@
 "Species": "lopunny",
 "Form": 0,
 "Skin": "normal",
-"Gender": 0
+"Gender": 2
 },
 "Level": 1,
 "EXP": 0,
@@ -54922,8 +54922,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 122,
+"Y": 105,
 "Width": 16,
 "Height": 16
 }
@@ -54936,8 +54936,8 @@
 "EntEnabled": true,
 "EntOrder": 0,
 "serializationLoc": {
-"X": 426,
-"Y": 136
+"X": 452,
+"Y": 104
 },
 "serializationHeight": 0,
 "serializationDir": 0,
@@ -54951,7 +54951,7 @@
 "Species": "gardevoir",
 "Form": 0,
 "Skin": "normal",
-"Gender": 0
+"Gender": 2
 },
 "Level": 1,
 "EXP": 0,
@@ -55012,8 +55012,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 452,
+"Y": 104,
 "Width": 16,
 "Height": 16
 }
@@ -55041,7 +55041,7 @@
 "Species": "bellossom",
 "Form": 0,
 "Skin": "normal",
-"Gender": 0
+"Gender": 2
 },
 "Level": 1,
 "EXP": 0,
@@ -55102,8 +55102,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 174,
+"Y": 332,
 "Width": 16,
 "Height": 16
 }
@@ -55131,7 +55131,7 @@
 "Species": "milotic",
 "Form": 0,
 "Skin": "normal",
-"Gender": 0
+"Gender": 2
 },
 "Level": 1,
 "EXP": 0,
@@ -55192,8 +55192,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 525,
+"Y": 251,
 "Width": 16,
 "Height": 16
 }
@@ -55221,7 +55221,7 @@
 "Species": "delphox",
 "Form": 0,
 "Skin": "normal",
-"Gender": 0
+"Gender": 2
 },
 "Level": 1,
 "EXP": 0,
@@ -55282,8 +55282,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 194,
+"Y": 351,
 "Width": 16,
 "Height": 16
 }
@@ -55311,7 +55311,7 @@
 "Species": "espeon",
 "Form": 0,
 "Skin": "normal",
-"Gender": 0
+"Gender": 2
 },
 "Level": 1,
 "EXP": 0,
@@ -55372,8 +55372,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 412,
+"Y": 354,
 "Width": 16,
 "Height": 16
 }
@@ -55401,7 +55401,7 @@
 "Species": "vivillon",
 "Form": 5,
 "Skin": "normal",
-"Gender": 0
+"Gender": 2
 },
 "Level": 1,
 "EXP": 0,
@@ -55462,8 +55462,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 448,
+"Y": 375,
 "Width": 16,
 "Height": 16
 }
@@ -55491,7 +55491,7 @@
 "Species": "glaceon",
 "Form": 0,
 "Skin": "normal",
-"Gender": 0
+"Gender": 2
 },
 "Level": 1,
 "EXP": 0,
@@ -55552,8 +55552,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 281,
+"Y": 136,
 "Width": 16,
 "Height": 16
 }
@@ -55581,7 +55581,7 @@
 "Species": "butterfree",
 "Form": 0,
 "Skin": "normal",
-"Gender": 0
+"Gender": 2
 },
 "Level": 1,
 "EXP": 0,
@@ -55642,8 +55642,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 399,
+"Y": 384,
 "Width": 16,
 "Height": 16
 }
@@ -55671,7 +55671,7 @@
 "Species": "meloetta",
 "Form": 0,
 "Skin": "normal",
-"Gender": 0
+"Gender": 2
 },
 "Level": 1,
 "EXP": 0,
@@ -55761,7 +55761,7 @@
 "Species": "meloetta",
 "Form": 1,
 "Skin": "normal",
-"Gender": 0
+"Gender": 2
 },
 "Level": 1,
 "EXP": 0,
@@ -55822,8 +55822,188 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 307,
+"Y": 226,
+"Width": 16,
+"Height": 16
+}
+},
+{
+"Direction": 0,
+"IsInteracting": false,
+"AIEnabled": true,
+"EntName": "Mienshao",
+"EntEnabled": true,
+"EntOrder": 0,
+"serializationLoc": {
+"X": 152,
+"Y": 90
+},
+"serializationHeight": 0,
+"serializationDir": 0,
+"triggerType": 1,
+"<AI>k__BackingField": null,
+"Data": {
+"Nickname": "Yin",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "mienshao",
+"Form": 0,
+"Skin": "normal",
+"Gender": 2
+},
+"Level": 1,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+}
+],
+"BaseIntrinsics": [
+""
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+},
+"CollisionDisabled": false,
+"Collider": {
+"X": 165,
+"Y": 90,
+"Width": 16,
+"Height": 16
+}
+},
+{
+"Direction": 0,
+"IsInteracting": false,
+"AIEnabled": true,
+"EntName": "Medicham",
+"EntEnabled": true,
+"EntOrder": 0,
+"serializationLoc": {
+"X": 476,
+"Y": 95
+},
+"serializationHeight": 0,
+"serializationDir": 0,
+"triggerType": 1,
+"<AI>k__BackingField": null,
+"Data": {
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "medicham",
+"Form": 0,
+"Skin": "normal",
+"Gender": 2
+},
+"Level": 1,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+}
+],
+"BaseIntrinsics": [
+""
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+},
+"CollisionDisabled": false,
+"Collider": {
+"X": 445,
+"Y": 119,
 "Width": 16,
 "Height": 16
 }

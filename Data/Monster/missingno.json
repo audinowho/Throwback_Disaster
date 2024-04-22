@@ -1,0 +1,142 @@
+﻿{
+"Version": "0.7.22.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Missingno.",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"Title": {
+"DefaultText": "???",
+"LocalTexts": {}
+},
+"IndexNum": 0,
+"EXPTable": "medium_slow",
+"SkillGroup1": "undiscovered",
+"SkillGroup2": "undiscovered",
+"JoinRate": -25,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 0,
+"GenderlessWeight": 1,
+"MaleWeight": 0,
+"FemaleWeight": 0,
+"BaseHP": 1,
+"BaseAtk": 1,
+"BaseDef": 1,
+"BaseMAtk": 1,
+"BaseMDef": 1,
+"BaseSpeed": 1,
+"ExpYield": 1,
+"Height": 1.0,
+"Weight": 1.0,
+"Personalities": [
+6
+],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Missingno.",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "none",
+"Element2": "none",
+"Intrinsic1": "none",
+"Intrinsic2": "none",
+"Intrinsic3": "none",
+"LevelSkills": [
+{
+"Level": 0,
+"Skill": "attack"
+}
+]
+},
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 0,
+"GenderlessWeight": 1,
+"MaleWeight": 0,
+"FemaleWeight": 0,
+"BaseHP": 1,
+"BaseAtk": 1,
+"BaseDef": 1,
+"BaseMAtk": 1,
+"BaseMDef": 1,
+"BaseSpeed": 1,
+"ExpYield": 1,
+"Height": 1.0,
+"Weight": 1.0,
+"Personalities": [
+6
+],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Substitute",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "none",
+"Element2": "none",
+"Intrinsic1": "none",
+"Intrinsic2": "none",
+"Intrinsic3": "none",
+"LevelSkills": [
+{
+"Level": 0,
+"Skill": "attack"
+}
+]
+},
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 0,
+"GenderlessWeight": 0,
+"MaleWeight": 0,
+"FemaleWeight": 0,
+"BaseHP": 0,
+"BaseAtk": 0,
+"BaseDef": 0,
+"BaseMAtk": 0,
+"BaseMDef": 0,
+"BaseSpeed": 0,
+"ExpYield": 0,
+"Height": 0.0,
+"Weight": 0.0,
+"Personalities": [],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Peron",
+"LocalTexts": {
+"jp": "ペロン",
+"zh-hans": "贝隆",
+"zh-hant": "貝隆"
+}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "none",
+"Element2": "none",
+"Intrinsic1": "none",
+"Intrinsic2": "none",
+"Intrinsic3": "none",
+"LevelSkills": []
+}
+]
+}
+}

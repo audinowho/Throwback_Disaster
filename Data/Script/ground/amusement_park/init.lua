@@ -93,7 +93,7 @@ function amusement_park.Enter(map)
 	  GROUND:AnimateInDirection(player, "Walk", Direction.Down, Direction.Up, 48, 1, 1)
 	  TASK:JoinCoroutines({coro1,coro2})
 	end
-	SOUND:PlayBGM("", true)
+	SOUND:FadeOutBGM(10)
 	UI:SetSpeaker(STRINGS:Format("\\uE040"), true, "", -1, "", RogueEssence.Data.Gender.Unknown)
 	UI:WaitShowDialogue(STRINGS:Format(MapStrings['Powwene_0']))
 	GAME:FadeOut(true, 60)

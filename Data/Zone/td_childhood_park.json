@@ -2555,6 +2555,61 @@
 }
 },
 "ModStates": []
+},
+{
+"$type": "RogueEssence.LevelGen.SpreadRoomZoneStep, RogueEssence",
+"Spawns": [
+{
+"Spawn": {
+"GridOption": {
+"$type": "PMDC.LevelGen.RoomGenEvo`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC"
+},
+"ListOption": {
+"$type": "PMDC.LevelGen.RoomGenEvo`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], PMDC"
+},
+"Filters": [
+{
+"$type": "RogueElements.RoomFilterComponent, RogueElements",
+"Negate": true,
+"Components": [
+{
+"$type": "RogueEssence.LevelGen.ImmutableRoom, RogueEssence"
+}
+]
+},
+{
+"$type": "PMDC.LevelGen.RoomFilterConnectivity, PMDC",
+"Connection": 1
+}
+]
+},
+"Rate": 10
+}
+],
+"PriorityGrid": {
+"str": [
+-4,
+1
+]
+},
+"PriorityList": {
+"str": [
+-2,
+2
+]
+},
+"SpreadPlan": {
+"$type": "RogueEssence.LevelGen.SpreadPlanSpaced, RogueEssence",
+"FloorSpacing": {
+"Min": 10,
+"Max": 11
+},
+"FloorRange": {
+"Min": 0,
+"Max": 10
+}
+},
+"ModStates": []
 }
 ],
 "IsRelevant": true,

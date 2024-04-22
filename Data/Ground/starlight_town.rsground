@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.19.0",
+"Version": "0.7.22.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
@@ -17328,7 +17328,7 @@
 "OriginalTeam": "",
 "BaseForm": {
 "Species": "td_notebeat",
-"Form": 0,
+"Form": 2,
 "Skin": "normal",
 "Gender": 0
 },
@@ -17418,7 +17418,7 @@
 "OriginalTeam": "",
 "BaseForm": {
 "Species": "td_notebeat",
-"Form": 0,
+"Form": 2,
 "Skin": "normal",
 "Gender": 0
 },
@@ -17508,7 +17508,7 @@
 "OriginalTeam": "",
 "BaseForm": {
 "Species": "td_notebeat",
-"Form": 0,
+"Form": 1,
 "Skin": "normal",
 "Gender": 0
 },
@@ -17598,7 +17598,7 @@
 "OriginalTeam": "",
 "BaseForm": {
 "Species": "td_notebeat",
-"Form": 0,
+"Form": 1,
 "Skin": "normal",
 "Gender": 0
 },
@@ -17688,8 +17688,8 @@
 "OriginalTeam": "",
 "BaseForm": {
 "Species": "td_notebeat",
-"Form": 0,
-"Skin": "normal",
+"Form": 1,
+"Skin": "shiny",
 "Gender": 0
 },
 "Level": 1,
@@ -17778,7 +17778,7 @@
 "OriginalTeam": "",
 "BaseForm": {
 "Species": "td_notebeat",
-"Form": 0,
+"Form": 1,
 "Skin": "normal",
 "Gender": 0
 },
@@ -17868,7 +17868,7 @@
 "OriginalTeam": "",
 "BaseForm": {
 "Species": "td_notebeat",
-"Form": 0,
+"Form": 2,
 "Skin": "normal",
 "Gender": 0
 },

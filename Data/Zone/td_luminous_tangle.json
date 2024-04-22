@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.22.0",
+"Version": "0.7.25.0",
 "Object": {
 "$type": "RogueEssence.Data.ZoneData, RogueEssence",
 "Name": {
@@ -17,6 +17,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Persistent": false,
 "Rescues": 0,
@@ -37,8 +38,8 @@
 "$type": "PMDC.LevelGen.MapDataStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
 "Music": "Nad56. Silence Before the Storm.ogg",
 "TimeLimit": 2500,
-"TileSight": 0,
-"CharSight": 0,
+"TileSight": 1,
+"CharSight": 1,
 "ClampCamera": false
 }
 },
@@ -1286,7 +1287,7 @@
 },
 "Role": 0
 },
-"Rate": 5,
+"Rate": 15,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1302,7 +1303,7 @@
 "Gender": -1
 },
 "Level": {
-"Min": 1,
+"Min": 11,
 "Max": 15
 },
 "SpecifiedSkills": [],
@@ -1313,7 +1314,7 @@
 },
 "Role": 0
 },
-"Rate": 5,
+"Rate": 15,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1340,7 +1341,7 @@
 },
 "Role": 0
 },
-"Rate": 8,
+"Rate": 20,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1367,7 +1368,7 @@
 },
 "Role": 0
 },
-"Rate": 11,
+"Rate": 32,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1394,7 +1395,7 @@
 },
 "Role": 0
 },
-"Rate": 23,
+"Rate": 70,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1421,7 +1422,7 @@
 },
 "Role": 0
 },
-"Rate": 24,
+"Rate": 73,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1448,7 +1449,7 @@
 },
 "Role": 0
 },
-"Rate": 22,
+"Rate": 65,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1475,7 +1476,7 @@
 },
 "Role": 0
 },
-"Rate": 22,
+"Rate": 65,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1502,7 +1503,7 @@
 },
 "Role": 0
 },
-"Rate": 1,
+"Rate": 4,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1529,7 +1530,7 @@
 },
 "Role": 0
 },
-"Rate": 1,
+"Rate": 4,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1556,7 +1557,7 @@
 },
 "Role": 0
 },
-"Rate": 21,
+"Rate": 62,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1583,7 +1584,7 @@
 },
 "Role": 0
 },
-"Rate": 19,
+"Rate": 58,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1610,7 +1611,7 @@
 },
 "Role": 0
 },
-"Rate": 3,
+"Rate": 10,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1637,7 +1638,7 @@
 },
 "Role": 0
 },
-"Rate": 1,
+"Rate": 4,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1664,7 +1665,7 @@
 },
 "Role": 0
 },
-"Rate": 1,
+"Rate": 4,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1691,7 +1692,7 @@
 },
 "Role": 0
 },
-"Rate": 5,
+"Rate": 16,
 "Range": {
 "Min": 5,
 "Max": 9
@@ -1718,7 +1719,7 @@
 },
 "Role": 0
 },
-"Rate": 3,
+"Rate": 9,
 "Range": {
 "Min": 6,
 "Max": 9
@@ -1745,7 +1746,7 @@
 },
 "Role": 0
 },
-"Rate": 4,
+"Rate": 12,
 "Range": {
 "Min": 7,
 "Max": 9
@@ -1772,9 +1773,36 @@
 },
 "Role": 0
 },
-"Rate": 3,
+"Rate": 8,
 "Range": {
 "Min": 6,
+"Max": 9
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "td_shuilanlan",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 10,
+"Max": 11
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_smart",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 1,
+"Range": {
+"Min": 0,
 "Max": 9
 }
 },
@@ -1799,7 +1827,7 @@
 },
 "Role": 0
 },
-"Rate": 12,
+"Rate": 32,
 "Range": {
 "Min": 0,
 "Max": 9

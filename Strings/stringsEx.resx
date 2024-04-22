@@ -186,4 +186,37 @@
   <data name="MSG_NO_WARP_ITEM" xml:space="preserve">
     <value>There were no opposing warp points found...</value>
     <comment></comment>  </data>
+  <data name="PERON_INTRODUCTION" xml:space="preserve">
+    <value>Can I help you?</value>
+    <comment></comment>  </data>
+  <data name="PERON_GOODBYE_NORMAL" xml:space="preserve">
+    <value>Don't call me if you don't need me.</value>
+    <comment></comment>  </data>
+  <data name="PERON_GOODBYE_ANNOYED_1" xml:space="preserve">
+    <value>You're starting to tick me off!</value>
+    <comment></comment>  </data>
+  <data name="PERON_GOODBYE_ANNOYED_2" xml:space="preserve">
+    <value>I'm sharpening my knife, friend.</value>
+    <comment></comment>  </data>
+  <data name="PERON_GOODBYE_ANNOYED_3" xml:space="preserve">
+    <value>STOP IT, STOP IT, STOP IT!!!</value>
+    <comment></comment>  </data>
+  <data name="PERON_GOODBYE_ANNOYED_4" xml:space="preserve">
+    <value>Once more, play that harmonica. I dare you, twice over!</value>
+    <comment></comment>  </data>
+  <data name="PERON_GOODBYE_ANNOYED_5" xml:space="preserve">
+    <value>You're tearing me apart!</value>
+    <comment></comment>  </data>
+  <data name="PERON_GOODBYE_ANNOYED_6" xml:space="preserve">
+    <value>I'm going to shank your knee and ankle, my friend!</value>
+    <comment></comment>  </data>
+  <data name="PERON_CHOICE_SHOP" xml:space="preserve">
+    <value>Shop</value>
+    <comment></comment>  </data>
+  <data name="PERON_CHOICE_ASSEMBLY" xml:space="preserve">
+    <value>Assembly</value>
+    <comment></comment>  </data>
+  <data name="PERON_CHOICE_STORAGE" xml:space="preserve">
+    <value>Storage</value>
+    <comment></comment>  </data>
 </root>

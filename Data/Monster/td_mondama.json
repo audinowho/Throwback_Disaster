@@ -1,0 +1,58 @@
+﻿{
+"Version": "0.7.25.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Mondama",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"Title": {
+"DefaultText": "",
+"LocalTexts": {}
+},
+"IndexNum": 1027,
+"EXPTable": "medium_slow",
+"SkillGroup1": "amorphous",
+"SkillGroup2": "undiscovered",
+"JoinRate": 60,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 0,
+"GenderlessWeight": 0,
+"MaleWeight": 1,
+"FemaleWeight": 1,
+"BaseHP": 55,
+"BaseAtk": 120,
+"BaseDef": 30,
+"BaseMAtk": 30,
+"BaseMDef": 40,
+"BaseSpeed": 30,
+"ExpYield": 85,
+"Height": 0.4,
+"Weight": 4.5,
+"Personalities": [],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Mondama",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "normal",
+"Element2": "none",
+"Intrinsic1": "sturdy",
+"Intrinsic2": "soundproof",
+"Intrinsic3": "stench",
+"LevelSkills": []
+}
+]
+}
+}

@@ -1,0 +1,58 @@
+﻿{
+"Version": "0.7.25.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Rabite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"Title": {
+"DefaultText": "",
+"LocalTexts": {}
+},
+"IndexNum": 1031,
+"EXPTable": "fast",
+"SkillGroup1": "field",
+"SkillGroup2": "undiscovered",
+"JoinRate": 95,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 0,
+"GenderlessWeight": 1,
+"MaleWeight": 3,
+"FemaleWeight": 3,
+"BaseHP": 30,
+"BaseAtk": 40,
+"BaseDef": 30,
+"BaseMAtk": 25,
+"BaseMDef": 35,
+"BaseSpeed": 55,
+"ExpYield": 51,
+"Height": 0.3,
+"Weight": 2.8,
+"Personalities": [],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Rabite",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "normal",
+"Element2": "none",
+"Intrinsic1": "wimp_out",
+"Intrinsic2": "run_away",
+"Intrinsic3": "none",
+"LevelSkills": []
+}
+]
+}
+}

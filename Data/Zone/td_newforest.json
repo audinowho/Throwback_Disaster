@@ -9,7 +9,7 @@
 "Released": true,
 "Comment": "",
 "NoEXP": false,
-"ExpPercent": 100,
+"ExpPercent": 125,
 "Level": 3,
 "LevelCap": false,
 "KeepSkills": false,
@@ -251,8 +251,8 @@
 },
 "Respawn": {
 "$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
-"MaxFoes": 5,
-"RespawnTime": 80
+"MaxFoes": 2,
+"RespawnTime": 100
 },
 "MaxFoes": 0,
 "RespawnTime": 0
@@ -553,34 +553,9 @@
 },
 "AmountSpawner": {
 "$type": "RogueElements.RandRange, RogueElements",
-"Min": 5,
-"Max": 7
+"Min": 2,
+"Max": 5
 }
-}
-}
-}
-},
-{
-"Key": {
-"str": [
-5,
-3
-]
-},
-"Value": {
-"$type": "RogueElements.RandomRoomSpawnStep`2[[RogueEssence.LevelGen.MapGenContext, RogueEssence],[RogueEssence.Dungeon.EffectTile, RogueEssence]], RogueElements",
-"IncludeHalls": false,
-"Filters": [
-{
-"$type": "PMDC.LevelGen.RoomFilterConnectivity, PMDC",
-"Connection": 1
-}
-],
-"Spawn": {
-"$type": "RogueElements.ContextSpawner`2[[RogueEssence.LevelGen.MapGenContext, RogueEssence],[RogueEssence.Dungeon.EffectTile, RogueEssence]], RogueElements",
-"Amount": {
-"Min": 6,
-"Max": 9
 }
 }
 }
@@ -1143,34 +1118,9 @@
 },
 "AmountSpawner": {
 "$type": "RogueElements.RandRange, RogueElements",
-"Min": 5,
-"Max": 7
+"Min": 1,
+"Max": 3
 }
-}
-}
-}
-},
-{
-"Key": {
-"str": [
-5,
-3
-]
-},
-"Value": {
-"$type": "RogueElements.RandomRoomSpawnStep`2[[RogueEssence.LevelGen.MapGenContext, RogueEssence],[RogueEssence.Dungeon.EffectTile, RogueEssence]], RogueElements",
-"IncludeHalls": false,
-"Filters": [
-{
-"$type": "PMDC.LevelGen.RoomFilterConnectivity, PMDC",
-"Connection": 1
-}
-],
-"Spawn": {
-"$type": "RogueElements.ContextSpawner`2[[RogueEssence.LevelGen.MapGenContext, RogueEssence],[RogueEssence.Dungeon.EffectTile, RogueEssence]], RogueElements",
-"Amount": {
-"Min": 6,
-"Max": 9
 }
 }
 }

@@ -1,0 +1,127 @@
+﻿{
+"Version": "0.7.25.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Sandato",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"Title": {
+"DefaultText": "Sand Pouch Creature",
+"LocalTexts": {}
+},
+"IndexNum": 1026,
+"EXPTable": "medium_fast",
+"SkillGroup1": "field",
+"SkillGroup2": "undiscovered",
+"JoinRate": 80,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 0,
+"GenderlessWeight": 1,
+"MaleWeight": 2,
+"FemaleWeight": 1,
+"BaseHP": 45,
+"BaseAtk": 60,
+"BaseDef": 50,
+"BaseMAtk": 55,
+"BaseMDef": 45,
+"BaseSpeed": 40,
+"ExpYield": 76,
+"Height": 0.3,
+"Weight": 5.8,
+"Personalities": [],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Sandato",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "ground",
+"Element2": "none",
+"Intrinsic1": "sand_rush",
+"Intrinsic2": "sand_veil",
+"Intrinsic3": "sand_force",
+"LevelSkills": [
+{
+"Level": 1,
+"Skill": "tackle"
+},
+{
+"Level": 2,
+"Skill": "sand_attack"
+},
+{
+"Level": 4,
+"Skill": "growl"
+},
+{
+"Level": 7,
+"Skill": "absorb"
+},
+{
+"Level": 8,
+"Skill": "bite"
+},
+{
+"Level": 11,
+"Skill": "water_gun"
+},
+{
+"Level": 12,
+"Skill": "harden"
+},
+{
+"Level": 17,
+"Skill": "flail"
+},
+{
+"Level": 19,
+"Skill": "psybeam"
+},
+{
+"Level": 24,
+"Skill": "sand_tomb"
+},
+{
+"Level": 29,
+"Skill": "slam"
+},
+{
+"Level": 31,
+"Skill": "rock_slide"
+},
+{
+"Level": 32,
+"Skill": "take_down"
+},
+{
+"Level": 38,
+"Skill": "mud_bomb"
+},
+{
+"Level": 43,
+"Skill": "sandstorm"
+},
+{
+"Level": 50,
+"Skill": "stone_edge"
+},
+{
+"Level": 55,
+"Skill": "earthquake"
+}
+]
+}
+]
+}
+}

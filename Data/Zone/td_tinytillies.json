@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.22.0",
+"Version": "0.7.25.0",
 "Object": {
 "$type": "RogueEssence.Data.ZoneData, RogueEssence",
 "Name": {
@@ -17,6 +17,7 @@
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Persistent": false,
 "Rescues": 0,
@@ -479,19 +480,6 @@
 "Spawner": {
 "$type": "RogueElements.SpawnList`1[[RogueEssence.Dungeon.EffectTile, RogueEssence]], RogueElements",
 "$values": [
-{
-"Spawn": {
-"TileLoc": {
-"X": 0,
-"Y": 0
-},
-"ID": "tile_evo",
-"Revealed": true,
-"Owner": 0,
-"TileStates": []
-},
-"Rate": 5
-},
 {
 "Spawn": {
 "TileLoc": {
@@ -1181,6 +1169,33 @@
 "Role": 0
 },
 "Rate": 12,
+"Range": {
+"Min": 0,
+"Max": 5
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "happiny",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 20,
+"Max": 21
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "retreater",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 1,
 "Range": {
 "Min": 0,
 "Max": 5
@@ -2012,6 +2027,30 @@
 "Spawn": {
 "BaseForm": {
 "Species": "td_notebeat",
+"Form": 2,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 10,
+"Max": 13
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "go_after_foes",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Rate": 1,
+"Range": {
+"Min": 0,
+"Max": 2
+}
+},
+{
+"Spawn": {
+"BaseForm": {
+"Species": "td_notebeat",
 "Form": 0,
 "Skin": "",
 "Gender": -1
@@ -2028,8 +2067,32 @@
 },
 "Rate": 2,
 "Range": {
+"Min": 2,
+"Max": 3
+}
+},
+{
+"Spawn": {
+"BaseForm": {
+"Species": "td_notebeat",
+"Form": 1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 10,
+"Max": 13
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "go_after_foes",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Rate": 1,
+"Range": {
 "Min": 0,
-"Max": 5
+"Max": 2
 }
 },
 {
@@ -2209,6 +2272,61 @@
 "FloorSpacing": {
 "Min": 1,
 "Max": 2
+},
+"FloorRange": {
+"Min": 0,
+"Max": 3
+}
+},
+"ModStates": []
+},
+{
+"$type": "RogueEssence.LevelGen.SpreadRoomZoneStep, RogueEssence",
+"Spawns": [
+{
+"Spawn": {
+"GridOption": {
+"$type": "PMDC.LevelGen.RoomGenEvo`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC"
+},
+"ListOption": {
+"$type": "PMDC.LevelGen.RoomGenEvo`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], PMDC"
+},
+"Filters": [
+{
+"$type": "RogueElements.RoomFilterComponent, RogueElements",
+"Negate": true,
+"Components": [
+{
+"$type": "RogueEssence.LevelGen.ImmutableRoom, RogueEssence"
+}
+]
+},
+{
+"$type": "PMDC.LevelGen.RoomFilterConnectivity, PMDC",
+"Connection": 1
+}
+]
+},
+"Rate": 10
+}
+],
+"PriorityGrid": {
+"str": [
+-4,
+1
+]
+},
+"PriorityList": {
+"str": [
+-2,
+2
+]
+},
+"SpreadPlan": {
+"$type": "RogueEssence.LevelGen.SpreadPlanSpaced, RogueEssence",
+"FloorSpacing": {
+"Min": 3,
+"Max": 4
 },
 "FloorRange": {
 "Min": 0,

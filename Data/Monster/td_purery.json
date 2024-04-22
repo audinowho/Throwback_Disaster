@@ -1,0 +1,58 @@
+﻿{
+"Version": "0.7.25.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Purery",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"Title": {
+"DefaultText": "",
+"LocalTexts": {}
+},
+"IndexNum": 1028,
+"EXPTable": "slow",
+"SkillGroup1": "fairy",
+"SkillGroup2": "monster",
+"JoinRate": 25,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 0,
+"GenderlessWeight": 0,
+"MaleWeight": 1,
+"FemaleWeight": 7,
+"BaseHP": 80,
+"BaseAtk": 70,
+"BaseDef": 65,
+"BaseMAtk": 100,
+"BaseMDef": 50,
+"BaseSpeed": 40,
+"ExpYield": 145,
+"Height": 1.4,
+"Weight": 75.5,
+"Personalities": [],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Purery",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "bug",
+"Element2": "bug",
+"Intrinsic1": "magician",
+"Intrinsic2": "fur_coat",
+"Intrinsic3": "justified",
+"LevelSkills": []
+}
+]
+}
+}

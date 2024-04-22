@@ -1,0 +1,58 @@
+﻿{
+"Version": "0.7.25.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Bebetar",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"Title": {
+"DefaultText": "",
+"LocalTexts": {}
+},
+"IndexNum": 1025,
+"EXPTable": "medium_fast",
+"SkillGroup1": "monster",
+"SkillGroup2": "undiscovered",
+"JoinRate": 45,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 6,
+"GenderlessWeight": 1,
+"MaleWeight": 0,
+"FemaleWeight": 0,
+"BaseHP": 75,
+"BaseAtk": 80,
+"BaseDef": 65,
+"BaseMAtk": 80,
+"BaseMDef": 65,
+"BaseSpeed": 60,
+"ExpYield": 104,
+"Height": 0.5,
+"Weight": 4.8,
+"Personalities": [],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Bebetar",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "electric",
+"Element2": "none",
+"Intrinsic1": "galvanize",
+"Intrinsic2": "none",
+"Intrinsic3": "electric_surge",
+"LevelSkills": []
+}
+]
+}
+}
