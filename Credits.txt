@@ -25,6 +25,10 @@ Music Notice - Trio-
 more-item-main - Trio-
 Dungeon Recruitment List - MistressNebula
 
+<Custom Sprites>
+Charmander & Totodile (w/ Bandana)
+MineMaker0430
+
 <Featured Mons/Characters>
 White Creature/(Gapori) - Gapporin
 Pow-Pow - Dungeon Village

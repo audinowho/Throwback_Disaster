@@ -82,7 +82,6 @@ function DebugTools:OnMenuButtonPressed()
     if DebugTools.MainMenu == nil then
         DebugTools.MainMenu = RogueEssence.Menu.MainMenu()
     end
-
     DebugTools.MainMenu:SetupChoices()
     local index = 4
     if RogueEssence.GameManager.Instance.CurrentScene == RogueEssence.Dungeon.DungeonScene.Instance then
@@ -123,7 +122,7 @@ function DebugTools:CustomDungeonOthersMenu()
     local enabled = not isGround or not _DATA.Save.NoRecruiting
     local color = Color.White
     if not enabled then color = Color.Red end
-    menu.Choices:Insert(1, RogueEssence.Menu.MenuTextChoice("Recruits", function () _MENU:AddMenu(RecruitMainChoice:new(menu.Bounds.Width+menu.Bounds.X+2).menu, true) end, enabled, color))
+    menu.Choices:Insert(1, RogueEssence.Menu.MenuTextChoice("Recruits", function () _MENU:AddMenu(RecruitListMainMenu:new(menu.Bounds.Width+menu.Bounds.X+2).menu, true) end, enabled, color))
 
     if SV.MissionsEnabled and RogueEssence.GameManager.Instance.CurrentScene == RogueEssence.Dungeon.DungeonScene.Instance then
         menu.Choices:Add(RogueEssence.Menu.MenuTextChoice("Mission Objectives", function () _MENU:AddMenu(DungeonJobList:new().menu, false) end))
@@ -131,7 +130,6 @@ function DebugTools:CustomDungeonOthersMenu()
     menu:InitMenu();
     return menu
 end
-
 
 --[[---------------------------------------------------------------
     DebugTools:OnNewGame()
@@ -217,36 +215,36 @@ function DebugTools:OnLossPenalty(save)
   --wipedout enable
   SV.wipedout = true
  
-  --remove money
-  save.ActiveTeam.Money = 0
-  local inv_count = save.ActiveTeam:GetInvCount() - 1
+    --remove money
+    save.ActiveTeam.Money = 0
+    local inv_count = save.ActiveTeam:GetInvCount() - 1
 
-  --remove bag items
-  for i = inv_count, 0, -1 do
-    local entry = _DATA:GetItem(save.ActiveTeam:GetInv(i).ID)
-    if not entry.CannotDrop then
-      save.ActiveTeam:RemoveFromInv(i)
+    --remove bag items
+    for i = inv_count, 0, -1 do
+        local entry = _DATA:GetItem(save.ActiveTeam:GetInv(i).ID)
+        if not entry.CannotDrop then
+            save.ActiveTeam:RemoveFromInv(i)
+        end
     end
-  end
-  
-  --remove equips
-  local player_count = save.ActiveTeam.Players.Count
-  for i = 0, player_count - 1, 1 do 
-    local player = save.ActiveTeam.Players[i]
-    if player.EquippedItem.ID ~= '' and player.EquippedItem.ID ~= nil then 
-      local entry = _DATA:GetItem(player.EquippedItem.ID)
-      if not entry.CannotDrop then
-         player:SilentDequipItem()
-      end
+
+    --remove equips
+    local player_count = save.ActiveTeam.Players.Count
+    for i = 0, player_count - 1, 1 do
+        local player = save.ActiveTeam.Players[i]
+        if player.EquippedItem.ID ~= '' and player.EquippedItem.ID ~= nil then
+            local entry = _DATA:GetItem(player.EquippedItem.ID)
+            if not entry.CannotDrop then
+                player:SilentDequipItem()
+            end
+        end
     end
-  end
 end
 
 --[[---------------------------------------------------------------
     DebugTools:OnDungeonFloorEnd()
       When leaving a dungeon floor this is called.
 ---------------------------------------------------------------]]
-function DebugTools:OnDungeonFloorEnd(ignore, ignore2)
+function DebugTools:OnDungeonFloorEnd(_, _)
     assert(self, 'DebugTools:OnDungeonFloorEnd() : self is null!')
     local location = RECRUIT_LIST.getCurrentMap()
     RECRUIT_LIST.generateDungeonListSV(location.zone, location.segment)
@@ -263,29 +261,33 @@ end
 function DebugTools:OnUpgrade()
     assert(self, 'DebugTools:OnUpgrade() : self is null!')
     PrintInfo("RecruitList =>> Loading version")
-    local old_version = {Major = 0, Minor = 0, Build = 0, Revision = 0}
+    RECRUIT_LIST.version = {Major = 0, Minor = 0, Build = 0, Revision = 0}
     -- get old version
     for i=0, _DATA.Save.Mods.Count-1, 1 do
         local mod = _DATA.Save.Mods[i]
         if mod.Name == "Dungeon Recruitment List" then
-            old_version = mod.Version
+            RECRUIT_LIST.version = mod.Version
             break
         end
     end
 
+    --remove spoiler mode leftover data
+    if not RECRUIT_LIST.checkMinVersion(3) then
+        SV.Services.RecruitList_spoiler_mode = nil
+    end
+
     --hide accidental dev mode message
-    if old_version.Major < 2 or (old_version.Major == 2 and old_version.Minor < 3) or
-            (old_version.Minor == 3 and old_version.Build < 1) then
+    if not RECRUIT_LIST.checkMinVersion(2, 3, 1) then
         SV.Services.RecruitList_show_unrecruitable = nil
     end
 
     -- update dungeon list data
     local list =  RECRUIT_LIST.getDungeonListSV()
-    if old_version.Major < 2 or (old_version.Major == 2 and old_version.Minor < 2) then
+    if not RECRUIT_LIST.checkMinVersion(2, 2) then
         SV.Services.RecruitList_DungeonOrder = {}
         for zone, zone_data in pairs(list) do
             for segment, _ in pairs(zone_data) do
-                if old_version.Major < 2 or (old_version.Major == 2 and old_version.Minor < 0) then
+                if RECRUIT_LIST.checkMinVersion(2, 0) then
                     RECRUIT_LIST.generateDungeonListSV(zone, segment)
                 else
                     RECRUIT_LIST.updateSegmentName(zone, segment)
@@ -296,7 +298,7 @@ function DebugTools:OnUpgrade()
     end
 
     -- update dungeon order data
-    if old_version.Major < 2 or (old_version.Major == 2 and old_version.Minor < 0) then
+    if not RECRUIT_LIST.checkMinVersion(2) then
         local order = RECRUIT_LIST.getDungeonOrder()
         for _, entry in pairs(order) do
             if list[entry.zone] then
@@ -334,18 +336,18 @@ function DebugTools:Subscribe(med)
     med:Subscribe("DebugTools", EngineServiceEvents.NewGame,        function() self.OnNewGame(self) end )
     med:Subscribe("DebugTools", EngineServiceEvents.LossPenalty,        function(_, args) self.OnLossPenalty(self, args[0]) end )
     med:Subscribe("DebugTools", EngineServiceEvents.DungeonFloorExit,  function(dungeonloc, result) self.OnDungeonFloorEnd(self, dungeonloc, result) end )
-    med:Subscribe("DebugTools", EngineServiceEvents.UpgradeSave,       function(mapid) self.OnUpgrade(self) end )
+    med:Subscribe("DebugTools", EngineServiceEvents.UpgradeSave,       function(_) self.OnUpgrade(self) end )
     med:Subscribe("DebugTools", EngineServiceEvents.LoadSavedData,     function() self.OnSaveLoad(self) end )
 end
 
 ---Summary
 -- un-subscribe to all channels this service subscribed to
-function DebugTools:UnSubscribe(med)
+function DebugTools:UnSubscribe(_)
 end
 
 ---Summary
 -- The update method is run as a coroutine for each services.
-function DebugTools:Update(gtime)
+function DebugTools:Update(_)
     --  while(true)
     --    coroutine.yield()
     --  end

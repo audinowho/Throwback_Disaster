@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.10.0",
+"Version": "0.8.0.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
@@ -41630,6 +41630,7 @@
 "EntName": "Stairs",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 3,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -41674,6 +41675,7 @@
 "EntName": "Start_1",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 352,

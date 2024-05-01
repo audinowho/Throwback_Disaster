@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.18.2",
+"Version": "0.8.0.0",
 "Object": {
 "$type": "RogueEssence.Dungeon.Map, RogueEssence",
 "Name": {
@@ -123,6 +123,8 @@
 "AttackPattern": 4,
 "PositionPattern": 2,
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 4
@@ -130,6 +132,8 @@
 {
 "$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -137,6 +141,8 @@
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -144,6 +150,8 @@
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -195,19 +203,23 @@
 "BaseSkills": [
 {
 "SkillNum": "magical_leaf",
-"Charges": 14
+"Charges": 14,
+"CanForget": true
 },
 {
 "SkillNum": "heal_bell",
-"Charges": 10
+"Charges": 10,
+"CanForget": true
 },
 {
 "SkillNum": "confusion",
-"Charges": 21
+"Charges": 21,
+"CanForget": true
 },
 {
 "SkillNum": "trick_room",
-"Charges": 16
+"Charges": 16,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [

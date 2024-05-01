@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.25.0",
+"Version": "0.8.0.0",
 "Object": {
 "$type": "RogueEssence.Data.ZoneData, RogueEssence",
 "Name": {
@@ -95,6 +95,1361 @@
 "type": "PMDC.Dungeon.CoinModGenState"
 }
 ]
+},
+{
+"$type": "RogueEssence.LevelGen.ItemSpawnZoneStep, RogueEssence",
+"Priority": {
+"str": [
+1,
+1
+]
+},
+"Spawns": {
+"necessities": {
+"Spawns": [
+{
+"Spawn": {
+"ID": "berry_leppa",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 9,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "berry_oran",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 12,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "food_apple",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "berry_lum",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "seed_reviver",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 5,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+}
+],
+"SpawnRates": {
+"nodes": [
+{
+"Item": 14,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+}
+]
+}
+},
+"snacks": {
+"Spawns": [
+{
+"Spawn": {
+"ID": "seed_warp",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "seed_blast",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "seed_sleep",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+}
+],
+"SpawnRates": {
+"nodes": [
+{
+"Item": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+}
+]
+}
+},
+"boosters": {
+"Spawns": [
+{
+"Spawn": {
+"ID": "gummi_blue",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 5,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "gummi_black",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "gummi_clear",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "gummi_grass",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 5,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "gummi_green",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 5,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "gummi_brown",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 5,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "gummi_orange",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "gummi_gold",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "gummi_pink",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "gummi_purple",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "gummi_red",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 5,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "gummi_royal",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "gummi_silver",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "gummi_white",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "gummi_yellow",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "gummi_sky",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "gummi_gray",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "gummi_magenta",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+}
+],
+"SpawnRates": {
+"nodes": [
+{
+"Item": 3,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+}
+]
+}
+},
+"special": {
+"Spawns": [
+{
+"Spawn": {
+"ID": "apricorn_plain",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "apricorn_blue",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "apricorn_red",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "apricorn_brown",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "machine_assembly_box",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+}
+],
+"SpawnRates": {
+"nodes": [
+{
+"Item": 3,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+}
+]
+}
+},
+"throwable": {
+"Spawns": [
+{
+"Spawn": {
+"ID": "ammo_geo_pebble",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 3,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "ammo_corsola_twig",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 2,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "wand_pounce",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 2,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "wand_whirlwind",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 2,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "wand_slow",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 2,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "wand_path",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 3,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "wand_switcher",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 2,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "wand_fear",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 2,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+}
+],
+"SpawnRates": {
+"nodes": [
+{
+"Item": 12,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+}
+]
+}
+},
+"orbs": {
+"Spawns": [
+{
+"Spawn": {
+"ID": "orb_rebound",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "orb_luminous",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "orb_trapbust",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "orb_foe_hold",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+}
+],
+"SpawnRates": {
+"nodes": [
+{
+"Item": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+}
+]
+}
+},
+"held": {
+"Spawns": [
+{
+"Spawn": {
+"ID": "held_scope_lens",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "held_warp_scarf",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "held_metronome",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "held_wide_lens",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "held_charcoal",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+},
+{
+"Spawn": {
+"ID": "held_mystic_water",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+}
+],
+"SpawnRates": {
+"nodes": [
+{
+"Item": 2,
+"Range": {
+"Min": 0,
+"Max": 16
+}
+}
+]
+}
+}
+}
+},
+{
+"$type": "RogueEssence.LevelGen.TeamSpawnZoneStep, RogueEssence",
+"Priority": {
+"str": [
+1,
+2
+]
+},
+"Spawns": [
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "litten",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 3,
+"Range": {
+"Min": 5,
+"Max": 8
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "fuecoco",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 3,
+"Range": {
+"Min": 5,
+"Max": 8
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "torchic",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 3,
+"Range": {
+"Min": 5,
+"Max": 8
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "charcadet",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 2,
+"Range": {
+"Min": 6,
+"Max": 8
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "rotom",
+"Form": 1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 5,
+"Range": {
+"Min": 3,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "fletchling",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 16,
+"Range": {
+"Min": 0,
+"Max": 8
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "litleo",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 16,
+"Range": {
+"Min": 0,
+"Max": 8
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "anorith",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 9,
+"Range": {
+"Min": 0,
+"Max": 8
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "growlithe",
+"Form": 1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 8,
+"Range": {
+"Min": 0,
+"Max": 8
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "numel",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 11,
+"Range": {
+"Min": 0,
+"Max": 8
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "slugma",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 6,
+"Range": {
+"Min": 0,
+"Max": 8
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "solrock",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 8,
+"Range": {
+"Min": 2,
+"Max": 6
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "rhyhorn",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 12,
+"Range": {
+"Min": 0,
+"Max": 8
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "sandile",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 12,
+"Range": {
+"Min": 0,
+"Max": 8
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "geodude",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 12,
+"Range": {
+"Min": 0,
+"Max": 8
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "pansear",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 14,
+"Range": {
+"Min": 0,
+"Max": 8
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "salandit",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 5,
+"Range": {
+"Min": 0,
+"Max": 8
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "torkoal",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 12,
+"Range": {
+"Min": 0,
+"Max": 8
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "ponyta",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 0,
+"Max": 1
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "avoid_trouble",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 16,
+"Range": {
+"Min": 0,
+"Max": 8
+}
+}
+],
+"TeamSizes": [
+{
+"Spawn": 3,
+"Rate": 6,
+"Range": {
+"Min": 3,
+"Max": 8
+}
+},
+{
+"Spawn": 2,
+"Rate": 12,
+"Range": {
+"Min": 0,
+"Max": 8
+}
+}
+],
+"SpecificSpawns": []
+},
+{
+"$type": "RogueEssence.LevelGen.TileSpawnZoneStep, RogueEssence",
+"Priority": {
+"str": [
+1,
+3
+]
+},
+"Spawns": []
 }
 ],
 "IsRelevant": false,

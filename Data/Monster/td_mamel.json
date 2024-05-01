@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.12.0",
+"Version": "0.8.0.0",
 "Object": {
 "$type": "RogueEssence.Data.MonsterData, RogueEssence",
 "Name": {
@@ -55,6 +55,7 @@
 "LocalTexts": {}
 },
 "Temporary": false,
+"PromoteForm": 0,
 "Element1": "normal",
 "Element2": "none",
 "Intrinsic1": "stench",

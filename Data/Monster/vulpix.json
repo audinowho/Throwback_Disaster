@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.10.0",
+"Version": "0.8.0.0",
 "Object": {
 "$type": "RogueEssence.Data.MonsterData, RogueEssence",
 "Name": {
@@ -44,7 +44,10 @@
 "Details": [
 {
 "$type": "PMDC.Data.EvoForm, PMDC",
-"ReqForm": 0
+"ReqForm": 0,
+"ReqForms": [
+0
+]
 },
 {
 "$type": "PMDC.Data.EvoItem, PMDC",
@@ -57,7 +60,10 @@
 "Details": [
 {
 "$type": "PMDC.Data.EvoForm, PMDC",
-"ReqForm": 1
+"ReqForm": 1,
+"ReqForms": [
+1
+]
 },
 {
 "$type": "PMDC.Data.EvoItem, PMDC",
@@ -326,6 +332,7 @@
 }
 },
 "Temporary": false,
+"PromoteForm": 0,
 "Element1": "fire",
 "Element2": "none",
 "Intrinsic1": "flash_fire",
@@ -539,6 +546,7 @@
 }
 },
 "Temporary": false,
+"PromoteForm": 0,
 "Element1": "ice",
 "Element2": "none",
 "Intrinsic1": "snow_cloak",

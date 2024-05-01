@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.10.0",
+"Version": "0.8.0.0",
 "Object": {
 "$type": "RogueEssence.Data.ZoneData, RogueEssence",
 "Name": {
@@ -9,12 +9,15 @@
 "Released": false,
 "Comment": "",
 "NoEXP": false,
+"ExpPercent": 100,
 "Level": 10,
 "LevelCap": true,
+"KeepSkills": false,
 "TeamRestrict": true,
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Persistent": false,
 "Rescues": 0,
@@ -519,6 +522,7 @@
 "Connection": 1
 }
 ],
+"IncludeHalls": false,
 "Spawn": {
 "$type": "RogueEssence.LevelGen.TeamContextSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
 "Amount": {
@@ -590,7 +594,8 @@
 }
 }
 }
-]
+],
+"Comment": ""
 },
 "Range": {
 "Min": 0,
@@ -690,7 +695,8 @@
 "SpecificSpawns": []
 }
 ],
-"IsRelevant": true
+"IsRelevant": true,
+"Comment": ""
 }
 ],
 "GroundMaps": []

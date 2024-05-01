@@ -30,6 +30,8 @@ SV.Services =
 -----------------------------------------------
 -- General Defaults
 -----------------------------------------------
+
+SV.Experimental = false
 SV.General =
 {
   Rescue = nil,
@@ -781,7 +783,7 @@ SV.manaphy_egg =
 SV.sleeping_caldera = 
 {
   TookTreasure  = false,
-  TookMusicBox  = false,
+  TreasureTaken  = false,
   GotHeatran = false
 }
 

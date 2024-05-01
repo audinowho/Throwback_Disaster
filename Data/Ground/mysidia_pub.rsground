@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.16.0",
+"Version": "0.8.0.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
@@ -42294,6 +42294,7 @@
 "AIEnabled": true,
 "EntName": "Dancer",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 268,
 "Y": 268
@@ -42323,19 +42324,23 @@
 "BaseSkills": [
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [
@@ -42383,6 +42388,7 @@
 "AIEnabled": true,
 "EntName": "Mothim",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 125,
 "Y": 244
@@ -42412,19 +42418,23 @@
 "BaseSkills": [
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [
@@ -42472,6 +42482,7 @@
 "AIEnabled": true,
 "EntName": "Nidoran_F",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 149,
 "Y": 340
@@ -42501,19 +42512,23 @@
 "BaseSkills": [
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [
@@ -42561,6 +42576,7 @@
 "AIEnabled": true,
 "EntName": "Nidoran_M",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 100,
 "Y": 340
@@ -42590,19 +42606,23 @@
 "BaseSkills": [
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [
@@ -42650,6 +42670,7 @@
 "AIEnabled": true,
 "EntName": "Purrloin",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 388,
 "Y": 315
@@ -42679,19 +42700,23 @@
 "BaseSkills": [
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [
@@ -42739,6 +42764,7 @@
 "AIEnabled": true,
 "EntName": "Pumpkaboo_Leader",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 441,
 "Y": 379
@@ -42768,19 +42794,23 @@
 "BaseSkills": [
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [
@@ -42828,6 +42858,7 @@
 "AIEnabled": true,
 "EntName": "Pumpkaboo_Crew1",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 416,
 "Y": 407
@@ -42857,19 +42888,23 @@
 "BaseSkills": [
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [
@@ -42917,6 +42952,7 @@
 "AIEnabled": true,
 "EntName": "Pumpkaboo_Crew2",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 465,
 "Y": 413
@@ -42946,19 +42982,23 @@
 "BaseSkills": [
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [
@@ -43006,6 +43046,7 @@
 "AIEnabled": true,
 "EntName": "Chansey",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 460,
 "Y": 75
@@ -43035,19 +43076,23 @@
 "BaseSkills": [
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [

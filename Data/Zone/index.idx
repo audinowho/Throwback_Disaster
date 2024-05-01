@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.25.0",
+"Version": "0.8.0.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
 "nad_crystal_cave": {
@@ -46,7 +46,7 @@
 },
 "tdtrial_onionkuya": {
 "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 0,
+"ExpPercent": 100,
 "Level": 10,
 "LevelCap": true,
 "KeepSkills": false,
@@ -81,6 +81,69 @@
 ],
 "Name": {
 "DefaultText": "Onion Kuya's Trial",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"td_amusement_dungeon": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 12,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 6,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5
+]
+],
+"Name": {
+"DefaultText": "Amusement Dungeon",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"td_antimatter_plaza": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 19,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Antimatter Plaza",
 "LocalTexts": {}
 },
 "Released": false,
@@ -173,6 +236,307 @@
 "Comment": "",
 "SortOrder": 0
 },
+"td_cobaltcells": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 16,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 11,
+"Rogue": 0,
+"Grounds": [
+"cobalt_cells_bossroom"
+],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10
+],
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Cobalt Cells",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"td_fieldgarden": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 15,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 10,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9
+]
+],
+"Name": {
+"DefaultText": "Field Garden",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"td_flaming_house": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 12,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 0,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7
+]
+],
+"Name": {
+"DefaultText": "Flaming House",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"td_hauntedzone": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 18,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 11,
+"Rogue": 0,
+"Grounds": [
+"event_hauntedzone_boss"
+],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10
+],
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Haunted Zone",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"td_lourgus_giant": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 18,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Lourgus Giant",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"td_luminous_tangle": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 16,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 9,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8
+]
+],
+"Name": {
+"DefaultText": "Luminous Tangle",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"td_mixandmatch": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 20,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 9,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8
+]
+],
+"Name": {
+"DefaultText": "Mix & Match",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"td_moomoofrenzy": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 12,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 0,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6
+],
+[]
+],
+"Name": {
+"DefaultText": "Moo Moo Frenzy",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
 "td_newforest": {
 "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
 "ExpPercent": 125,
@@ -252,6 +616,40 @@
 "Comment": "",
 "SortOrder": 0
 },
+"td_pinkandblue": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 150,
+"Level": 3,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 6,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5
+]
+],
+"Name": {
+"DefaultText": "Pink & Blue",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
 "td_starlight": {
 "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
 "ExpPercent": 100,
@@ -286,6 +684,75 @@
 "LocalTexts": {}
 },
 "Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"td_strangeparadise": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": -1,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 10,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9
+]
+],
+"Name": {
+"DefaultText": "Strange Paradise",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"td_thedistantboi": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 24,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "The Distant Bois",
+"LocalTexts": {
+"fr": "Les Bois des Lointaine"
+}
+},
+"Released": false,
 "Comment": "",
 "SortOrder": 0
 },
@@ -466,473 +933,6 @@
 "LocalTexts": {}
 },
 "Released": true,
-"Comment": "",
-"SortOrder": 0
-},
-"td_fieldgarden": {
-"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 100,
-"Level": 15,
-"LevelCap": false,
-"KeepSkills": false,
-"TeamRestrict": false,
-"TeamSize": -1,
-"MoneyRestrict": false,
-"BagRestrict": -1,
-"KeepTreasure": false,
-"BagSize": -1,
-"Rescues": 0,
-"CountedFloors": 10,
-"Rogue": 0,
-"Grounds": [],
-"Maps": [
-[
-0,
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9
-]
-],
-"Name": {
-"DefaultText": "Field Garden",
-"LocalTexts": {}
-},
-"Released": true,
-"Comment": "",
-"SortOrder": 0
-},
-"td_luminous_tangle": {
-"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 100,
-"Level": 16,
-"LevelCap": false,
-"KeepSkills": false,
-"TeamRestrict": false,
-"TeamSize": -1,
-"MoneyRestrict": false,
-"BagRestrict": -1,
-"KeepTreasure": false,
-"BagSize": -1,
-"Rescues": 0,
-"CountedFloors": 9,
-"Rogue": 0,
-"Grounds": [],
-"Maps": [
-[
-0,
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8
-]
-],
-"Name": {
-"DefaultText": "Luminous Tangle",
-"LocalTexts": {}
-},
-"Released": true,
-"Comment": "",
-"SortOrder": 0
-},
-"td_cobaltcells": {
-"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 100,
-"Level": 16,
-"LevelCap": false,
-"KeepSkills": false,
-"TeamRestrict": false,
-"TeamSize": -1,
-"MoneyRestrict": false,
-"BagRestrict": -1,
-"KeepTreasure": false,
-"BagSize": -1,
-"Rescues": 0,
-"CountedFloors": 11,
-"Rogue": 0,
-"Grounds": [
-"cobalt_cells_bossroom"
-],
-"Maps": [
-[
-0,
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9,
-10
-],
-[
-0
-]
-],
-"Name": {
-"DefaultText": "Cobalt Cells",
-"LocalTexts": {}
-},
-"Released": true,
-"Comment": "",
-"SortOrder": 0
-},
-"td_mixandmatch": {
-"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 100,
-"Level": 20,
-"LevelCap": false,
-"KeepSkills": false,
-"TeamRestrict": false,
-"TeamSize": -1,
-"MoneyRestrict": false,
-"BagRestrict": -1,
-"KeepTreasure": false,
-"BagSize": -1,
-"Rescues": 0,
-"CountedFloors": 9,
-"Rogue": 0,
-"Grounds": [],
-"Maps": [
-[
-0,
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8
-]
-],
-"Name": {
-"DefaultText": "Mix & Match",
-"LocalTexts": {}
-},
-"Released": false,
-"Comment": "",
-"SortOrder": 0
-},
-"td_hauntedzone": {
-"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 100,
-"Level": 18,
-"LevelCap": false,
-"KeepSkills": false,
-"TeamRestrict": false,
-"TeamSize": -1,
-"MoneyRestrict": false,
-"BagRestrict": -1,
-"KeepTreasure": false,
-"BagSize": -1,
-"Rescues": 0,
-"CountedFloors": 11,
-"Rogue": 0,
-"Grounds": [
-"event_hauntedzone_boss"
-],
-"Maps": [
-[
-0,
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9,
-10
-],
-[
-0
-]
-],
-"Name": {
-"DefaultText": "Haunted Zone",
-"LocalTexts": {}
-},
-"Released": true,
-"Comment": "",
-"SortOrder": 0
-},
-"td_lourgus_giant": {
-"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 100,
-"Level": 18,
-"LevelCap": false,
-"KeepSkills": false,
-"TeamRestrict": false,
-"TeamSize": -1,
-"MoneyRestrict": false,
-"BagRestrict": -1,
-"KeepTreasure": false,
-"BagSize": -1,
-"Rescues": 0,
-"CountedFloors": 1,
-"Rogue": 0,
-"Grounds": [],
-"Maps": [
-[
-0
-]
-],
-"Name": {
-"DefaultText": "Lourgus Giant",
-"LocalTexts": {}
-},
-"Released": false,
-"Comment": "",
-"SortOrder": 0
-},
-"td_antimatter_plaza": {
-"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 100,
-"Level": 19,
-"LevelCap": false,
-"KeepSkills": false,
-"TeamRestrict": false,
-"TeamSize": -1,
-"MoneyRestrict": false,
-"BagRestrict": -1,
-"KeepTreasure": false,
-"BagSize": -1,
-"Rescues": 0,
-"CountedFloors": 1,
-"Rogue": 0,
-"Grounds": [],
-"Maps": [
-[
-0
-]
-],
-"Name": {
-"DefaultText": "Antimatter Plaza",
-"LocalTexts": {}
-},
-"Released": false,
-"Comment": "",
-"SortOrder": 0
-},
-"td_amusement_dungeon": {
-"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 100,
-"Level": 12,
-"LevelCap": false,
-"KeepSkills": false,
-"TeamRestrict": false,
-"TeamSize": -1,
-"MoneyRestrict": false,
-"BagRestrict": -1,
-"KeepTreasure": false,
-"BagSize": -1,
-"Rescues": 0,
-"CountedFloors": 6,
-"Rogue": 0,
-"Grounds": [],
-"Maps": [
-[
-0,
-1,
-2,
-3,
-4,
-5
-]
-],
-"Name": {
-"DefaultText": "Amusement Dungeon",
-"LocalTexts": {}
-},
-"Released": true,
-"Comment": "",
-"SortOrder": 0
-},
-"td_thedistantboi": {
-"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 100,
-"Level": 24,
-"LevelCap": false,
-"KeepSkills": false,
-"TeamRestrict": false,
-"TeamSize": -1,
-"MoneyRestrict": false,
-"BagRestrict": -1,
-"KeepTreasure": false,
-"BagSize": -1,
-"Rescues": 0,
-"CountedFloors": 1,
-"Rogue": 0,
-"Grounds": [],
-"Maps": [
-[
-0
-]
-],
-"Name": {
-"DefaultText": "The Distant Bois",
-"LocalTexts": {
-"fr": "Les Bois des Lointaine"
-}
-},
-"Released": false,
-"Comment": "",
-"SortOrder": 0
-},
-"td_pinkandblue": {
-"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 150,
-"Level": 3,
-"LevelCap": false,
-"KeepSkills": false,
-"TeamRestrict": false,
-"TeamSize": -1,
-"MoneyRestrict": false,
-"BagRestrict": -1,
-"KeepTreasure": false,
-"BagSize": -1,
-"Rescues": 0,
-"CountedFloors": 6,
-"Rogue": 0,
-"Grounds": [],
-"Maps": [
-[
-0,
-1,
-2,
-3,
-4,
-5
-]
-],
-"Name": {
-"DefaultText": "Pink & Blue",
-"LocalTexts": {}
-},
-"Released": true,
-"Comment": "",
-"SortOrder": 0
-},
-"td_strangeparadise": {
-"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 100,
-"Level": -1,
-"LevelCap": false,
-"KeepSkills": false,
-"TeamRestrict": false,
-"TeamSize": -1,
-"MoneyRestrict": false,
-"BagRestrict": -1,
-"KeepTreasure": false,
-"BagSize": -1,
-"Rescues": 0,
-"CountedFloors": 10,
-"Rogue": 0,
-"Grounds": [],
-"Maps": [
-[
-0,
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9
-]
-],
-"Name": {
-"DefaultText": "Strange Paradise",
-"LocalTexts": {}
-},
-"Released": false,
-"Comment": "",
-"SortOrder": 0
-},
-"td_moomoofrenzy": {
-"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 100,
-"Level": 12,
-"LevelCap": false,
-"KeepSkills": false,
-"TeamRestrict": false,
-"TeamSize": -1,
-"MoneyRestrict": false,
-"BagRestrict": -1,
-"KeepTreasure": false,
-"BagSize": -1,
-"Rescues": 0,
-"CountedFloors": 0,
-"Rogue": 0,
-"Grounds": [],
-"Maps": [
-[
-0,
-1,
-2,
-3,
-4,
-5,
-6
-],
-[]
-],
-"Name": {
-"DefaultText": "Moo Moo Frenzy",
-"LocalTexts": {}
-},
-"Released": false,
-"Comment": "",
-"SortOrder": 0
-},
-"td_flaming_house": {
-"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 100,
-"Level": 12,
-"LevelCap": false,
-"KeepSkills": false,
-"TeamRestrict": false,
-"TeamSize": -1,
-"MoneyRestrict": false,
-"BagRestrict": -1,
-"KeepTreasure": false,
-"BagSize": -1,
-"Rescues": 0,
-"CountedFloors": 0,
-"Rogue": 0,
-"Grounds": [],
-"Maps": [
-[
-0,
-1,
-2,
-3,
-4,
-5,
-6,
-7
-]
-],
-"Name": {
-"DefaultText": "Flaming House",
-"LocalTexts": {}
-},
-"Released": false,
 "Comment": "",
 "SortOrder": 0
 }

@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.18.2",
+"Version": "0.8.0.0",
 "Object": {
 "$type": "RogueEssence.Dungeon.Map, RogueEssence",
 "Name": {
@@ -123,6 +123,8 @@
 "AttackPattern": 4,
 "PositionPattern": 2,
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 4
@@ -130,6 +132,8 @@
 {
 "$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -137,6 +141,8 @@
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -144,6 +150,8 @@
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -195,19 +203,23 @@
 "BaseSkills": [
 {
 "SkillNum": "mystical_fire",
-"Charges": 15
+"Charges": 15,
+"CanForget": true
 },
 {
 "SkillNum": "confuse_ray",
-"Charges": 10
+"Charges": 10,
+"CanForget": true
 },
 {
 "SkillNum": "dazzling_gleam",
-"Charges": 16
+"Charges": 16,
+"CanForget": true
 },
 {
 "SkillNum": "hyper_voice",
-"Charges": 8
+"Charges": 8,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [
@@ -368,6 +380,8 @@
 "$type": "PMDC.Dungeon.PrepareWithLeaderPlan, PMDC",
 "AttackPattern": 4,
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -377,6 +391,8 @@
 "AttackPattern": 4,
 "PositionPattern": 2,
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -384,6 +400,8 @@
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -391,6 +409,8 @@
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -442,19 +462,23 @@
 "BaseSkills": [
 {
 "SkillNum": "astonish",
-"Charges": 22
+"Charges": 22,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [
@@ -615,6 +639,8 @@
 "$type": "PMDC.Dungeon.PrepareWithLeaderPlan, PMDC",
 "AttackPattern": 4,
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -624,6 +650,8 @@
 "AttackPattern": 4,
 "PositionPattern": 2,
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -631,6 +659,8 @@
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -638,6 +668,8 @@
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -689,19 +721,23 @@
 "BaseSkills": [
 {
 "SkillNum": "astonish",
-"Charges": 22
+"Charges": 22,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [
@@ -862,6 +898,8 @@
 "$type": "PMDC.Dungeon.PrepareWithLeaderPlan, PMDC",
 "AttackPattern": 4,
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -871,6 +909,8 @@
 "AttackPattern": 4,
 "PositionPattern": 2,
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -878,6 +918,8 @@
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -885,6 +927,8 @@
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -936,19 +980,23 @@
 "BaseSkills": [
 {
 "SkillNum": "astonish",
-"Charges": 22
+"Charges": 22,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [
@@ -1109,6 +1157,8 @@
 "$type": "PMDC.Dungeon.PrepareWithLeaderPlan, PMDC",
 "AttackPattern": 4,
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -1118,6 +1168,8 @@
 "AttackPattern": 4,
 "PositionPattern": 2,
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -1125,6 +1177,8 @@
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -1132,6 +1186,8 @@
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -1183,19 +1239,23 @@
 "BaseSkills": [
 {
 "SkillNum": "astonish",
-"Charges": 22
+"Charges": 22,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 },
 {
 "SkillNum": "",
-"Charges": 0
+"Charges": 0,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [

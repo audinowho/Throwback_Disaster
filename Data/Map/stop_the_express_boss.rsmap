@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.22.0",
+"Version": "0.8.0.0",
 "Object": {
 "$type": "RogueEssence.Dungeon.Map, RogueEssence",
 "Name": {
@@ -131,6 +131,8 @@
 "$type": "PMDC.Dungeon.PrepareWithLeaderPlan, PMDC",
 "AttackPattern": 4,
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -140,6 +142,8 @@
 "AttackPattern": 4,
 "PositionPattern": 2,
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -148,6 +152,8 @@
 "$type": "PMDC.Dungeon.FindItemPlan, PMDC",
 "IncludeMoney": true,
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -155,6 +161,8 @@
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -162,6 +170,8 @@
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -213,19 +223,23 @@
 "BaseSkills": [
 {
 "SkillNum": "knock_off",
-"Charges": 20
+"Charges": 20,
+"CanForget": true
 },
 {
 "SkillNum": "taunt",
-"Charges": 20
+"Charges": 20,
+"CanForget": true
 },
 {
 "SkillNum": "fury_swipes",
-"Charges": 20
+"Charges": 20,
+"CanForget": true
 },
 {
 "SkillNum": "night_shade",
-"Charges": 15
+"Charges": 15,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [

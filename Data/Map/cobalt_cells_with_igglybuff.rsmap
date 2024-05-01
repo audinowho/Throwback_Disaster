@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.22.0",
+"Version": "0.8.0.0",
 "Object": {
 "$type": "RogueEssence.Dungeon.Map, RogueEssence",
 "Name": {
@@ -123,6 +123,8 @@
 "AttackPattern": 4,
 "PositionPattern": 2,
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 4
@@ -130,6 +132,8 @@
 {
 "$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -137,6 +141,8 @@
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -144,6 +150,8 @@
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -195,19 +203,23 @@
 "BaseSkills": [
 {
 "SkillNum": "double_edge",
-"Charges": 8
+"Charges": 8,
+"CanForget": true
 },
 {
 "SkillNum": "gyro_ball",
-"Charges": 15
+"Charges": 15,
+"CanForget": true
 },
 {
 "SkillNum": "earthquake",
-"Charges": 10
+"Charges": 10,
+"CanForget": true
 },
 {
 "SkillNum": "sucker_punch",
-"Charges": 16
+"Charges": 16,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [
@@ -360,6 +372,8 @@
 "AttackPattern": 4,
 "PositionPattern": 2,
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 4
@@ -367,6 +381,8 @@
 {
 "$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -374,6 +390,8 @@
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -381,6 +399,8 @@
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -432,19 +452,23 @@
 "BaseSkills": [
 {
 "SkillNum": "thunder_punch",
-"Charges": 18
+"Charges": 18,
+"CanForget": true
 },
 {
 "SkillNum": "rock_blast",
-"Charges": 15
+"Charges": 15,
+"CanForget": true
 },
 {
 "SkillNum": "body_slam",
-"Charges": 18
+"Charges": 18,
+"CanForget": true
 },
 {
 "SkillNum": "explosion",
-"Charges": 5
+"Charges": 5,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [
@@ -597,6 +621,8 @@
 "AttackPattern": 4,
 "PositionPattern": 2,
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 4
@@ -604,6 +630,8 @@
 {
 "$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -611,6 +639,8 @@
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -618,6 +648,8 @@
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
 "IQ": 253,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -669,19 +701,23 @@
 "BaseSkills": [
 {
 "SkillNum": "stealth_rock",
-"Charges": 20
+"Charges": 20,
+"CanForget": true
 },
 {
 "SkillNum": "mud_slap",
-"Charges": 16
+"Charges": 16,
+"CanForget": true
 },
 {
 "SkillNum": "fire_punch",
-"Charges": 18
+"Charges": 18,
+"CanForget": true
 },
 {
 "SkillNum": "counter",
-"Charges": 15
+"Charges": 15,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [
@@ -863,6 +899,8 @@
 "AttackPattern": 4,
 "PositionPattern": 2,
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -870,6 +908,8 @@
 {
 "$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -878,6 +918,8 @@
 "$type": "PMDC.Dungeon.FindItemPlan, PMDC",
 "IncludeMoney": true,
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -885,6 +927,8 @@
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -892,6 +936,8 @@
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
 "IQ": 413,
+"RestrictedMobilityTypes": 0,
+"RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
 "SelfStatusRange": 0
@@ -943,19 +989,23 @@
 "BaseSkills": [
 {
 "SkillNum": "wish",
-"Charges": 16
+"Charges": 16,
+"CanForget": true
 },
 {
 "SkillNum": "protect",
-"Charges": 10
+"Charges": 10,
+"CanForget": true
 },
 {
 "SkillNum": "hyper_voice",
-"Charges": 8
+"Charges": 8,
+"CanForget": true
 },
 {
 "SkillNum": "fire_blast",
-"Charges": 9
+"Charges": 9,
+"CanForget": true
 }
 ],
 "BaseIntrinsics": [

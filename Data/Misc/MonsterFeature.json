@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.25.0",
+"Version": "0.8.0.0",
 "Object": {
 "$type": "PMDC.Data.MonsterFeatureData, PMDC",
 "FeatureData": {
@@ -11507,6 +11507,26 @@
 "WorstStat": -1
 }
 },
+"td_bebetar": {
+"0": {
+"Family": "td_bebetar",
+"Stage": 1,
+"Element1": "electric",
+"Element2": "none",
+"BestStat": -1,
+"WorstStat": -1
+}
+},
+"td_firrel": {
+"0": {
+"Family": "td_firrel",
+"Stage": 1,
+"Element1": "fire",
+"Element2": "none",
+"BestStat": -1,
+"WorstStat": -1
+}
+},
 "td_hankuma": {
 "0": {
 "Family": "td_hankuma",
@@ -11528,6 +11548,26 @@
 }
 },
 "td_huoshen": {},
+"td_lamball": {
+"0": {
+"Family": "td_lamball",
+"Stage": 1,
+"Element1": "normal",
+"Element2": "none",
+"BestStat": -1,
+"WorstStat": -1
+}
+},
+"td_lifmunk": {
+"0": {
+"Family": "td_lifmunk",
+"Stage": 1,
+"Element1": "grass",
+"Element2": "none",
+"BestStat": -1,
+"WorstStat": -1
+}
+},
 "td_mamel": {
 "0": {
 "Family": "td_mamel",
@@ -11560,6 +11600,26 @@
 }
 },
 "td_molimao": {},
+"td_mondama": {
+"0": {
+"Family": "td_mondama",
+"Stage": 1,
+"Element1": "normal",
+"Element2": "none",
+"BestStat": -1,
+"WorstStat": -1
+}
+},
+"td_mushboom": {
+"0": {
+"Family": "td_mushboom",
+"Stage": 1,
+"Element1": "poison",
+"Element2": "none",
+"BestStat": -1,
+"WorstStat": -1
+}
+},
 "td_notebeat": {
 "0": {
 "Family": "td_notebeat",
@@ -11605,6 +11665,36 @@
 "WorstStat": -1
 }
 },
+"td_purery": {
+"0": {
+"Family": "td_purery",
+"Stage": 1,
+"Element1": "bug",
+"Element2": "bug",
+"BestStat": -1,
+"WorstStat": -1
+}
+},
+"td_rabite": {
+"0": {
+"Family": "td_rabite",
+"Stage": 1,
+"Element1": "normal",
+"Element2": "none",
+"BestStat": -1,
+"WorstStat": -1
+}
+},
+"td_sandato": {
+"0": {
+"Family": "td_sandato",
+"Stage": 1,
+"Element1": "ground",
+"Element2": "none",
+"BestStat": -1,
+"WorstStat": -1
+}
+},
 "td_shuilanlan": {
 "0": {
 "Family": "td_shuilanlan",
@@ -11616,6 +11706,26 @@
 }
 },
 "td_shuiling": {},
+"td_slabby": {
+"0": {
+"Family": "td_slabby",
+"Stage": 1,
+"Element1": "rock",
+"Element2": "none",
+"BestStat": -1,
+"WorstStat": -1
+}
+},
+"td_trollite": {
+"0": {
+"Family": "td_trollite",
+"Stage": 1,
+"Element1": "dark",
+"Element2": "none",
+"BestStat": -1,
+"WorstStat": -1
+}
+},
 "td_yanhuo": {},
 "tdchar_gapori": {
 "0": {
@@ -13599,116 +13709,6 @@
 "Stage": 1,
 "Element1": "dragon",
 "Element2": "ground",
-"BestStat": -1,
-"WorstStat": -1
-}
-},
-"td_bebetar": {
-"0": {
-"Family": "td_bebetar",
-"Stage": 1,
-"Element1": "electric",
-"Element2": "none",
-"BestStat": -1,
-"WorstStat": -1
-}
-},
-"td_sandato": {
-"0": {
-"Family": "td_sandato",
-"Stage": 1,
-"Element1": "ground",
-"Element2": "none",
-"BestStat": -1,
-"WorstStat": -1
-}
-},
-"td_mondama": {
-"0": {
-"Family": "td_mondama",
-"Stage": 1,
-"Element1": "normal",
-"Element2": "none",
-"BestStat": -1,
-"WorstStat": -1
-}
-},
-"td_purery": {
-"0": {
-"Family": "td_purery",
-"Stage": 1,
-"Element1": "bug",
-"Element2": "bug",
-"BestStat": -1,
-"WorstStat": -1
-}
-},
-"td_slabby": {
-"0": {
-"Family": "td_slabby",
-"Stage": 1,
-"Element1": "rock",
-"Element2": "none",
-"BestStat": -1,
-"WorstStat": -1
-}
-},
-"td_trollite": {
-"0": {
-"Family": "td_trollite",
-"Stage": 1,
-"Element1": "dark",
-"Element2": "none",
-"BestStat": -1,
-"WorstStat": -1
-}
-},
-"td_rabite": {
-"0": {
-"Family": "td_rabite",
-"Stage": 1,
-"Element1": "normal",
-"Element2": "none",
-"BestStat": -1,
-"WorstStat": -1
-}
-},
-"td_mushboom": {
-"0": {
-"Family": "td_mushboom",
-"Stage": 1,
-"Element1": "poison",
-"Element2": "none",
-"BestStat": -1,
-"WorstStat": -1
-}
-},
-"td_firrel": {
-"0": {
-"Family": "td_firrel",
-"Stage": 1,
-"Element1": "fire",
-"Element2": "none",
-"BestStat": -1,
-"WorstStat": -1
-}
-},
-"td_lifmunk": {
-"0": {
-"Family": "td_lifmunk",
-"Stage": 1,
-"Element1": "grass",
-"Element2": "none",
-"BestStat": -1,
-"WorstStat": -1
-}
-},
-"td_lamball": {
-"0": {
-"Family": "td_lamball",
-"Stage": 1,
-"Element1": "normal",
-"Element2": "none",
 "BestStat": -1,
 "WorstStat": -1
 }

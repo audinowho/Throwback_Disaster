@@ -59,7 +59,7 @@
     <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </resheader>
   <data name="Kirila_0" xml:space="preserve">
-    <value />
+    <value>Was this structure being built because of the monster breaching event?</value>
   </data>
   <data name="Flareon_0" xml:space="preserve">
     <value>Welcome to "Monster Museum", where the creatures from other dimensions exists to be showcased.</value>
@@ -68,7 +68,7 @@
     <value>Have Fun.</value>
   </data>
   <data name="Sentret_0" xml:space="preserve">
-    <value />
+    <value>Take a look at all these creatures. I'm wondering now if any of the species truly belong here, based on how they appear.</value>
   </data>
   <data name="Flaaffy_0" xml:space="preserve">
     <value />
@@ -77,10 +77,10 @@
     <value />
   </data>
   <data name="Mikon_0" xml:space="preserve">
-    <value>Mikon, commonly known as Trifox, The Baby Fox Pokemon.</value>
+    <value>Mikon, The Baby Fox Pokemon.</value>
   </data>
   <data name="Mikon_1" xml:space="preserve">
-    <value>Trifox was supposed to be a pre-evolution of Vulpix on the Spaceworld Demo</value>
+    <value>Mikon was supposed to be a pre-evolution of Vulpix on the Spaceworld Demo</value>
   </data>
   <data name="Mikon_2" xml:space="preserve">
     <value>Sadly, They were scrapped from the official games and remains lost in the world.</value>
@@ -102,5 +102,47 @@
   </data>
   <data name="Mamel_2" xml:space="preserve">
     <value>Because of that, They're pretty weak but their variants are stronger.</value>
+  </data>
+  <data name="Shuilanlan_0" xml:space="preserve">
+    <value>Shuilanlan, originated from Roco Kingdom, a Chinese game that draws inspiration from Pokemon.</value>
+  </data>
+  <data name="Shuilanlan_1" xml:space="preserve">
+    <value>They prefer to sleep underwater on the algae, and they can easily float in the water while spewing bubbles. They also have a wonderful ribbon tied around their head.</value>
+  </data>
+  <data name="Gapori_0" xml:space="preserve">
+    <value>The White Creature, originated from Gapporin/Pop'n Bounce.</value>
+  </data>
+  <data name="Gapori_1" xml:space="preserve">
+    <value>Because we didn't know their real name, we called them "Gapori".</value>
+  </data>
+  <data name="Gapori_2" xml:space="preserve">
+    <value>The creature has a puffball-like body and is little and spherical with blue eyes and flushed cheeks.</value>
+  </data>
+  <data name="Gapori_3" xml:space="preserve">
+    <value>Gapori has a long tail with a fuzzy tip and two feathered wings or ears on top of its head.</value>
+  </data>
+  <data name="OhChan_0" xml:space="preserve">
+    <value>Oh-Chan, one of Hebe's companion, originated from Hebereke/Ufouria.</value>
+  </data>
+  <data name="OhChan_1" xml:space="preserve">
+    <value>Sadly, not much is known about her at this time. But all we knew about her was that she had a overconfident personality and spat ice mist. </value>
+  </data>
+  <data name="Notebeat_0" xml:space="preserve">
+    <value>The notes creatures came from Beat Bubbles, a mini-game made by Ijji back in 2000s.</value>
+  </data>
+  <data name="Notebeat_1" xml:space="preserve">
+    <value>Here, We call them "Notebeats".</value>
+  </data>
+  <data name="Notebeat_2" xml:space="preserve">
+    <value>Notebeats are creatures with a strong concentration on music that march through the galaxy's arrows.</value>
+  </data>
+  <data name="Hankuma_0" xml:space="preserve">
+    <value>Those bear creatures wielding a hammer, originally came from Super Bomberman 4.</value>
+  </data>
+  <data name="Hankuma_1" xml:space="preserve">
+    <value>Owing to their official lack of name, we refer to them as "Hankuma".</value>
+  </data>
+  <data name="Hankuma_2" xml:space="preserve">
+    <value>The bombs can be changed into items with the use of their particular squeaking hammer.</value>
   </data>
 </root>
