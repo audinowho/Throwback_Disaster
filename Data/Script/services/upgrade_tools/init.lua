@@ -53,6 +53,11 @@ function UpgradeTools:OnUpgrade()
 	_DATA.Save.NextDest = RogueEssence.Dungeon.ZoneLoc('nad_crystal_cave',-1,0,0)
   end
   
+  if SV.sidequest.quest03 > 3 then
+    GAME:UnlockDungeon('td_moomoofrenzy')
+	GAME:UnlockDungeon('td_flaming_house')
+  end
+  
   if SV.NuzleafTalk == nil then
 	SV.NuzleafTalk = false
   end

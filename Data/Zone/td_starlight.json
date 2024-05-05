@@ -903,6 +903,51 @@
 "Gender": -1
 },
 "Level": {
+"Min": 18,
+"Max": 26
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_smart",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "RogueEssence.LevelGen.MobSpawnStatus, RogueEssence",
+"Statuses": [
+{
+"Spawn": {
+"ID": "sleep",
+"StatusStates": [
+{
+"$type": "RogueEssence.Dungeon.CountDownState, RogueEssence",
+"Counter": -1
+}
+]
+},
+"Rate": 10
+}
+]
+}
+]
+},
+"Role": 0
+},
+"Rate": 1,
+"Range": {
+"Min": 3,
+"Max": 8
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "lanturn",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
 "Min": 11,
 "Max": 17
 },
@@ -914,7 +959,7 @@
 },
 "Role": 0
 },
-"Rate": 1,
+"Rate": 2,
 "Range": {
 "Min": 5,
 "Max": 9
@@ -941,7 +986,7 @@
 },
 "Role": 0
 },
-"Rate": 16,
+"Rate": 26,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -968,7 +1013,7 @@
 },
 "Role": 0
 },
-"Rate": 4,
+"Rate": 7,
 "Range": {
 "Min": 3,
 "Max": 7
@@ -995,7 +1040,52 @@
 },
 "Role": 0
 },
-"Rate": 2,
+"Rate": 3,
+"Range": {
+"Min": 0,
+"Max": 9
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "kirlia",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 14,
+"Max": 21
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_smart",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "RogueEssence.LevelGen.MobSpawnStatus, RogueEssence",
+"Statuses": [
+{
+"Spawn": {
+"ID": "sleep",
+"StatusStates": [
+{
+"$type": "RogueEssence.Dungeon.CountDownState, RogueEssence",
+"Counter": -1
+}
+]
+},
+"Rate": 10
+}
+]
+}
+]
+},
+"Role": 0
+},
+"Rate": 3,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1022,10 +1112,55 @@
 },
 "Role": 0
 },
-"Rate": 12,
+"Rate": 15,
 "Range": {
 "Min": 0,
 "Max": 9
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "rapidash",
+"Form": 1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 16,
+"Max": 23
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_smart",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "RogueEssence.LevelGen.MobSpawnStatus, RogueEssence",
+"Statuses": [
+{
+"Spawn": {
+"ID": "sleep",
+"StatusStates": [
+{
+"$type": "RogueEssence.Dungeon.CountDownState, RogueEssence",
+"Counter": -1
+}
+]
+},
+"Rate": 10
+}
+]
+}
+]
+},
+"Role": 0
+},
+"Rate": 2,
+"Range": {
+"Min": 5,
+"Max": 7
 }
 },
 {
@@ -1049,7 +1184,7 @@
 },
 "Role": 0
 },
-"Rate": 14,
+"Rate": 18,
 "Range": {
 "Min": 4,
 "Max": 8
@@ -1076,7 +1211,7 @@
 },
 "Role": 0
 },
-"Rate": 16,
+"Rate": 24,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1103,7 +1238,7 @@
 },
 "Role": 0
 },
-"Rate": 12,
+"Rate": 18,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1130,7 +1265,7 @@
 },
 "Role": 0
 },
-"Rate": 12,
+"Rate": 18,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1157,7 +1292,7 @@
 },
 "Role": 0
 },
-"Rate": 7,
+"Rate": 11,
 "Range": {
 "Min": 1,
 "Max": 6
@@ -1184,7 +1319,7 @@
 },
 "Role": 0
 },
-"Rate": 9,
+"Rate": 14,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1211,7 +1346,7 @@
 },
 "Role": 0
 },
-"Rate": 6,
+"Rate": 10,
 "Range": {
 "Min": 6,
 "Max": 9
@@ -1238,7 +1373,7 @@
 },
 "Role": 0
 },
-"Rate": 9,
+"Rate": 14,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1265,7 +1400,7 @@
 },
 "Role": 0
 },
-"Rate": 12,
+"Rate": 18,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1292,7 +1427,7 @@
 },
 "Role": 0
 },
-"Rate": 3,
+"Rate": 5,
 "Range": {
 "Min": 4,
 "Max": 6
@@ -1319,7 +1454,7 @@
 },
 "Role": 0
 },
-"Rate": 2,
+"Rate": 4,
 "Range": {
 "Min": 5,
 "Max": 9
@@ -1373,7 +1508,7 @@
 },
 "Role": 0
 },
-"Rate": 12,
+"Rate": 18,
 "Range": {
 "Min": 0,
 "Max": 9

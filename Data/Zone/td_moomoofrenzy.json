@@ -6,7 +6,7 @@
 "DefaultText": "Moo Moo Frenzy",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "NoEXP": false,
 "ExpPercent": 100,
@@ -26,7 +26,7 @@
 {
 "$type": "RogueEssence.LevelGen.SingularSegment, RogueEssence",
 "BaseFloor": {
-"$type": "RogueEssence.LevelGen.GridFloorGen, RogueEssence",
+"$type": "RogueEssence.LevelGen.RoomFloorGen, RogueEssence",
 "GenSteps": [
 {
 "Key": {
@@ -35,47 +35,1760 @@
 ]
 },
 "Value": {
-"$type": "PMDC.LevelGen.MapDataStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"$type": "PMDC.LevelGen.MapDataStep`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], PMDC",
 "Music": "Nad97. BakuBakuAnimal.ogg",
-"TimeLimit": 1500,
-"TileSight": 1,
-"CharSight": 1,
+"TimeLimit": 850,
+"TileSight": 0,
+"CharSight": 0,
 "ClampCamera": false
+}
+},
+{
+"Key": {
+"str": [
+-3
+]
+},
+"Value": {
+"$type": "RogueElements.InitFloorPlanStep`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueElements",
+"Width": 56,
+"Height": 51,
+"Wrap": false
+}
+},
+{
+"Key": {
+"str": [
+-2
+]
+},
+"Value": {
+"$type": "RogueElements.FloorPathBranch`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueElements",
+"FillPercent": {
+"Min": 45,
+"Max": 46
+},
+"HallPercent": 30,
+"BranchRatio": {
+"Min": 30,
+"Max": 31
+},
+"NoForcedBranches": false,
+"GenericRooms": {
+"$type": "RogueElements.SpawnList`1[[RogueElements.RoomGen`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueElements]], RogueElements",
+"$values": [
+{
+"Spawn": {
+"$type": "RogueElements.RoomGenCave`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueElements",
+"Width": {
+"Min": 4,
+"Max": 10
+},
+"Height": {
+"Min": 4,
+"Max": 10
+}
+},
+"Rate": 20
+},
+{
+"Spawn": {
+"$type": "RogueElements.RoomGenRound`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueElements",
+"Width": {
+"Min": 4,
+"Max": 8
+},
+"Height": {
+"Min": 4,
+"Max": 8
+}
+},
+"Rate": 10
+},
+{
+"Spawn": {
+"$type": "RogueElements.RoomGenCave`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueElements",
+"Width": {
+"Min": 6,
+"Max": 13
+},
+"Height": {
+"Min": 6,
+"Max": 13
+}
+},
+"Rate": 4
+},
+{
+"Spawn": {
+"$type": "RogueElements.RoomGenRound`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueElements",
+"Width": {
+"Min": 6,
+"Max": 11
+},
+"Height": {
+"Min": 6,
+"Max": 11
+}
+},
+"Rate": 2
+},
+{
+"Spawn": {
+"$type": "RogueEssence.LevelGen.RoomGenPlus`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueEssence",
+"Width": {
+"Min": 7,
+"Max": 10
+},
+"Height": {
+"Min": 7,
+"Max": 10
+},
+"Corner": {
+"Min": 1,
+"Max": 3
+}
+},
+"Rate": 1
+},
+{
+"Spawn": {
+"$type": "RogueEssence.LevelGen.RoomGenPlus`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueEssence",
+"Width": {
+"Min": 3,
+"Max": 5
+},
+"Height": {
+"Min": 3,
+"Max": 5
+},
+"Corner": {
+"Min": 1,
+"Max": 2
+}
+},
+"Rate": 1
+}
+]
+},
+"RoomComponents": [
+{
+"$type": "PMDC.LevelGen.ConnectivityRoom, PMDC",
+"Connection": 1
+}
+],
+"GenericHalls": {
+"$type": "RogueElements.SpawnList`1[[RogueElements.PermissiveRoomGen`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueElements]], RogueElements",
+"$values": [
+{
+"Spawn": {
+"$type": "RogueElements.RoomGenBlocked`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueElements",
+"Width": {
+"Min": 1,
+"Max": 4
+},
+"Height": {
+"Min": 2,
+"Max": 4
+},
+"BlockWidth": {
+"Min": 1,
+"Max": 3
+},
+"BlockHeight": {
+"Min": 2,
+"Max": 3
+},
+"BlockTerrain": {
+"$type": "RogueEssence.Dungeon.Tile, RogueEssence",
+"Data": {
+"ID": "wall",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+},
+"Rate": 5
+},
+{
+"Spawn": {
+"$type": "RogueElements.RoomGenSquare`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueElements",
+"Width": {
+"Min": 1,
+"Max": 1
+},
+"Height": {
+"Min": 1,
+"Max": 1
+}
+},
+"Rate": 20
+}
+]
+},
+"HallComponents": [
+{
+"$type": "PMDC.LevelGen.ConnectivityRoom, PMDC",
+"Connection": 1
+}
+]
+}
+},
+{
+"Key": {
+"str": [
+-1
+]
+},
+"Value": {
+"$type": "RogueElements.DrawFloorToTileStep`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueElements",
+"Padding": 5
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.LevelGen.TileBorderStep`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueEssence",
+"Terrain": {
+"$type": "RogueEssence.Dungeon.Tile, RogueEssence",
+"Data": {
+"ID": "unbreakable",
+"TileTex": {
+"AutoTileset": "tiny_meadow_secondary",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": true
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+},
+"Thickness": 1
+}
+},
+{
+"Key": {
+"str": [
+1
+]
+},
+"Value": {
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 7,
+"RespawnTime": 90
+},
+"MaxFoes": 0,
+"RespawnTime": 0
+}
+},
+{
+"Key": {
+"str": [
+2
+]
+},
+"Value": {
+"$type": "RogueElements.FloorStairsStep`3[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence],[RogueEssence.LevelGen.MapGenEntrance, RogueEssence],[RogueEssence.LevelGen.MapGenExit, RogueEssence]], RogueElements",
+"Entrances": [
+{
+"Loc": {
+"X": 0,
+"Y": 0
+},
+"Dir": 0
+}
+],
+"Exits": [
+{
+"Loc": {
+"X": 0,
+"Y": 0
+},
+"Tile": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "stairs_go_down",
+"Revealed": true,
+"Owner": 0,
+"TileStates": []
+}
+}
+],
+"Filters": [
+{
+"$type": "PMDC.LevelGen.RoomFilterConnectivity, PMDC",
+"Connection": 1
+},
+{
+"$type": "RogueElements.RoomFilterComponent, RogueElements",
+"Negate": true,
+"Components": [
+{
+"$type": "PMDC.LevelGen.BossRoom, PMDC"
+}
+]
+}
+]
+}
+},
+{
+"Key": {
+"str": [
+3
+]
+},
+"Value": {
+"$type": "RogueElements.DropDiagonalBlockStep`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueElements",
+"Terrain": {
+"$type": "RogueEssence.Dungeon.Tile, RogueEssence",
+"Data": {
+"ID": "wall",
+"TileTex": {
+"AutoTileset": "",
+"Associates": [],
+"Layers": [],
+"NeighborCode": -1
+},
+"StableTex": false
+},
+"Effect": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "",
+"Revealed": false,
+"Owner": 0,
+"TileStates": []
+}
+}
+}
+},
+{
+"Key": {
+"str": [
+4
+]
+},
+"Value": {
+"$type": "RogueEssence.LevelGen.MapDictTextureStep`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueEssence",
+"TextureMap": {
+"floor": "tiny_meadow_floor",
+"unbreakable": "tiny_meadow_wall",
+"wall": "tiny_meadow_wall",
+"water": "tiny_meadow_secondary",
+"lava": "tiny_meadow_secondary",
+"water_poison": "tiny_meadow_secondary",
+"pit": "tiny_meadow_secondary"
+},
+"BlankBG": "tiny_meadow_secondary",
+"LayeredGround": true,
+"IndependentGround": false,
+"GroundElement": "normal"
+}
+},
+{
+"Key": {
+"str": [
+6
+]
+},
+"Value": {
+"$type": "RogueElements.TerminalSpawnStep`2[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence],[RogueEssence.LevelGen.MoneySpawn, RogueEssence]], RogueElements",
+"IncludeHalls": false,
+"Filters": [],
+"Spawn": {
+"$type": "RogueEssence.LevelGen.MoneyDivSpawner`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueEssence",
+"DivAmount": {
+"Min": 1,
+"Max": 4
+}
+}
+}
+},
+{
+"Key": {
+"str": [
+6,
+1
+]
+},
+"Value": {
+"$type": "RogueElements.DueSpawnStep`3[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence],[RogueEssence.Dungeon.InvItem, RogueEssence],[RogueEssence.LevelGen.MapGenEntrance, RogueEssence]], RogueElements",
+"SuccessPercent": 25,
+"IncludeHalls": false,
+"Filters": [
+{
+"$type": "PMDC.LevelGen.RoomFilterConnectivity, PMDC",
+"Connection": 1
+}
+],
+"Spawn": {
+"$type": "RogueElements.ContextSpawner`2[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence],[RogueEssence.Dungeon.InvItem, RogueEssence]], RogueElements",
+"Amount": {
+"Min": 4,
+"Max": 10
+}
+}
+}
+},
+{
+"Key": {
+"str": [
+6,
+2
+]
+},
+"Value": {
+"$type": "RogueEssence.LevelGen.PlaceRandomMobsStep`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueEssence",
+"Filters": [
+{
+"$type": "PMDC.LevelGen.RoomFilterConnectivity, PMDC",
+"Connection": 1
+}
+],
+"IncludeHalls": false,
+"Spawn": {
+"$type": "RogueEssence.LevelGen.TeamContextSpawner`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], RogueEssence",
+"Amount": {
+"Min": 10,
+"Max": 17
+}
+},
+"Ally": false,
+"ClumpFactor": 20
+}
+},
+{
+"Key": {
+"str": [
+7
+]
+},
+"Value": {
+"$type": "RogueElements.DetectIsolatedStairsStep`3[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence],[RogueEssence.LevelGen.MapGenEntrance, RogueEssence],[RogueEssence.LevelGen.MapGenExit, RogueEssence]], RogueElements"
 }
 }
 ],
 "Comment": ""
 },
 "FloorSpan": 7,
-"ZoneSteps": [],
-"IsRelevant": false,
-"Comment": ""
+"ZoneSteps": [
+{
+"$type": "PMDC.LevelGen.SaveVarsZoneStep, PMDC",
+"Priority": {
+"str": [
+2,
+1
+]
+}
 },
 {
-"$type": "RogueEssence.LevelGen.SingularSegment, RogueEssence",
-"BaseFloor": {
-"$type": "RogueEssence.LevelGen.GridFloorGen, RogueEssence",
-"GenSteps": [
-{
-"Key": {
+"$type": "PMDC.LevelGen.FloorNameDropZoneStep, PMDC",
+"DropPriority": {
+"str": [
+-15
+]
+},
+"Name": {
+"DefaultText": "Moo Moo Frenzy\\n{0}F",
+"LocalTexts": {}
+},
+"Priority": {
 "str": [
 -6
 ]
+}
 },
-"Value": {
-"$type": "PMDC.LevelGen.MapDataStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
-"Music": "Nad97. BakuBakuAnimal.ogg",
-"TimeLimit": 1500,
-"TileSight": 1,
-"CharSight": 1,
-"ClampCamera": false
+{
+"$type": "RogueEssence.LevelGen.MoneySpawnZoneStep, RogueEssence",
+"Priority": {
+"str": [
+1
+]
+},
+"StartAmount": {
+"Min": 40,
+"Max": 71
+},
+"AddAmount": {
+"Min": 10,
+"Max": 15
+},
+"ModStates": [
+{
+"assembly": "PMDC, Version=0.6.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.CoinModGenState"
+}
+]
+},
+{
+"$type": "RogueEssence.LevelGen.ItemSectionedZoneStep, RogueEssence",
+"Priority": {
+"str": [
+1
+]
+},
+"Spawns": {
+"nodes": [
+{
+"Item": {
+"spawns": {
+"rareitems": {
+"Spawn": [
+{
+"Spawn": {
+"ID": "evo_sun_stone",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10
+},
+{
+"Spawn": {
+"ID": "evo_fire_stone",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10
+},
+{
+"Spawn": {
+"ID": "gummi_white",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10
+},
+{
+"Spawn": {
+"ID": "held_friend_bow",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10
+},
+{
+"Spawn": {
+"ID": "machine_ability_capsule",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1
+},
+{
+"Spawn": {
+"ID": "machine_assembly_box",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 2
+},
+{
+"Spawn": {
+"ID": "machine_storage_box",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 1,
+"Price": 0
+},
+"Rate": 2
+}
+],
+"Rate": 1
+},
+"commonitems": {
+"Spawn": [
+{
+"Spawn": {
+"ID": "ammo_corsola_twig",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 1,
+"Price": 0
+},
+"Rate": 15
+},
+{
+"Spawn": {
+"ID": "food_apple",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10
+},
+{
+"Spawn": {
+"ID": "berry_oran",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10
+},
+{
+"Spawn": {
+"ID": "berry_leppa",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 8
+},
+{
+"Spawn": {
+"ID": "berry_sitrus",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 5
+},
+{
+"Spawn": {
+"ID": "ammo_gravelerock",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 1,
+"Price": 0
+},
+"Rate": 15
+},
+{
+"Spawn": {
+"ID": "ammo_nokia3310",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1
+}
+],
+"Rate": 10
+},
+"apricorn": {
+"Spawn": [
+{
+"Spawn": {
+"ID": "apricorn_perfect",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1
+},
+{
+"Spawn": {
+"ID": "apricorn_white",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 30
+},
+{
+"Spawn": {
+"ID": "apricorn_big",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10
+},
+{
+"Spawn": {
+"ID": "apricorn_plain",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 60
+}
+],
+"Rate": 2
+}
+},
+"spawnTotal": 13
+},
+"Range": {
+"Min": 0,
+"Max": 7
+}
+}
+]
+}
+},
+{
+"$type": "RogueEssence.LevelGen.TeamSpawnZoneStep, RogueEssence",
+"Priority": {
+"str": [
+1,
+2
+]
+},
+"Spawns": [
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "scorbunny",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 10,
+"Max": 16
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 3,
+"Range": {
+"Min": 5,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "torchic",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 10,
+"Max": 16
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 3,
+"Range": {
+"Min": 5,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "miltank",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 7,
+"Max": 13
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 5,
+"Range": {
+"Min": 3,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "tepig",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 10,
+"Max": 16
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 3,
+"Range": {
+"Min": 5,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "bulbasaur",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 10,
+"Max": 16
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 3,
+"Range": {
+"Min": 5,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "tropius",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 10,
+"Max": 16
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 2,
+"Range": {
+"Min": 0,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "golduck",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 18,
+"Max": 26
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_smart",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "RogueEssence.LevelGen.MobSpawnStatus, RogueEssence",
+"Statuses": [
+{
+"Spawn": {
+"ID": "sleep",
+"StatusStates": [
+{
+"$type": "RogueEssence.Dungeon.CountDownState, RogueEssence",
+"Counter": -1
+}
+]
+},
+"Rate": 10
+}
+]
+}
+]
+},
+"Role": 0
+},
+"Rate": 2,
+"Range": {
+"Min": 2,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "psyduck",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 8,
+"Max": 12
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 12,
+"Range": {
+"Min": 0,
+"Max": 5
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "swinub",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 9,
+"Max": 12
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 12,
+"Range": {
+"Min": 0,
+"Max": 5
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "sirfetchd",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 20,
+"Max": 26
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_smart",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "RogueEssence.LevelGen.MobSpawnStatus, RogueEssence",
+"Statuses": [
+{
+"Spawn": {
+"ID": "sleep",
+"StatusStates": [
+{
+"$type": "RogueEssence.Dungeon.CountDownState, RogueEssence",
+"Counter": -1
+}
+]
+},
+"Rate": 10
+}
+]
+}
+]
+},
+"Role": 0
+},
+"Rate": 2,
+"Range": {
+"Min": 0,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "farfetchd",
+"Form": 1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 9,
+"Max": 14
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 12,
+"Range": {
+"Min": 0,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "tauros",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 11,
+"Max": 18
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 4,
+"Range": {
+"Min": 0,
+"Max": 5
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "mudbray",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 9,
+"Max": 14
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 12,
+"Range": {
+"Min": 0,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "zangoose",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 10,
+"Max": 16
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 6,
+"Range": {
+"Min": 1,
+"Max": 5
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "yamper",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 8,
+"Max": 12
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 1,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "skiddo",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 9,
+"Max": 13
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 5
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "lechonk",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 8,
+"Max": 12
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 6
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "wooloo",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 8,
+"Max": 11
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 2,
+"Max": 6
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "kangaskhan",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 8,
+"Max": 15
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 8,
+"Range": {
+"Min": 0,
+"Max": 5
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "mareep",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 7,
+"Max": 11
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 12,
+"Range": {
+"Min": 0,
+"Max": 5
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "lillipup",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 10,
+"Max": 13
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 12,
+"Range": {
+"Min": 1,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "lopunny",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 12,
+"Max": 20
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "RogueEssence.LevelGen.MobSpawnStatus, RogueEssence",
+"Statuses": [
+{
+"Spawn": {
+"ID": "sleep",
+"StatusStates": [
+{
+"$type": "RogueEssence.Dungeon.CountDownState, RogueEssence",
+"Counter": -1
+}
+]
+},
+"Rate": 10
+}
+]
+}
+]
+},
+"Role": 0
+},
+"Rate": 3,
+"Range": {
+"Min": 0,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "lickitung",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 10,
+"Max": 16
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 5,
+"Range": {
+"Min": 0,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "castform",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 10,
+"Max": 14
+},
+"SpecifiedSkills": [
+"flamethrower",
+"ember",
+"sunny_day"
+],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 2,
+"Range": {
+"Min": 0,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "furfrou",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 8,
+"Max": 13
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 8,
+"Range": {
+"Min": 0,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "zorua",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 9,
+"Max": 14
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_smart",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 3,
+"Range": {
+"Min": 2,
+"Max": 6
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "cyclizar",
+"Form": -1,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 12,
+"Max": 16
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 4,
+"Range": {
+"Min": 0,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "pidove",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 9,
+"Max": 14
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Role": 0
+},
+"Rate": 12,
+"Range": {
+"Min": 1,
+"Max": 6
 }
 }
 ],
-"Comment": ""
+"TeamSizes": [
+{
+"Spawn": 3,
+"Rate": 2,
+"Range": {
+"Min": 5,
+"Max": 7
+}
 },
-"FloorSpan": 0,
-"ZoneSteps": [],
+{
+"Spawn": 2,
+"Rate": 6,
+"Range": {
+"Min": 3,
+"Max": 7
+}
+},
+{
+"Spawn": 1,
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 7
+}
+}
+],
+"SpecificSpawns": []
+},
+{
+"$type": "PMDC.LevelGen.SpreadHouseZoneStep, PMDC",
+"Priority": {
+"str": [
+4,
+1
+]
+},
+"Items": [
+{
+"Spawn": {
+"IsMoney": true,
+"Cursed": false,
+"Value": "",
+"HiddenValue": "",
+"Amount": 500,
+"Price": 0,
+"TileLoc": {
+"X": 0,
+"Y": 0
+}
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 7
+}
+}
+],
+"ItemThemes": [
+{
+"Spawn": {
+"$type": "PMDC.LevelGen.ItemThemeNone, PMDC",
+"SpecialRatio": 0,
+"Amount": {
+"Min": 1,
+"Max": 2
+}
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 7
+}
+}
+],
+"Mobs": [
+{
+"Spawn": {
+"BaseForm": {
+"Species": "clefairy",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 16,
+"Max": 17
+},
+"SpecifiedSkills": [
+"metronome",
+"double_slap",
+"mimic",
+"encore"
+],
+"Intrinsic": "",
+"Tactic": "go_after_foes",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Rate": 3,
+"Range": {
+"Min": 0,
+"Max": 7
+}
+},
+{
+"Spawn": {
+"BaseForm": {
+"Species": "miltank",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 18,
+"Max": 19
+},
+"SpecifiedSkills": [
+"milk_drink",
+"attract",
+"stomp",
+"rollout"
+],
+"Intrinsic": "",
+"Tactic": "go_after_foes",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Rate": 15,
+"Range": {
+"Min": 0,
+"Max": 7
+}
+}
+],
+"MobThemes": [
+{
+"Spawn": {
+"$type": "PMDC.LevelGen.MobThemeNone, PMDC",
+"SpecialRatio": 50,
+"Amount": {
+"Min": 6,
+"Max": 11
+}
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 7
+}
+}
+],
+"HouseStepSpawns": [
+{
+"Spawn": {
+"$type": "PMDC.LevelGen.MonsterHouseStep`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], PMDC",
+"Filters": [
+{
+"$type": "RogueElements.RoomFilterComponent, RogueElements",
+"Negate": true,
+"Components": [
+{
+"$type": "RogueEssence.LevelGen.ImmutableRoom, RogueEssence"
+},
+{
+"$type": "PMDC.LevelGen.NoEventRoom, PMDC"
+}
+]
+}
+],
+"Items": [],
+"ItemThemes": [],
+"Mobs": [],
+"MobThemes": []
+},
+"Rate": 10
+}
+],
+"SpreadPlan": {
+"$type": "RogueEssence.LevelGen.SpreadPlanChance, RogueEssence",
+"Chance": 10,
+"FloorRange": {
+"Min": 0,
+"Max": 7
+}
+},
+"ModStates": []
+}
+],
 "IsRelevant": false,
 "Comment": ""
 }

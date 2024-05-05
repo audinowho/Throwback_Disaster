@@ -1351,6 +1351,51 @@
 "Spawn": {
 "Spawn": {
 "BaseForm": {
+"Species": "hatterene",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 18,
+"Max": 26
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_smart",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "RogueEssence.LevelGen.MobSpawnStatus, RogueEssence",
+"Statuses": [
+{
+"Spawn": {
+"ID": "sleep",
+"StatusStates": [
+{
+"$type": "RogueEssence.Dungeon.CountDownState, RogueEssence",
+"Counter": -1
+}
+]
+},
+"Rate": 10
+}
+]
+}
+]
+},
+"Role": 0
+},
+"Rate": 3,
+"Range": {
+"Min": 0,
+"Max": 9
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
 "Species": "hattrem",
 "Form": 0,
 "Skin": "",
@@ -1368,7 +1413,7 @@
 },
 "Role": 0
 },
-"Rate": 32,
+"Rate": 29,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1423,6 +1468,51 @@
 "Role": 0
 },
 "Rate": 73,
+"Range": {
+"Min": 0,
+"Max": 9
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "mightyena",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 18,
+"Max": 26
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_smart",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "RogueEssence.LevelGen.MobSpawnStatus, RogueEssence",
+"Statuses": [
+{
+"Spawn": {
+"ID": "sleep",
+"StatusStates": [
+{
+"$type": "RogueEssence.Dungeon.CountDownState, RogueEssence",
+"Counter": -1
+}
+]
+},
+"Rate": 10
+}
+]
+}
+]
+},
+"Role": 0
+},
+"Rate": 6,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1584,7 +1674,7 @@
 },
 "Role": 0
 },
-"Rate": 58,
+"Rate": 50,
 "Range": {
 "Min": 0,
 "Max": 9
@@ -1729,6 +1819,51 @@
 "Spawn": {
 "Spawn": {
 "BaseForm": {
+"Species": "ampharos",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 18,
+"Max": 26
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_smart",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "RogueEssence.LevelGen.MobSpawnStatus, RogueEssence",
+"Statuses": [
+{
+"Spawn": {
+"ID": "sleep",
+"StatusStates": [
+{
+"$type": "RogueEssence.Dungeon.CountDownState, RogueEssence",
+"Counter": -1
+}
+]
+},
+"Rate": 10
+}
+]
+}
+]
+},
+"Role": 0
+},
+"Rate": 2,
+"Range": {
+"Min": 7,
+"Max": 9
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
 "Species": "flaaffy",
 "Form": 0,
 "Skin": "",
@@ -1746,7 +1881,7 @@
 },
 "Role": 0
 },
-"Rate": 12,
+"Rate": 10,
 "Range": {
 "Min": 7,
 "Max": 9

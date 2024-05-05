@@ -8,7 +8,7 @@ AudinoWho
 
 <Program Used>
 Aseprite
-Audacity 3.0.2
+Audacity
 Quillbot
 MD Frame Editor (by caffeinepills)
 

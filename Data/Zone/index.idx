@@ -350,7 +350,7 @@
 "DefaultText": "Flaming House",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "SortOrder": 0
 },
@@ -526,14 +526,13 @@
 4,
 5,
 6
-],
-[]
+]
 ],
 "Name": {
 "DefaultText": "Moo Moo Frenzy",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "SortOrder": 0
 },

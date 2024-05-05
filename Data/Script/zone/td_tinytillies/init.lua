@@ -48,6 +48,8 @@ function td_tinytillies.ExitSegment(zone, result, rescue, segmentID, mapID)
 		UI:SetSpeakerEmotion("Teary-Eyed")
 		UI:WaitShowDialogue(STRINGS:Format("Just lead me out of this, this place giving me the creeps!"))
 		SV.sidequest.quest03 = 4
+		GAME:UnlockDungeon('td_moomoofrenzy')
+		GAME:UnlockDungeon('td_flaming_house')
 		UI:ResetSpeaker()
 	  end
       COMMON.EndDungeonDay(result, 'td_throwback_land', -1, 9, 1)
