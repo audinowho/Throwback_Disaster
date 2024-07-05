@@ -74,7 +74,7 @@
     <value>Hey, Fetch me some snacks, will ya? We're excessively lethargic to help you...</value>
   </data>
   <data name="Espurr_0" xml:space="preserve">
-    <value>Oh there you are, I was so worried about you.</value>
+    <value>Oh, there you are. I was so worried about you.</value>
   </data>
   <data name="Vitaro_0" xml:space="preserve">
     <value>Go inside the castle to speak with the king because the king wants you there.</value>
@@ -92,7 +92,7 @@
     <value>Let's talk to the king! It's be easy!</value>
   </data>
   <data name="Slowking_1" xml:space="preserve">
-    <value>Ah, Just as I though. What I chose you has come.</value>
+    <value>Ah, Just as I thought. What I chose for you has come.</value>
   </data>
   <data name="Slowking_2" xml:space="preserve">
     <value>Before I begin to explain what transpired, may I ask as to the name of your team?</value>

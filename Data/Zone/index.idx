@@ -331,7 +331,7 @@
 "KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
-"CountedFloors": 0,
+"CountedFloors": 8,
 "Rogue": 0,
 "Grounds": [],
 "Maps": [
@@ -514,7 +514,7 @@
 "KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
-"CountedFloors": 0,
+"CountedFloors": 7,
 "Rogue": 0,
 "Grounds": [],
 "Maps": [

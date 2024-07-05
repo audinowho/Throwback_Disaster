@@ -1,25 +1,7 @@
 ﻿{
-"Version": "0.8.0.0",
+"Version": "0.8.1.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
-"ammo_nokia3310": {
-"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
-"Icon": 0,
-"UsageType": 3,
-"States": [
-{
-"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
-"type": "PMDC.Dungeon.AmmoState"
-}
-],
-"Name": {
-"DefaultText": "Nokia 3310",
-"LocalTexts": {}
-},
-"Released": true,
-"Comment": "",
-"SortOrder": 9
-},
 "gummi_wonder": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
 "Icon": 6,
@@ -46,17 +28,53 @@
 "Comment": "",
 "SortOrder": 2
 },
+"orb_monster": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 1,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.OrbState"
+}
+],
+"Name": {
+"DefaultText": "Monster Orb",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 12
+},
+"ammo_nokia3310": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 0,
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"Name": {
+"DefaultText": "Nokia 3310",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 9
+},
 "medicine_full_heal_s": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
 "Icon": 7,
 "UsageType": 1,
 "States": [
 {
-"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.1.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.CurerState"
 },
 {
-"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.1.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.UtilityState"
 }
 ],
@@ -74,7 +92,7 @@
 "UsageType": 1,
 "States": [
 {
-"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.1.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.UtilityState"
 }
 ],
@@ -92,7 +110,7 @@
 "UsageType": 1,
 "States": [
 {
-"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.1.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.UtilityState"
 }
 ],
@@ -137,24 +155,6 @@
 ],
 "Name": {
 "DefaultText": "Blue Portal Orb",
-"LocalTexts": {}
-},
-"Released": true,
-"Comment": "",
-"SortOrder": 12
-},
-"orb_monster": {
-"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
-"Icon": 9,
-"UsageType": 1,
-"States": [
-{
-"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
-"type": "PMDC.Dungeon.OrbState"
-}
-],
-"Name": {
-"DefaultText": "Monster Orb",
 "LocalTexts": {}
 },
 "Released": true,

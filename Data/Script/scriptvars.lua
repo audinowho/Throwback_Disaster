@@ -41,8 +41,8 @@ SV.General =
 
 SV.checkpoint = 
 {
-  Zone    = 'guildmaster_island', Segment  = -1,
-  Map  = 1, Entry  = 0
+  Zone    = 'nad_crystal_cave', Segment  = -1,
+  Map  = 0, Entry  = 0
 }
 
 SV.MissionsEnabled = false
@@ -593,22 +593,6 @@ SV.global_quest =
 {
   StoryProgression = 0,
   Points = 0
-}
-
-SV.party_members =
-{
-  mog = { Species="tdchar_moogle", Form=0, Skin="normal", Gender=1 },
-  vitaro = { Species="vitaro", Form=0, Skin="shiny", Gender=1 },
-  hoopa = { Species="hoopa", Form=0, Skin="normal", Gender=2 },
-  chocobo = { Species="tdchar_chocobo", Form=0, Skin="normal", Gender=1 },
-  koppa = { Species="tdchar_koppa", Form=0, Skin="normal", Gender=1 },
-  mili = { Species="tdchar_mili", Form=0, Skin="normal", Gender=1 },
-  ddr = { Species="tdchar_ddr", Form=0, Skin="normal", Gender=1 },
-  gigi = { Species="tdchar_gigi", Form=0, Skin="normal", Gender=1 },
-  wumeila = { Species="tdchar_wumeila", Form=0, Skin="normal", Gender=2 },
-  gapori = { Species="tdchar_gapori", Form=0, Skin="normal", Gender=0 },
-  onionkuya = { Species="tdchar_onionkuya", Form=0, Skin="normal", Gender=1 },
-  monya = { Species="tdchar_monya", Form=0, Skin="normal", Gender=0 }
 }
 
 SV.wipedout = false

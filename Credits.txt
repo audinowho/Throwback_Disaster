@@ -9,7 +9,7 @@ AudinoWho
 <Program Used>
 Aseprite
 Audacity
-Quillbot
+QuillBot
 MD Frame Editor (by caffeinepills)
 
 <Debugger/Prefull-release Tester>
