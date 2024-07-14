@@ -2,18 +2,17 @@
     common.lua
     A collection of frequently used functions and values!
 ]]--
-require 'common_gen'
-require 'menu/MemberReturnMenu'
+require 'origin.common_gen'
 
 ----------------------------------------
 -- Lib Definitions
 ----------------------------------------
 --Reserve the "class" symbol for instantiating classes
-Class    = require 'lib.middleclass'
+
 --Reserve the "Mediator" symbol for instantiating the message lib class
-Mediator = require 'lib.mediator' 
+ 
 --Reserve the "Serpent" symbol for the serializer
-Serpent = require 'lib.serpent'
+
 
 LoadGenType = luanet.import_type('RogueEssence.LevelGen.LoadGen')
 ChanceFloorGenType = luanet.import_type('RogueEssence.LevelGen.ChanceFloorGen')
@@ -55,12 +54,12 @@ end
 ----------------------------------------
 -- Common namespace
 ----------------------------------------
-COMMON = {}
 
-require 'common_talk'
-require 'common_shop'
-require 'common_vars'
-require 'common_tutor'
+
+require 'nadiyas_dungeon_collection.common_talk'
+require 'origin.common_shop'
+require 'origin.common_vars'
+require 'origin.common_tutor'
 
 --Automatically load the appropriate localization for the specified package, or defaults to english!
 function COMMON.AutoLoadLocalizedStrings()
@@ -330,7 +329,7 @@ function COMMON.CreateWalkArea(name, x, y, w, h)
   end
   --Set the area to wander in
   AI:SetCharacterAI(chara,                                      --[[Entity that will use the AI]]--
-                    "ai.ground_default",                         --[[Class path to the AI class to use]]--
+                    "origin.ai.ground_default",                         --[[Class path to the AI class to use]]--
                     RogueElements.Loc(x, y), --[[Top left corner pos of the allowed idle wander area]]--
                     RogueElements.Loc(w, h), --[[Width and Height of the allowed idle wander area]]--
                     1,                                         --[[Wandering speed]]--

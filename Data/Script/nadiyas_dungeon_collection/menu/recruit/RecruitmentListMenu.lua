@@ -1,4 +1,4 @@
-require "menu.recruit.summary.RecruitSummaryMenu"
+require "nadiyas_dungeon_collection.menu.recruit.summary.RecruitSummaryMenu"
 -- -----------------------------------------------
 -- Recruitment List Menu
 -- -----------------------------------------------

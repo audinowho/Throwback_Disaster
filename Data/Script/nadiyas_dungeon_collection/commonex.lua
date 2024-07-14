@@ -1,4 +1,4 @@
-require 'common'
+require 'nadiyas_dungeon_collection.common'
 COMMONEX = {}
 
 function COMMONEX.MaxPartySet(val)

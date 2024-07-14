@@ -1,5 +1,5 @@
-require "menu.recruit.RecruitListSegmentMenu"
-require "menu.recruit.RecruitmentListMenu"
+require "nadiyas_dungeon_collection.menu.recruit.RecruitListSegmentMenu"
+require "nadiyas_dungeon_collection.menu.recruit.RecruitmentListMenu"
 
 -- -----------------------------------------------
 -- Recruitment List Dungeon Choice Menu

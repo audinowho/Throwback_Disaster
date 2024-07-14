@@ -1,4 +1,4 @@
-require "menu.recruit.RecruitmentListMenu"
+require "nadiyas_dungeon_collection.menu.recruit.RecruitmentListMenu"
 
 -- -----------------------------------------------
 -- Recruitment List Dungeon Segment Menu

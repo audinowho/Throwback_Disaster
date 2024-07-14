@@ -1,6 +1,6 @@
-require 'common'
+require 'nadiyas_dungeon_collection.common'
 
-BATTLE_SCRIPT = {}
+
 
 RedirectionType = luanet.import_type('PMDC.Dungeon.Redirected')
 DmgMultType = luanet.import_type('PMDC.Dungeon.DmgMult')
@@ -928,4 +928,4 @@ end
 
 
 
-require 'event_moreitemsmain'
+require 'nadiyas_dungeon_collection.event_moreitemsmain'

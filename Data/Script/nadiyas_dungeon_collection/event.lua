@@ -1,0 +1,1 @@
+require 'nadiyas_dungeon_collection.event_battle'

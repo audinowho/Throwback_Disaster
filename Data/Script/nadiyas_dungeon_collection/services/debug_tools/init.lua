@@ -5,10 +5,9 @@
     
     **NOTE:** After declaring you service, you have to include your package inside the main.lua file!
 ]]--
-require 'common'
-require 'services.baseservice'
-require 'mission_gen'
-require 'recruit_list'
+require 'nadiyas_dungeon_collection.common'
+require 'origin.services.baseservice'
+require 'nadiyas_dungeon_collection.recruit_list'
 
 --Declare class DebugTools
 local DebugTools = Class('DebugTools', BaseService)
@@ -72,64 +71,6 @@ function DebugTools:OnSaveLoad()
     end
 end
 
---[[---------------------------------------------------------------
-    DebugTools:OnMenuButtonPressed()
-      When the main menu button is pressed or the main menu should be enabled this is called!
-      This is called as a coroutine.
----------------------------------------------------------------]]
-function DebugTools:OnMenuButtonPressed()
-    -- TODO: Remove this when the memory leak is fixed or confirmed not a leak
-    if DebugTools.MainMenu == nil then
-        DebugTools.MainMenu = RogueEssence.Menu.MainMenu()
-    end
-    DebugTools.MainMenu:SetupChoices()
-    local index = 4
-    if RogueEssence.GameManager.Instance.CurrentScene == RogueEssence.Dungeon.DungeonScene.Instance then
-        index = 5
-    end
-    DebugTools.MainMenu.Choices:RemoveAt(index)
-    DebugTools.MainMenu.Choices:Insert(index, RogueEssence.Menu.MenuTextChoice(STRINGS:FormatKey("MENU_OTHERS_TITLE"), function () _MENU:AddMenu(DebugTools:CustomDungeonOthersMenu(), false) end))
-
-    --Custom menu stuff for jobs.
-    --Check if we're in a dungeon or not. Only do main menu changes outside of a dungeon.
-    if SV.MissionsEnabled and RogueEssence.GameManager.Instance.CurrentScene ~= RogueEssence.Dungeon.DungeonScene.Instance then
-        --not in a dungeon
-        --Add Job List option
-        local taken_count = MISSION_GEN.GetTakenCount()
-        local job_list_color = Color.Red
-        if taken_count > 0 then
-            job_list_color = Color.White
-        end
-
-        DebugTools.MainMenu.Choices:Insert(4, RogueEssence.Menu.MenuTextChoice(Text.FormatKey("MENU_JOBLIST_TITLE"), function () _MENU:AddMenu(BoardMenu:new(COMMON.MISSION_BOARD_TAKEN, nil, DebugTools.MainMenu).menu, false) end, taken_count > 0, job_list_color))
-    end
-
-    DebugTools.MainMenu:SetupTitleAndSummary()
-
-    DebugTools.MainMenu:InitMenu()
-    TASK:WaitTask(_MENU:ProcessMenuCoroutine(DebugTools.MainMenu))
-end
-
-function DebugTools:CustomDungeonOthersMenu()
-    -- TODO: Remove this when the memory leak is fixed or confirmed not a leak
-    if DebugTools.OthersMenu == nil then
-        DebugTools.OthersMenu = RogueEssence.Menu.OthersMenu()
-    end
-    local menu = DebugTools.OthersMenu;
-    menu:SetupChoices();
-
-    local isGround = RogueEssence.GameManager.Instance.CurrentScene == RogueEssence.Ground.GroundScene.Instance
-    local enabled = not isGround or not _DATA.Save.NoRecruiting
-    local color = Color.White
-    if not enabled then color = Color.Red end
-    menu.Choices:Insert(1, RogueEssence.Menu.MenuTextChoice("Recruits", function () _MENU:AddMenu(RecruitListMainMenu:new(menu.Bounds.Width+menu.Bounds.X+2).menu, true) end, enabled, color))
-
-    if SV.MissionsEnabled and RogueEssence.GameManager.Instance.CurrentScene == RogueEssence.Dungeon.DungeonScene.Instance then
-        menu.Choices:Add(RogueEssence.Menu.MenuTextChoice("Mission Objectives", function () _MENU:AddMenu(DungeonJobList:new().menu, false) end))
-    end
-    menu:InitMenu();
-    return menu
-end
 
 --[[---------------------------------------------------------------
     DebugTools:OnNewGame()
@@ -332,7 +273,6 @@ end
 function DebugTools:Subscribe(med)
     med:Subscribe("DebugTools", EngineServiceEvents.Init,                function() self.OnInit(self) end )
     med:Subscribe("DebugTools", EngineServiceEvents.Deinit,              function() self.OnDeinit(self) end )
-    med:Subscribe("DebugTools", EngineServiceEvents.MenuButtonPressed,        function() self.OnMenuButtonPressed() end )
     med:Subscribe("DebugTools", EngineServiceEvents.NewGame,        function() self.OnNewGame(self) end )
     med:Subscribe("DebugTools", EngineServiceEvents.LossPenalty,        function(_, args) self.OnLossPenalty(self, args[0]) end )
     med:Subscribe("DebugTools", EngineServiceEvents.DungeonFloorExit,  function(dungeonloc, result) self.OnDungeonFloorEnd(self, dungeonloc, result) end )

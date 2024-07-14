@@ -11,9 +11,10 @@
 --------------------------------------------------------------------------------------------------------------
 -- Service Packages
 --------------------------------------------------------------------------------------------------------------
---require 'services.chatter'
-require 'services.debug_tools'
-require 'services.upgrade_tools'
-require 'services.music_service'
+--require 'nadiyas_dungeon_collection.services.chatter'
+require 'nadiyas_dungeon_collection.services.debug_tools'
+require 'nadiyas_dungeon_collection.services.menu_tools'
+require 'nadiyas_dungeon_collection.services.upgrade_tools'
+require 'nadiyas_dungeon_collection.services.music_service'
 
 math.randomseed(os.time())

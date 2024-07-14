@@ -1,6 +1,6 @@
-require "menu.recruit.summary.RecruitSummaryFeaturesWindow"
-require "menu.recruit.summary.RecruitSummaryStatsWindow"
-require "menu.recruit.summary.RecruitSummaryLearnsetWindow"
+require "nadiyas_dungeon_collection.menu.recruit.summary.RecruitSummaryFeaturesWindow"
+require "nadiyas_dungeon_collection.menu.recruit.summary.RecruitSummaryStatsWindow"
+require "nadiyas_dungeon_collection.menu.recruit.summary.RecruitSummaryLearnsetWindow"
 -- -----------------------------------------------
 -- Recruit Summary Menu
 -- -----------------------------------------------

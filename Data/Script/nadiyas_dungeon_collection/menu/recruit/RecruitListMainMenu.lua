@@ -1,7 +1,7 @@
-require "menu.recruit.MultiPageTextMenu"
-require "menu.recruit.RecruitListSettingsMenu"
-require "menu.recruit.RecruitListDungeonMenu"
-require "menu.recruit.RecruitmentListMenu"
+require "nadiyas_dungeon_collection.menu.recruit.MultiPageTextMenu"
+require "nadiyas_dungeon_collection.menu.recruit.RecruitListSettingsMenu"
+require "nadiyas_dungeon_collection.menu.recruit.RecruitListDungeonMenu"
+require "nadiyas_dungeon_collection.menu.recruit.RecruitmentListMenu"
 
 -- -----------------------------------------------
 -- Recruitment List Main Menu

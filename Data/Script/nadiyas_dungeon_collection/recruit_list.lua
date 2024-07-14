@@ -1,5 +1,5 @@
-require 'common'
-require "menu.recruit.RecruitListMainMenu"
+require 'nadiyas_dungeon_collection.common'
+require "nadiyas_dungeon_collection.menu.recruit.RecruitListMainMenu"
 
 RECRUIT_LIST = {}
 --[[
