@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.0.0",
+"Version": "0.8.1.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
 "missingno": {
@@ -41,6 +41,64 @@
 "Released": false,
 "Comment": "",
 "SortOrder": 0
+},
+"vulpix": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Vulpix",
+"LocalTexts": {
+"ja": "ロコン",
+"ko": "식스테일",
+"zh-hant": "六尾",
+"fr": "Goupix",
+"de": "Vulpix",
+"es": "Vulpix",
+"it": "Vulpix",
+"ja-jp": "ロコン",
+"zh-hans": "六尾"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Alolan Vulpix",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "",
+"de": "",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Vulpix",
+"LocalTexts": {
+"ja": "ロコン",
+"ko": "식스테일",
+"zh-hant": "六尾",
+"fr": "Goupix",
+"de": "Vulpix",
+"es": "Vulpix",
+"it": "Vulpix",
+"ja-jp": "ロコン",
+"zh-hans": "六尾"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 37
 },
 "tdchar_gapori": {
 "$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
@@ -568,63 +626,45 @@
 "Comment": "",
 "SortOrder": 1019
 },
-"vulpix": {
+"td_h": {
 "$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
 "Forms": [
 {
 "Name": {
-"DefaultText": "Vulpix",
-"LocalTexts": {
-"ja": "ロコン",
-"ko": "식스테일",
-"zh-hant": "六尾",
-"fr": "Goupix",
-"de": "Vulpix",
-"es": "Vulpix",
-"it": "Vulpix",
-"ja-jp": "ロコン",
-"zh-hans": "六尾"
-}
+"DefaultText": "H",
+"LocalTexts": {}
 },
-"Released": true,
-"Temporary": false
-},
-{
-"Name": {
-"DefaultText": "Alolan Vulpix",
-"LocalTexts": {
-"ja": "",
-"ko": "",
-"zh-hant": "",
-"fr": "",
-"de": "",
-"es": "",
-"it": "",
-"ja-jp": "",
-"zh-hans": ""
-}
-},
-"Released": true,
+"Released": false,
 "Temporary": false
 }
 ],
 "Name": {
-"DefaultText": "Vulpix",
-"LocalTexts": {
-"ja": "ロコン",
-"ko": "식스테일",
-"zh-hant": "六尾",
-"fr": "Goupix",
-"de": "Vulpix",
-"es": "Vulpix",
-"it": "Vulpix",
-"ja-jp": "ロコン",
-"zh-hans": "六尾"
-}
+"DefaultText": "H",
+"LocalTexts": {}
 },
-"Released": true,
+"Released": false,
 "Comment": "",
-"SortOrder": 37
+"SortOrder": 1036
+},
+"td_ghost": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Ghost",
+"LocalTexts": {}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Ghost",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 1037
 }
 }
 }

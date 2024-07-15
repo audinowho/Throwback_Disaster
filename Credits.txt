@@ -53,3 +53,9 @@ Trollite - 100% Orange Juice
 Portrait & Sprite: baronessfaron
 [Mamel - Shiren The Wanderer]
 Portrait & Sprite: Caitemis
+[H]
+Portrait & Sprite: Mudkid
+[Ghost - Pokemon]
+Portrait & Sprite: Caitemis
+[Koppa - Shiren The Wanderer]
+Portrait: Caitmeis

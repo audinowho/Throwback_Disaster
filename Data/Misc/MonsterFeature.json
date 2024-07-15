@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.0.0",
+"Version": "0.8.1.0",
 "Object": {
 "$type": "PMDC.Data.MonsterFeatureData, PMDC",
 "FeatureData": {
@@ -13709,6 +13709,27 @@
 "Stage": 1,
 "Element1": "dragon",
 "Element2": "ground",
+"BestStat": -1,
+"WorstStat": -1
+}
+},
+"h": {},
+"td_h": {
+"0": {
+"Family": "td_h",
+"Stage": 1,
+"Element1": "normal",
+"Element2": "psychic",
+"BestStat": -1,
+"WorstStat": -1
+}
+},
+"td_ghost": {
+"0": {
+"Family": "td_ghost",
+"Stage": 1,
+"Element1": "ghost",
+"Element2": "none",
 "BestStat": -1,
 "WorstStat": -1
 }

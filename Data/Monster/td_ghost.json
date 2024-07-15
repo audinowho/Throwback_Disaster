@@ -1,0 +1,58 @@
+﻿{
+"Version": "0.8.1.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Ghost",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"Title": {
+"DefaultText": "Ghost Pokemon?",
+"LocalTexts": {}
+},
+"IndexNum": 1037,
+"EXPTable": "medium_fast",
+"SkillGroup1": "amorphous",
+"SkillGroup2": "undiscovered",
+"JoinRate": 15,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 0,
+"GenderlessWeight": 1,
+"MaleWeight": 0,
+"FemaleWeight": 0,
+"BaseHP": 50,
+"BaseAtk": 55,
+"BaseDef": 55,
+"BaseMAtk": 100,
+"BaseMDef": 70,
+"BaseSpeed": 90,
+"ExpYield": 108,
+"Height": 1.2,
+"Weight": 0.1,
+"Personalities": [],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Ghost",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "ghost",
+"Element2": "none",
+"Intrinsic1": "levitate",
+"Intrinsic2": "none",
+"Intrinsic3": "none",
+"LevelSkills": []
+}
+]
+}
+}
