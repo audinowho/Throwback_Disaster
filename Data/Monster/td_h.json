@@ -1,0 +1,107 @@
+﻿{
+"Version": "0.8.1.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "H",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"Title": {
+"DefaultText": "H Letter Creature",
+"LocalTexts": {}
+},
+"IndexNum": 1036,
+"EXPTable": "medium_fast",
+"SkillGroup1": "field",
+"SkillGroup2": "undiscovered",
+"JoinRate": 25,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": false,
+"Generation": 0,
+"GenderlessWeight": 1,
+"MaleWeight": 0,
+"FemaleWeight": 0,
+"BaseHP": 64,
+"BaseAtk": 54,
+"BaseDef": 48,
+"BaseMAtk": 54,
+"BaseMDef": 48,
+"BaseSpeed": 64,
+"ExpYield": 89,
+"Height": 0.9,
+"Weight": 3.2,
+"Personalities": [],
+"TeachSkills": [],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "H",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "normal",
+"Element2": "psychic",
+"Intrinsic1": "no_guard",
+"Intrinsic2": "hustle",
+"Intrinsic3": "forewarn",
+"LevelSkills": [
+{
+"Level": 1,
+"Skill": "pound"
+},
+{
+"Level": 4,
+"Skill": "jump_kick"
+},
+{
+"Level": 12,
+"Skill": "body_slam"
+},
+{
+"Level": 16,
+"Skill": "take_down"
+},
+{
+"Level": 19,
+"Skill": "psybeam"
+},
+{
+"Level": 23,
+"Skill": "flail"
+},
+{
+"Level": 28,
+"Skill": "acupressure"
+},
+{
+"Level": 32,
+"Skill": "amnesia"
+},
+{
+"Level": 37,
+"Skill": "agility"
+},
+{
+"Level": 43,
+"Skill": "air_slash"
+},
+{
+"Level": 49,
+"Skill": "double_edge"
+},
+{
+"Level": 55,
+"Skill": "future_sight"
+}
+]
+}
+]
+}
+}
